@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="16" viewBox="0 0 64 16">
+  <!-- PvZ: projectile picture, arrow look. NOT tinted - it owns its palette, the same three
+       BalanceUI colours the code draws with (shaft / head / fletch). Points RIGHT: the painter
+       rotates it to the heading. Ink: x 2..62, y 2..14 (a 60x12 box, five to one). -->
+  <rect x="4" y="7" width="50" height="2" fill="#b78c52"/>
+  <polygon points="62,8 50,2.5 50,13.5" fill="#d6e0eb"/>
+  <polygon points="4,8 0,2 14,8 0,14" fill="#d1574d"/>
+</svg>

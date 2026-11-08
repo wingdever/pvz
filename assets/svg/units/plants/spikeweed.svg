@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, spikeweed.
+
+  All polygon, no path.
+    base  : wide flat brown mound, drawn last so spikes sit in front
+    spikes: golden triangles of varying heights
+    eyes  : two cream slits with red pupils
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- back row: taller spikes, drawn first -->
+  <polygon points="22,96 30,60 38,96" fill="#D4B870"/>
+  <polygon points="44,96 52,44 60,96" fill="#D4B870"/>
+  <polygon points="66,96 74,40 82,96" fill="#D4B870"/>
+  <polygon points="90,96 98,58 106,96" fill="#D4B870"/>
+
+  <!-- front row: shorter spikes, offset -->
+  <polygon points="12,100 18,78 24,100" fill="#D4B870"/>
+  <polygon points="34,100 42,68 50,100" fill="#D4B870"/>
+  <polygon points="58,100 66,64 74,100" fill="#D4B870"/>
+  <polygon points="82,100 90,72 98,100" fill="#D4B870"/>
+  <polygon points="104,100 112,82 118,100" fill="#D4B870"/>
+
+  <!-- shading: darker gold strip on the right of each back spike -->
+  <polygon points="30,60 38,96 34,96" fill="#A88A4A"/>
+  <polygon points="52,44 60,96 56,96" fill="#A88A4A"/>
+  <polygon points="74,40 82,96 78,96" fill="#A88A4A"/>
+  <polygon points="98,58 106,96 102,96" fill="#A88A4A"/>
+
+  <!-- eyes: cream slits with red pupils -->
+  <polygon points="42,92 56,90 58,98 44,100" fill="#F0E8E0"/>
+  <polygon points="72,90 86,92 84,100 70,98" fill="#F0E8E0"/>
+  <polygon points="52,92 58,91 58,96 52,97" fill="#E53935"/>
+  <polygon points="72,91 78,92 78,97 72,96" fill="#E53935"/>
+
+  <!-- base: wide flat brown mound -->
+  <polygon points="8,104 20,96 40,92 64,90 88,92 108,96 120,104
+                   116,116 88,120 64,122 40,120 12,116"
+           fill="#6B4A2E"/>
+  <!-- base bottom edge: slightly darker -->
+  <polygon points="12,116 40,120 64,122 88,120 116,116 116,122 64,126 12,122"
+           fill="#4A2E1A"/>
+</svg>

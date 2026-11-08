@@ -1,0 +1,86 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/run/squad_view.gd" id="1_page"]
+
+[node name="Squad" type="Control"]
+script = ExtResource("1_page")
+
+[node name="BodyLine0" type="Label" parent="."]
+
+[node name="BodyLine1" type="Label" parent="."]
+
+[node name="BodyLine2" type="Label" parent="."]
+
+[node name="BodyLine3" type="Label" parent="."]
+
+[node name="RunRow0" type="Button" parent="."]
+
+[node name="RunRow1" type="Button" parent="."]
+
+[node name="RunRow2" type="Button" parent="."]
+
+[node name="RunRow3" type="Button" parent="."]
+
+[node name="RunRow4" type="Button" parent="."]
+
+[node name="RunRow5" type="Button" parent="."]
+
+[node name="RunRow6" type="Button" parent="."]
+
+[node name="RunRow7" type="Button" parent="."]
+
+[node name="RunRow8" type="Button" parent="."]
+
+[node name="RunRow9" type="Button" parent="."]
+
+[node name="RunRow10" type="Button" parent="."]
+
+[node name="RunRow11" type="Button" parent="."]
+
+[node name="RunRow12" type="Button" parent="."]
+
+[node name="RunRow13" type="Button" parent="."]
+
+[node name="RunRow14" type="Button" parent="."]
+
+[node name="RunRow15" type="Button" parent="."]
+
+[node name="RunRow16" type="Button" parent="."]
+
+[node name="RunRow17" type="Button" parent="."]
+
+[node name="RunRow18" type="Button" parent="."]
+
+[node name="RunRow19" type="Button" parent="."]
+
+[node name="RunRow20" type="Button" parent="."]
+
+[node name="RunRow21" type="Button" parent="."]
+
+[node name="RunRow22" type="Button" parent="."]
+
+[node name="RunRow23" type="Button" parent="."]
+
+[node name="RunRow24" type="Button" parent="."]
+
+[node name="RunRow25" type="Button" parent="."]
+
+[node name="RunRow26" type="Button" parent="."]
+
+[node name="RunRow27" type="Button" parent="."]
+
+[node name="RunRow28" type="Button" parent="."]
+
+[node name="RunRow29" type="Button" parent="."]
+
+[node name="RunRow30" type="Button" parent="."]
+
+[node name="RunRow31" type="Button" parent="."]
+
+[node name="RunFooter0" type="Button" parent="."]
+
+[node name="RunFooter1" type="Button" parent="."]
+
+[node name="StatusLabel" type="Label" parent="."]
+
+[node name="Back" type="Button" parent="."]

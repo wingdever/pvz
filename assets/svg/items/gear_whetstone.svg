@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ brawl: EQUIPMENT icon, whetstone (data/brawl/gear.csv row whetstone).
+  Canvas 128x128, pure fills, no strokes or gradients.
+    stone #8E9AA6   shade #5F6B77   spark #F2D27A
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <polygon points="16,96 112,96 98,58 30,58" fill="#8E9AA6"/>
+  <polygon points="16,96 112,96 112,86 16,86" fill="#5F6B77"/>
+  <polygon points="72,10 79,26 95,30 83,40 86,56 72,47 58,56 61,40 49,30 65,26" fill="#F2D27A"/>
+</svg>

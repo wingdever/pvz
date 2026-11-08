@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="pomBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF3030"/>
+      <stop offset="45%" stop-color="#D02020"/>
+      <stop offset="100%" stop-color="#8A7A10"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FFD040"/>
+      <stop offset="55%" stop-color="#FFA020"/>
+      <stop offset="100%" stop-color="#FFF080"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 头顶火焰 -->
+  <path d="M 200 20
+           Q 175 60 185 90
+           Q 160 75 155 105
+           Q 145 90 140 120
+           Q 130 110 130 140
+           Q 155 155 175 145
+           Q 165 160 180 165
+           Q 200 150 200 130
+           Q 200 150 220 165
+           Q 235 160 225 145
+           Q 245 155 270 140
+           Q 270 110 260 120
+           Q 255 90 245 105
+           Q 240 75 215 90
+           Q 225 60 200 20 Z"
+        fill="url(#flameGrad)" stroke="#8B3A00" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 200 55 Q 190 85 195 105 Q 185 100 185 120 Q 200 130 215 120 Q 215 100 205 105 Q 210 85 200 55 Z"
+        fill="#FFE860" opacity="0.85"/>
+
+  <!-- 尖冠：从同一点 (200,150) 放射 -->
+  <path d="M 200 150 L 175 60 L 195 148 Z" fill="#C02020" stroke="#7A0000" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 200 150 L 200 40 L 215 145 Z" fill="#C02020" stroke="#7A0000" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 200 150 L 225 60 L 210 148 Z" fill="#C02020" stroke="#7A0000" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 200 150 L 250 90 L 220 155 Z" fill="#C02020" stroke="#7A0000" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 200 150 L 150 90 L 180 155 Z" fill="#C02020" stroke="#7A0000" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 主体 -->
+  <path d="M 90 200
+           Q 200 140 310 200
+           Q 340 260 320 320
+           Q 280 375 200 385
+           Q 120 375 80 320
+           Q 60 260 90 200 Z"
+        fill="url(#pomBody)" stroke="#3A0000" stroke-width="6"/>
+
+  <!-- 高光 -->
+  <path d="M 120 220 Q 180 180 240 195 Q 210 240 160 255 Q 125 245 120 220 Z"
+        fill="#FF9090" opacity="0.7"/>
+
+  <!-- 眼睛 -->
+  <ellipse cx="150" cy="270" rx="30" ry="30" fill="#1A1A1A"/>
+  <ellipse cx="250" cy="270" rx="30" ry="30" fill="#1A1A1A"/>
+  <circle cx="156" cy="262" r="10" fill="#FFFFFF"/>
+  <circle cx="256" cy="262" r="10" fill="#FFFFFF"/>
+  <circle cx="142" cy="282" r="5" fill="#FFFFFF"/>
+  <circle cx="242" cy="282" r="5" fill="#FFFFFF"/>
+  <circle cx="160" cy="288" r="3" fill="#FFFFFF"/>
+  <circle cx="260" cy="288" r="3" fill="#FFFFFF"/>
+
+  <!-- 嘴 -->
+  <path d="M 190 320 Q 200 315 210 320 Q 208 345 200 350 Q 192 345 190 320 Z"
+        fill="#8B0000" stroke="#3A0000" stroke-width="4"/>
+  <path d="M 193 323 Q 200 320 207 323 L 205 330 L 195 330 Z" fill="#FFFFFF"/>
+</svg>

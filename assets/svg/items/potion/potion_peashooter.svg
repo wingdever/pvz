@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, peashooter talent potion (skill +50%).
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+  Same bottle family as exp_potion.svg; the liquid is COLOR_PEASHOOTER.
+    glass  Color(0.86,0.90,0.95)   #DBE6F2
+    liquid Balance.COLOR_PEASHOOTER (0.25,0.75,0.30)   #40BF4D
+    cork   brown                                        #6B4A2E
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="50" y="14" width="28" height="16" fill="#6B4A2E"/>
+  <rect x="56" y="28" width="16" height="20" fill="#DBE6F2"/>
+  <polygon points="52,46 76,46 86,112 42,112" fill="#DBE6F2"/>
+  <polygon points="53,74 87,74 93,110 39,110" fill="#40BF4D"/>
+  <!-- a leaf tells you which plant it belongs to -->
+  <polygon points="64,10 84,24 64,38 44,24" fill="#40BF4D"/>
+</svg>

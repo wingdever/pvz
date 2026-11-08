@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3]
+
+
+[ext_resource type="Script" path="res://scripts/ui/menu/menu.gd" id="1_page"]
+
+[ext_resource type="Script" path="res://scripts/ui/menu/menu_prop.gd" id="2_prop"]
+
+
+
+[node name="Menu" type="Control"]
+
+script = ExtResource("1_page")
+
+
+
+[node name="Prop0" type="Control" parent="."]
+script = ExtResource("2_prop")
+
+[node name="Prop1" type="Control" parent="."]
+script = ExtResource("2_prop")
+
+[node name="Prop2" type="Control" parent="."]
+script = ExtResource("2_prop")
+
+[node name="Prop3" type="Control" parent="."]
+script = ExtResource("2_prop")

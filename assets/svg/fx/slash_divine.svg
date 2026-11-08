@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <!-- 神圣发光 -->
+    <filter id="divineGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <!-- 神圣渐变 -->
+    <linearGradient id="divineGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="50%" stop-color="#ffd700" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffaa00" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- 神圣主弧线 -->
+  <path d="M 20,100 Q 64,20 115,70" fill="none" stroke="url(#divineGrad)" stroke-width="10" stroke-linecap="round" filter="url(#divineGlow)"/>
+  <!-- 次要平行弧线（增加华丽感） -->
+  <path d="M 30,105 Q 70,35 110,75" fill="none" stroke="#ffd700" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 15,95 Q 60,25 115,65" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  
+  <!-- 星光粒子（十字星） -->
+  <g fill="#ffd700" filter="url(#divineGlow)">
+    <path d="M 40,80 L 42,75 L 44,80 L 42,85 Z" />
+    <path d="M 35,80 L 40,78 L 45,80 L 40,82 Z" />
+    
+    <path d="M 75,40 L 78,33 L 81,40 L 78,47 Z" />
+    <path d="M 68,40 L 75,37 L 82,40 L 75,43 Z" />
+    
+    <path d="M 100,60 L 102,55 L 104,60 L 102,65 Z" />
+    <path d="M 95,60 L 100,58 L 105,60 L 100,62 Z" />
+  </g>
+  
+  <!-- 金色光点 -->
+  <circle cx="50" cy="70" r="2" fill="#ffffff" filter="url(#divineGlow)"/>
+  <circle cx="85" cy="45" r="3" fill="#ffd700" filter="url(#divineGlow)"/>
+  <circle cx="105" cy="68" r="1.5" fill="#ffffff"/>
+</svg>

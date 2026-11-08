@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, flag zombie.
+
+  Same body as the basic zombie. Adds a flagpole held in the outstretched
+  hands and a red flag flying forward (left). Pole is drawn BEFORE the
+  arms so the hands overlap it and read as gripping the pole.
+
+  Three body tones follow the basic zombie (Balance.COLOR_ZOMBIE):
+    skin   #9E97BA
+    shirt  #706A8B
+    legs   #5B5671
+  Flag red #E53935, pole #8B5A2B.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- legs -->
+  <rect x="50" y="82" width="10" height="28" fill="#5B5671"/>
+  <rect x="68" y="82" width="10" height="28" fill="#5B5671"/>
+
+  <!-- flagpole -->
+  <polygon points="12,12 16,12 16,86 12,86" fill="#8B5A2B"/>
+  <!-- flag: attached to the pole, flying forward (left) -->
+  <polygon points="12,16 4,28 4,54 12,46" fill="#E53935"/>
+
+  <!-- arms -->
+  <polygon points="50,58 16,64 14,72 50,70" fill="#9E97BA"/>
+  <polygon points="52,72 20,78 18,86 52,84" fill="#9E97BA"/>
+  <!-- torso -->
+  <polygon points="46,50 82,50 86,88 42,88" fill="#706A8B"/>
+  <!-- head -->
+  <rect x="48" y="24" width="32" height="30" fill="#9E97BA"/>
+</svg>

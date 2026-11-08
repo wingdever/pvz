@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8FE050"/>
+      <stop offset="55%" stop-color="#3AA020"/>
+      <stop offset="100%" stop-color="#1A6A10"/>
+    </linearGradient>
+    <radialGradient id="berryGrad" cx="38%" cy="30%">
+      <stop offset="0%" stop-color="#FF6060"/>
+      <stop offset="55%" stop-color="#D02020"/>
+      <stop offset="100%" stop-color="#7A0A0A"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 叶柄 -->
+  <path d="M 198 200 Q 200 180 205 168 L 215 168 Q 210 182 208 200 Z" fill="#7A9A40"/>
+
+  <!-- 大绿叶 -->
+  <path d="M 205 168
+           Q 160 120 130 60
+           Q 150 30 180 40
+           Q 190 20 210 25
+           Q 230 10 250 30
+           Q 285 25 290 60
+           Q 300 100 270 130
+           Q 290 150 275 175
+           Q 250 195 215 185
+           Q 205 180 205 168 Z"
+        fill="url(#leafGrad)" stroke="#0A3A08" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- 叶脉 -->
+  <path d="M 210 170 Q 200 120 210 80 Q 220 50 240 35"
+        fill="none" stroke="#D8F0A0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 210 130 Q 180 110 155 95"
+        fill="none" stroke="#D8F0A0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 212 110 Q 240 95 265 90"
+        fill="none" stroke="#D8F0A0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 210 90 Q 190 70 175 60"
+        fill="none" stroke="#D8F0A0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 214 80 Q 235 60 255 55"
+        fill="none" stroke="#D8F0A0" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- 草莓身体 -->
+  <path d="M 140 220
+           Q 200 200 260 220
+           Q 285 245 275 290
+           Q 260 340 200 360
+           Q 140 340 125 290
+           Q 115 245 140 220 Z"
+        fill="url(#berryGrad)" stroke="#3A0000" stroke-width="6"/>
+
+  <!-- 高光 -->
+  <path d="M 160 235 Q 190 220 215 225 Q 200 250 170 260 Q 155 250 160 235 Z"
+        fill="#FF9090" opacity="0.75"/>
+
+  <!-- 眼睛 -->
+  <ellipse cx="170" cy="275" rx="26" ry="26" fill="#1A1A1A"/>
+  <ellipse cx="240" cy="275" rx="26" ry="26" fill="#1A1A1A"/>
+  <circle cx="176" cy="268" r="9" fill="#FFFFFF"/>
+  <circle cx="246" cy="268" r="9" fill="#FFFFFF"/>
+  <circle cx="162" cy="284" r="4" fill="#FFFFFF"/>
+  <circle cx="232" cy="284" r="4" fill="#FFFFFF"/>
+
+  <!-- 嘴 -->
+  <path d="M 195 305 Q 205 300 215 305 Q 212 325 205 330 Q 198 325 195 305 Z"
+        fill="#8B0000" stroke="#3A0000" stroke-width="4"/>
+  <path d="M 198 308 Q 205 305 212 308 L 210 314 L 200 314 Z" fill="#FFFFFF"/>
+</svg>

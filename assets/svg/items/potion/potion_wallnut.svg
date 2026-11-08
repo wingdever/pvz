@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, wall-nut talent potion (max health +50%).
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    glass  Color(0.86,0.90,0.95)   #DBE6F2
+    liquid Balance.COLOR_WALLNUT (0.65,0.45,0.25)   #A67340
+    shell  darkened(0.25) of it                       #7C5630
+    cork   brown                                      #6B4A2E
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="50" y="14" width="28" height="16" fill="#6B4A2E"/>
+  <rect x="56" y="28" width="16" height="20" fill="#DBE6F2"/>
+  <polygon points="52,46 76,46 86,112 42,112" fill="#DBE6F2"/>
+  <polygon points="53,74 87,74 93,110 39,110" fill="#A67340"/>
+  <!-- a nut shell tells you which plant it belongs to -->
+  <ellipse cx="64" cy="26" rx="20" ry="16" fill="#7C5630"/>
+  <ellipse cx="64" cy="22" rx="20" ry="16" fill="#A67340"/>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, squash.
+
+  A green pear-shaped squash: narrow rounded top, wide flat bottom,
+  matching the reference art. A curled vine stem with a small knob
+  sits on top. Flat fills only, no strokes.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: curled vine with a small knob at the tip -->
+  <path d="M 56,34 Q 52,20 58,12 Q 64,4 72,8 L 70,14 Q 64,10 60,16 Q 56,24 62,34 Z"
+        fill="#2D8636"/>
+  <circle cx="71" cy="11" r="4" fill="#2D8636"/>
+
+  <!-- squash body: pear shape, narrow top, wide rounded bottom -->
+  <path d="M 64,32
+           Q 82,32 92,50
+           Q 102,70 102,92
+           Q 102,114 84,120
+           Q 74,124 64,124
+           Q 54,124 44,120
+           Q 26,114 26,92
+           Q 26,70 36,50
+           Q 46,32 64,32 Z"
+        fill="#4CAF50"/>
+</svg>

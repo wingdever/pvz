@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, conehead zombie.
+
+  Same body as the basic zombie. Adds an orange traffic cone on top of
+  the head. Cone is drawn LAST so it sits over the head.
+
+  Cone colour #E8A020 (orange); a darker band #D08010 near the base.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- legs -->
+  <rect x="50" y="82" width="10" height="28" fill="#5B5671"/>
+  <rect x="68" y="82" width="10" height="28" fill="#5B5671"/>
+  <!-- arms -->
+  <polygon points="50,58 16,64 14,72 50,70" fill="#9E97BA"/>
+  <polygon points="52,72 20,78 18,86 52,84" fill="#9E97BA"/>
+  <!-- torso -->
+  <polygon points="46,50 82,50 86,88 42,88" fill="#706A8B"/>
+  <!-- head -->
+  <rect x="48" y="24" width="32" height="30" fill="#9E97BA"/>
+
+  <!-- traffic cone, drawn last so it sits on top of the head -->
+  <polygon points="44,24 58,0 70,0 84,24" fill="#E8A020"/>
+  <!-- darker band near the base -->
+  <polygon points="47,16 77,16 79,22 45,22" fill="#D08010"/>
+</svg>

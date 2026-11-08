@@ -1,0 +1,14 @@
+formation	piece	col	row	概率
+scout	zombie	6	2	—
+pair	zombie	6	1	—
+pair	zombie	6	3	—
+pair	archer	7	4	0.35
+line	zombie	6	1	—
+line	zombie	6	2	—
+line	zombie	6	3	—
+line	archer	7	2	0.50
+elite	zombie	6	0	—
+elite	zombie	6	2	—
+elite	zombie	6	4	—
+elite	zombie	7	2	—
+elite	gunner	7	1	0.60

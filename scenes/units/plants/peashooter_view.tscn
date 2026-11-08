@@ -1,0 +1,251 @@
+[gd_scene format=3 uid="uid://dlel7hyt6dh2g"]
+
+[ext_resource type="Script" uid="uid://de3jpss66xjfh" path="res://addons/curved_lines_2d/scalable_vector_shape_2d.gd" id="1_ooc7a"]
+[ext_resource type="Script" uid="uid://dlbv4pit17dnu" path="res://addons/curved_lines_2d/scalable_arc.gd" id="2_mds3j"]
+[ext_resource type="Script" uid="uid://dl1t88tthmwts" path="res://addons/curved_lines_2d/scalable_arc_list.gd" id="3_bu8y4"]
+
+[sub_resource type="Curve2D" id="Curve2D_ooc7a"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -16, -6.0000005, 0, 0, 0, 0, -16, 5.9999995, 0, 0, 0, 0, 38, 3.0000017, 0, 0, 0, 0, 38, -2.9999983, 0, 0, 0, 0, -16, -6.0000005)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_mds3j"]
+resource_local_to_scene = true
+script = ExtResource("3_bu8y4")
+
+[sub_resource type="Curve2D" id="Curve2D_bu8y4"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 22, 5, 0, 0, 0, 0, -18, -15, 0, 0, 0, 0, -22, -1, 0, 0, 0, 0, 18, 15, 0, 0, 0, 0, 22, 5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_nrkmn"]
+resource_local_to_scene = true
+script = ExtResource("3_bu8y4")
+
+[sub_resource type="Curve2D" id="Curve2D_685ko"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -22, 5, 0, 0, 0, 0, 18, -15, 0, 0, 0, 0, 22, -1, 0, 0, 0, 0, -18, 15, 0, 0, 0, 0, -22, 5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_fb2yi"]
+resource_local_to_scene = true
+script = ExtResource("3_bu8y4")
+
+[sub_resource type="Curve2D" id="Curve2D_wjyg4"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 19.000002, -26, 0, 0, 0, 0, 8.999999, 26, 0, 0, 0, 0, -9.000001, 26, 0, 0, 0, 0, -18.999998, -26, 0, 0, 0, 0, 19.000002, -26)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_tkjpy"]
+resource_local_to_scene = true
+script = ExtResource("3_bu8y4")
+
+[sub_resource type="Animation" id="Animation_mds3j"]
+resource_name = "attack"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Stem/Head:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(47, 2.0544353e-06), Vector2(50, 5), Vector2(47, 2.0544353e-06)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/Stem/ArmL:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.17453292519943295, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton2D/Root/Stem/ArmR:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.17453292519943295, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_ooc7a"]
+resource_name = "idle"
+length = 0.39999999999999997
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Stem/Head:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(47, 2.0544353e-06), Vector2(48, 1), Vector2(46, -1), Vector2(47, 2.0544353e-06)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/Stem/ArmL:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.08726646259971647, -0.08726646259971647, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton2D/Root/Stem/ArmR:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.08726646259971647, 0.08726646259971647, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bu8y4"]
+_data = {
+&"attack": SubResource("Animation_mds3j"),
+&"idle": SubResource("Animation_ooc7a")
+}
+
+[node name="PeashooterView" type="Node2D" unique_id=621981586]
+
+[node name="Peashooter" type="Node2D" parent="." unique_id=1331265730]
+position = Vector2(-64, -112)
+metadata/svg_root = true
+
+[node name="Stem" type="Node2D" parent="Peashooter" unique_id=2129160796 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(64, 96)
+rotation = -1.5707964
+script = ExtResource("1_ooc7a")
+fill_color = Color(0.1764706, 0.5254902, 0.21176471, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_ooc7a")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_mds3j")
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Stem")
+
+[node name="Fill" type="Polygon2D" parent="Peashooter/Stem" unique_id=592999338]
+color = Color(0.1764706, 0.5254902, 0.21176471, 1)
+polygon = PackedVector2Array(-16, -6.0000005, -16, 5.9999995, 38, 3.0000017, 38, -2.9999983)
+metadata/_edit_lock_ = true
+
+[node name="ArmL" type="Node2D" parent="Peashooter" unique_id=1563622035 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(40, 87)
+script = ExtResource("1_ooc7a")
+fill_color = Color(0.21960784, 0.65882355, 0.2627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_bu8y4")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_nrkmn")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/Stem/ArmL"),
+2: NodePath("../../Skeleton2D/Root/Stem/ArmL")
+}
+
+[node name="Fill" type="Polygon2D" parent="Peashooter/ArmL" unique_id=562747295]
+color = Color(0.21960784, 0.65882355, 0.2627451, 1)
+polygon = PackedVector2Array(22, 5, -18, -15, -22, -1, 18, 15)
+metadata/_edit_lock_ = true
+
+[node name="ArmR" type="Node2D" parent="Peashooter" unique_id=1920550449 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(88, 87)
+script = ExtResource("1_ooc7a")
+fill_color = Color(0.21960784, 0.65882355, 0.2627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_685ko")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_fb2yi")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/Stem/ArmR"),
+2: NodePath("../../Skeleton2D/Root/Stem/ArmR")
+}
+
+[node name="Fill" type="Polygon2D" parent="Peashooter/ArmR" unique_id=335207679]
+color = Color(0.21960784, 0.65882355, 0.2627451, 1)
+polygon = PackedVector2Array(-22, 5, 18, -15, 22, -1, -18, 15)
+metadata/_edit_lock_ = true
+
+[node name="Head" type="Node2D" parent="Peashooter" unique_id=978741960 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(64, 49)
+rotation = -1.5707964
+script = ExtResource("1_ooc7a")
+fill_color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_wjyg4")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_tkjpy")
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Stem/Head")
+
+[node name="Fill" type="Polygon2D" parent="Peashooter/Head" unique_id=873347624]
+color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = PackedVector2Array(19.000002, -26, 8.999999, 26, -9.000001, 26, -18.999998, -26)
+metadata/_edit_lock_ = true
+
+[node name="Anchor" type="Marker2D" parent="." unique_id=1216424820]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="." unique_id=824402076]
+visible = false
+
+[node name="Root" type="Bone2D" parent="Skeleton2D" unique_id=236965295]
+rotation = -1.5707964
+rest = Transform2D(-4.371139e-08, -1, 1, -4.371139e-08, 0, 0)
+
+[node name="Stem" type="Bone2D" parent="Skeleton2D/Root" unique_id=356157459]
+position = Vector2(16, 6.993822e-07)
+rest = Transform2D(1, 0, 0, 1, 16, 6.993822e-07)
+
+[node name="Head" type="Bone2D" parent="Skeleton2D/Root/Stem" unique_id=1693063823]
+position = Vector2(47, 2.0544353e-06)
+rest = Transform2D(1, 0, 0, 1, 47, 2.0544353e-06)
+
+[node name="ArmL" type="Bone2D" parent="Skeleton2D/Root/Stem" unique_id=1888464692]
+position = Vector2(3.059797e-07, -7)
+rest = Transform2D(1, 0, 0, 1, 3.059797e-07, -7)
+
+[node name="HandL" type="Bone2D" parent="Skeleton2D/Root/Stem/ArmL" unique_id=52061571]
+position = Vector2(16.000002, -36)
+rest = Transform2D(1, 0, 0, 1, 16.000002, -36)
+
+[node name="ArmR" type="Bone2D" parent="Skeleton2D/Root/Stem" unique_id=518406849]
+position = Vector2(-3.059797e-07, 7)
+rest = Transform2D(1, 0, 0, 1, -3.059797e-07, 7)
+
+[node name="HandR" type="Bone2D" parent="Skeleton2D/Root/Stem/ArmR" unique_id=2019171973]
+position = Vector2(15.999998, 37)
+rest = Transform2D(1, 0, 0, 1, 15.999998, 37)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=958432568]
+libraries/ = SubResource("AnimationLibrary_bu8y4")

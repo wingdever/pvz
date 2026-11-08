@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, gatling pea.
+
+  Same stem + leaves + head as peashooter. Two changes:
+    1. a single flat helmet caps the head and covers its back
+    2. four barrels poke out of the mouth on the right edge
+
+  Helmet is one flat colour, no rim, no shading. Its back edge sits on
+  the head's back edge (x = 38) so no sharp triangle is trapped between
+  the helmet and the head. The pea spawn point stays at the mouth.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem -->
+  <polygon points="58,112 70,112 67,58 61,58" fill="#2D8636"/>
+  <!-- base leaves -->
+  <polygon points="62,92 22,72 18,86 58,102" fill="#38A843"/>
+  <polygon points="66,92 106,72 110,86 70,102" fill="#38A843"/>
+
+  <!-- head: same as peashooter -->
+  <polygon points="38,30 90,40 90,58 38,68" fill="#40BF4D"/>
+
+  <!-- four barrels at the mouth -->
+  <polygon points="90,42 104,42 104,45 90,45" fill="#2D8636"/>
+  <polygon points="90,46 104,46 104,49 90,49" fill="#2D8636"/>
+  <polygon points="90,50 104,50 104,53 90,53" fill="#2D8636"/>
+  <polygon points="90,54 104,54 104,57 90,57" fill="#2D8636"/>
+
+  <!-- helmet: one flat piece, back edge flush with the head's back edge -->
+  <polygon points="38,30 75,38 80,38 38,12" fill="#6E7A6E"/>
+  <!-- helmet back: same flat colour, continues down the head's back -->
+  <polygon points="38,30 38,68 46,68 60,28" fill="#6E7A6E"/>
+</svg>

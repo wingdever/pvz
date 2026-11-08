@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- PvZ: projectile picture, pea look. TINTED at runtime (the shooter's colour), so the body is
+       WHITE and every piece of shading is a DARKER grey: modulate multiplies, so art may only get
+       darker than the tint, never lighter. Ink: the full 32x32 canvas, centred. -->
+  <circle cx="16" cy="16" r="15" fill="#c9cdd4"/>
+  <circle cx="16" cy="16" r="12" fill="#ffffff"/>
+  <circle cx="12.5" cy="12.5" r="4.5" fill="#f2f4f7"/>
+</svg>

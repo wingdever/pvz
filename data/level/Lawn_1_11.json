@@ -1,0 +1,140 @@
+{
+  "initial_sun": 200,
+  "brain_hp": 100,
+  "zombie_hp": 340,
+  "spawn_cols": [
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    0,
+    1,
+    2
+  ],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": {
+    "shovel": {
+      "threshold": 2
+    },
+    "glove": {
+      "threshold": 5
+    },
+    "hammer": {
+      "threshold": 12
+    }
+  },
+  "cards": {
+    "peashooter": {
+      "cooldown": 3
+    },
+    "sunflower": {
+      "cooldown": 2
+    },
+    "wallnut": {
+      "cooldown": 5
+    },
+    "split_pea": {
+      "cooldown": 5
+    },
+    "puff_shroom": {
+      "cooldown": 2
+    }
+  },
+  "summons_per_turn": 1,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    {
+      "id": 1,
+      "start_round": 28,
+      "spawns": [
+        {
+          "round": 28,
+          "type": "zombie",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_round": 32,
+      "spawns": [
+        {
+          "round": 32,
+          "type": "zombie",
+          "count": 3
+        },
+        {
+          "round": 33,
+          "type": "zombie",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_round": 36,
+      "spawns": [
+        {
+          "round": 36,
+          "type": "zombie_cone",
+          "count": 4
+        },
+        {
+          "round": 37,
+          "type": "zombie_cone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_round": 40,
+      "spawns": [
+        {
+          "round": 40,
+          "type": "zombie_cone",
+          "count": 4
+        },
+        {
+          "round": 41,
+          "type": "zombie_cone",
+          "count": 3
+        },
+        {
+          "round": 43,
+          "type": "zombie",
+          "count": 6
+        }
+      ],
+      "banner": true
+    }
+  ],
+  "first_clear_plant": "scaredy_shroom",
+  "first_clear": {
+    "scroll_scaredy_shroom": 1,
+    "scroll_spirit_scaredy_shroom": 1
+  },
+  "rewards": [
+    {
+      "chance": 1,
+      "items": {
+        "coin_gold": 7
+      }
+    },
+    {
+      "chance": 0.25,
+      "items": {
+        "coin_silver": 3
+      }
+    },
+    {
+      "chance": 0.2,
+      "items": {
+        "potion_scaredy_shroom": 1
+      }
+    }
+  ]
+}

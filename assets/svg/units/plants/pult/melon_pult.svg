@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, melon-pult.
+  Leaf base + striped watermelon body + eyes + curly stem
+  + hanging melon.
+  All polygon / rect, no path.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- leaf base -->
+  <polygon points="22,114 36,102 64,96 92,102 106,114 92,122 64,124 36,122" fill="#4CAF50"/>
+  <polygon points="38,114 52,104 64,100 64,120 52,120" fill="#2E7D32"/>
+  <polygon points="90,114 76,104 64,100 64,120 76,120" fill="#2E7D32"/>
+
+  <!-- watermelon body -->
+  <polygon points="36,72 44,62 64,56 84,62 92,72 92,100 84,110 64,114 44,110 36,100" fill="#4CAF50"/>
+  <!-- dark stripes -->
+  <polygon points="46,66 52,62 52,106 46,102" fill="#2E7D32"/>
+  <polygon points="60,58 64,56 64,112 60,112" fill="#2E7D32"/>
+  <polygon points="76,62 82,66 82,102 76,106" fill="#2E7D32"/>
+
+  <!-- eyes -->
+  <circle cx="54" cy="86" r="3" fill="#2A2A2A"/>
+  <circle cx="74" cy="86" r="3" fill="#2A2A2A"/>
+  <circle cx="55" cy="85" r="1" fill="#FFFFFF"/>
+  <circle cx="75" cy="85" r="1" fill="#FFFFFF"/>
+
+  <!-- curly stem -->
+  <polygon points="58,58 66,58 30,26 22,34" fill="#2E7D32"/>
+  <polygon points="34,30 40,26 44,32 38,36" fill="#2E7D32"/>
+  <polygon points="42,24 48,20 52,26 46,30" fill="#2E7D32"/>
+
+  <!-- projectile: melon -->
+  <polygon points="2,26 10,14 26,10 40,16 40,32 28,44 12,42" fill="#4CAF50"/>
+  <polygon points="10,20 18,14 18,40 10,38" fill="#2E7D32"/>
+  <polygon points="26,14 36,20 34,34 26,40" fill="#2E7D32"/>
+</svg>

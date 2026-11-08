@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, buckethead zombie.
+
+  Same body as the basic zombie. Adds a metal bucket over the head.
+  Bucket is drawn LAST so it covers the head down to chin level.
+
+  Bucket body #B0B8C0, rim #909AA4.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- legs -->
+  <rect x="50" y="82" width="10" height="28" fill="#5B5671"/>
+  <rect x="68" y="82" width="10" height="28" fill="#5B5671"/>
+  <!-- arms -->
+  <polygon points="50,58 16,64 14,72 50,70" fill="#9E97BA"/>
+  <polygon points="52,72 20,78 18,86 52,84" fill="#9E97BA"/>
+  <!-- torso -->
+  <polygon points="46,50 82,50 86,88 42,88" fill="#706A8B"/>
+  <!-- head -->
+  <rect x="48" y="24" width="32" height="30" fill="#9E97BA"/>
+
+  <!-- bucket -->
+  <polygon points="42,46 86,46 84,0 44,0" fill="#B0B8C0"/>
+  <!-- bucket rim -->
+  <rect x="40" y="42" width="48" height="5" fill="#909AA4"/>
+</svg>

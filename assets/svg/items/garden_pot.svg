@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: the garden pot (P25).
+
+  Canvas 128x128, pure fills, NO strokes or gradients (docs/HANDOFF.md 7.19), so it
+  imports as a plain texture like every other placeholder.
+
+  The INK of this file - the part that actually draws - is x 14..114, y 40..116, and
+  Balance.GARDEN_POT_CONTENT records exactly that box. The garden draws the pot by
+  its ink (not by its canvas), so re-arranging the margins around the pot here cannot
+  move the pot or the plant standing in it. Keep the two in step.
+
+  Colours (SVG cannot read GDScript, so they are written out here as well):
+    rim      #C97A4E   the lit clay lip
+    rim low  #A85E38   the shadow under the lip, which is what makes it look round
+    body     #B4653C   terracotta
+    base     #94502E   the shadowed foot
+    soil     #573D29   Balance.COLOR_GARDEN_SOIL (0.34, 0.24, 0.16)
+
+  Where the plant goes: the soil surface is the top of the soil band (y 44), i.e.
+  0.053 of the ink height below the rim. Balance.GARDEN_POT_SOIL_RATIO = 0.16 puts
+  the plant's feet near the middle of that band - a plant whose feet were exactly on
+  the rim line would look like it is balancing on top of the pot instead.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- body: a tapered terracotta bucket, wider at the lip than at the base -->
+  <polygon points="24,62 104,62 88,116 40,116" fill="#B4653C"/>
+  <!-- foot: the shadowed band the pot stands on -->
+  <rect x="40" y="110" width="48" height="6" fill="#94502E"/>
+  <!-- rim: the lit lip, then its shadow, so the lip reads as a raised edge -->
+  <rect x="14" y="40" width="100" height="22" fill="#C97A4E"/>
+  <rect x="14" y="58" width="100" height="4" fill="#A85E38"/>
+  <!-- soil: the dark band inside the lip, where the plant is planted -->
+  <rect x="24" y="44" width="80" height="14" fill="#573D29"/>
+</svg>

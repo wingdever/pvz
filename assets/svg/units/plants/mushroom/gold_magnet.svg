@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, gold magnet-shroom.
+
+  Same geometry as magnet-shroom. Re-coloured to match the reference:
+    magnet body  #F4C430  (gold)
+    magnet shade #E8A020  (darker gold, right side)
+    pole tips    #D8D8D8  (light metal)
+    scarf -> leaves #38A843 (green) with #2E7D32 vein
+    stem         #A8B86A  (unchanged)
+    eyes         #2A2A2A  (unchanged)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem -->
+  <rect x="58" y="104" width="12" height="20" fill="#A8B86A"/>
+
+  <!-- magnet body: gold -->
+  <polygon points="26,36 26,82 32,98 64,102 96,98 102,82 102,36
+                   78,36 78,72 64,72 50,72 50,36"
+           fill="#F4C430"/>
+
+  <!-- magnet shading: darker gold on the right arm and the base -->
+  <polygon points="78,36 102,36 102,82 96,98 78,98 78,72 78,36"
+           fill="#E8A020"/>
+
+  <!-- magnet highlight: lighter strip on the left arm -->
+  <polygon points="30,38 44,38 44,74 30,74" fill="#FFE070"/>
+
+  <!-- eyes -->
+  <ellipse cx="54" cy="80" rx="3" ry="5" fill="#2A2A2A"/>
+  <ellipse cx="74" cy="80" rx="3" ry="5" fill="#2A2A2A"/>
+
+  <!-- pole tips: light metal -->
+  <polygon points="26,28 50,24 50,40 26,36" fill="#D8D8D8"/>
+  <polygon points="78,24 102,28 102,36 78,40" fill="#D8D8D8"/>
+
+  <!-- leaves: green base wrapped around the magnet bottom -->
+  <polygon points="40,96 58,92 76,92 94,96 96,104 82,110 64,112 46,110 34,104"
+           fill="#38A843"/>
+  <!-- leaf vein: darker green centre strip -->
+  <polygon points="58,96 70,96 70,110 58,110" fill="#2E7D32"/>
+
+  <!-- side leaves: two small ones sticking out -->
+  <polygon points="34,98 22,92 26,104 36,104" fill="#38A843"/>
+  <polygon points="94,98 106,92 102,104 92,104" fill="#38A843"/>
+</svg>

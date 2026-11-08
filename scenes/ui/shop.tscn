@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/item_screen/shop.gd" id="1_page"]
+[ext_resource type="Script" path="res://scripts/ui/item_grid.gd" id="2_grid"]
+
+[node name="Shop" type="Control"]
+script = ExtResource("1_page")
+
+[node name="Grid" type="Control" parent="."]
+script = ExtResource("2_grid")
+
+[node name="PanelTitle" type="Label" parent="."]
+
+[node name="PanelLine0" type="Label" parent="."]
+
+[node name="PanelLine1" type="Label" parent="."]
+
+[node name="PanelLine2" type="Label" parent="."]
+
+[node name="DescLabel" type="Label" parent="."]
+
+[node name="StatusLabel" type="Label" parent="."]
+
+[node name="Action0" type="Button" parent="."]
+
+[node name="Action1" type="Button" parent="."]
+
+[node name="Back" type="Button" parent="."]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, gold coin.
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    rim   darkened(0.30) of COLOR_COIN_GOLD   #A68C1A
+    face  Balance.COLOR_COIN_GOLD (0.95,0.80,0.25)   #F2CC40
+    mark  darkened(0.14)                      #D1AE22
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <circle cx="64" cy="64" r="52" fill="#A68C1A"/>
+  <circle cx="64" cy="64" r="43" fill="#F2CC40"/>
+  <polygon points="64,36 71,57 92,64 71,71 64,92 57,71 36,64 57,57" fill="#D1AE22"/>
+</svg>

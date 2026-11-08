@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/brawl/brawl_almanac.gd" id="1_page"]
+[ext_resource type="Script" path="res://scripts/ui/item_grid.gd" id="2_grid"]
+
+[node name="BrawlAlmanac" type="Control"]
+script = ExtResource("1_page")
+
+[node name="Grid" type="Control" parent="."]
+script = ExtResource("2_grid")
+
+[node name="SectionTab0" type="Button" parent="."]
+
+[node name="SectionTab1" type="Button" parent="."]
+
+[node name="SectionTab2" type="Button" parent="."]
+
+[node name="SectionTab3" type="Button" parent="."]
+
+[node name="RaceButton0" type="Button" parent="."]
+
+[node name="RaceButton1" type="Button" parent="."]
+
+[node name="RaceButton2" type="Button" parent="."]
+
+[node name="RaceButton3" type="Button" parent="."]
+
+[node name="RaceButton4" type="Button" parent="."]
+
+[node name="RaceButton5" type="Button" parent="."]
+
+[node name="RaceButton6" type="Button" parent="."]
+
+[node name="GroupButton0" type="Button" parent="."]
+
+[node name="GroupButton1" type="Button" parent="."]
+
+[node name="GroupButton2" type="Button" parent="."]
+
+[node name="GroupButton3" type="Button" parent="."]
+
+[node name="PanelTitle" type="Label" parent="."]
+
+[node name="PanelLine0" type="Label" parent="."]
+
+[node name="PanelLine1" type="Label" parent="."]
+
+[node name="PanelLine2" type="Label" parent="."]
+
+[node name="PanelLine3" type="Label" parent="."]
+
+[node name="PanelLine4" type="Label" parent="."]
+
+[node name="PanelLine5" type="Label" parent="."]
+
+[node name="PanelLine6" type="Label" parent="."]
+
+[node name="PanelLine7" type="Label" parent="."]
+
+[node name="PanelLine8" type="Label" parent="."]
+
+[node name="DescLabel" type="Label" parent="."]
+
+[node name="Back" type="Button" parent="."]
+
+[node name="Prev" type="Button" parent="."]
+
+[node name="Next" type="Button" parent="."]
+
+[node name="PageLabel" type="Label" parent="."]
+
+[node name="PanelView" type="SubViewport" parent="."]
+
+[node name="Stage" type="Node2D" parent="PanelView"]

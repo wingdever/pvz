@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <!-- 重击发光 -->
+    <filter id="heavyGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <!-- 重击渐变色 -->
+    <linearGradient id="heavyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="40%" stop-color="#c0d0e0" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#ff8800" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#ff2200" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- 外层剑气（宽大） -->
+  <path d="M 10,120 Q 70,10 120,50" fill="none" stroke="url(#heavyGrad)" stroke-width="14" stroke-linecap="round" filter="url(#heavyGlow)" opacity="0.6"/>
+  <!-- 中层剑气（亮银色） -->
+  <path d="M 15,115 Q 68,20 115,50" fill="none" stroke="#e0e8f0" stroke-width="6" stroke-linecap="round"/>
+  <!-- 内层高光（刺眼白） -->
+  <path d="M 20,110 Q 65,30 110,50" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 摩擦火花粒子 -->
+  <circle cx="30" cy="95" r="3" fill="#ffcc00" filter="url(#heavyGlow)"/>
+  <circle cx="45" cy="75" r="2" fill="#ff8800" filter="url(#heavyGlow)"/>
+  <circle cx="60" cy="58" r="4" fill="#ffffff" filter="url(#heavyGlow)"/>
+  <circle cx="80" cy="50" r="2.5" fill="#ffcc00" filter="url(#heavyGlow)"/>
+  <circle cx="95" cy="48" r="1.5" fill="#ff8800"/>
+</svg>

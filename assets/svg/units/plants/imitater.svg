@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, imitater.
+
+  A grey potato-like body with a black beret, two mismatched wide eyes,
+  small stick arms and dark speckles. Flat shapes only.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- beret: black hat on the upper-left -->
+  <polygon points="34,28 46,14 66,12 78,20 80,30 60,28 40,30" fill="#2A2A2A"/>
+  <polygon points="40,26 46,18 62,16 70,22 60,22 44,26" fill="#4A4A4A"/>
+  <polygon points="78,20 82,26 74,28 72,22" fill="#2A2A2A"/>
+
+  <!-- body: grey rounded potato shape -->
+  <polygon points="26,46 38,32 64,28 88,34 100,52 102,86
+                   94,108 72,118 48,118 30,108 24,86"
+           fill="#909090"/>
+  <!-- highlight: lighter grey patch on the upper-left -->
+  <polygon points="34,54 42,40 60,36 62,54 46,62" fill="#B0B0B0"/>
+
+  <!-- speckles: small dark dots -->
+  <circle cx="44" cy="92" r="2" fill="#5A5A5A"/>
+  <circle cx="74" cy="76" r="2" fill="#5A5A5A"/>
+  <circle cx="86" cy="94" r="2.5" fill="#5A5A5A"/>
+  <circle cx="52" cy="70" r="1.5" fill="#5A5A5A"/>
+  <circle cx="60" cy="100" r="2" fill="#5A5A5A"/>
+  <circle cx="90" cy="60" r="1.5" fill="#5A5A5A"/>
+
+  <!-- eyes: two big white ovals with dark pupils -->
+  <ellipse cx="48" cy="54" rx="12" ry="11" fill="#FFFFFF"/>
+  <ellipse cx="76" cy="54" rx="11" ry="10" fill="#FFFFFF"/>
+  <circle cx="50" cy="56" r="3" fill="#2A2A2A"/>
+  <circle cx="78" cy="56" r="3" fill="#2A2A2A"/>
+  <circle cx="51" cy="55" r="1" fill="#FFFFFF"/>
+  <circle cx="79" cy="55" r="1" fill="#FFFFFF"/>
+
+  <!-- arms: two thin black sticks -->
+  <polygon points="24,72 14,68 14,72 24,76" fill="#2A2A2A"/>
+  <polygon points="102,76 112,72 112,76 102,80" fill="#2A2A2A"/>
+
+  <!-- mouth: tiny line -->
+  <polygon points="60,74 68,74 68,76 60,76" fill="#2A2A2A"/>
+</svg>

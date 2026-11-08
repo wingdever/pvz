@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://d2546pjbmge0x"]
+
+[ext_resource type="Script" uid="uid://cb7m0ehcw3six" path="res://scripts/core/war/war.gd" id="1_war"]
+[ext_resource type="Script" uid="uid://bxw43m6dcm7cq" path="res://scripts/core/war/war_field.gd" id="2_field"]
+[ext_resource type="Script" uid="uid://0il0no223pri" path="res://scripts/core/war/war_camera.gd" id="3_camera"]
+[ext_resource type="Script" uid="uid://d0xa635ker4ae" path="res://scripts/core/war/war_hud.gd" id="4_hud"]
+
+[node name="War" type="Node2D" unique_id=220576323]
+script = ExtResource("1_war")
+
+[node name="WarField" type="Node2D" parent="." unique_id=764204297]
+script = ExtResource("2_field")
+
+[node name="WarCamera" type="Camera2D" parent="WarField" unique_id=1696637603]
+script = ExtResource("3_camera")
+
+[node name="WarHudLayer" type="CanvasLayer" parent="." unique_id=93254600]
+layer = 5
+
+[node name="WarHud" type="Control" parent="WarHudLayer" unique_id=660577584]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("4_hud")

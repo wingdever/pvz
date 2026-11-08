@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, fertilizer bag.
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    sack  Balance.COLOR_FERTILIZER (0.72,0.58,0.34)   #B89457
+    tie   darkened(0.34) of it                        #796138
+    mark  darkened(0.18)                              #967944
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- neck of the sack -->
+  <rect x="50" y="34" width="28" height="22" fill="#967944"/>
+  <!-- body: narrow at the top, wide at the bottom -->
+  <polygon points="46,54 82,54 92,116 36,116" fill="#B89457"/>
+  <!-- tie band -->
+  <rect x="42" y="58" width="44" height="12" fill="#796138"/>
+  <!-- three granules, so it does not read as a plain bag -->
+  <circle cx="52" cy="92" r="6" fill="#967944"/>
+  <circle cx="64" cy="92" r="6" fill="#967944"/>
+  <circle cx="76" cy="92" r="6" fill="#967944"/>
+</svg>

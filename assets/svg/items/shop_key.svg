@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder icon v2, shop car key.
+
+  A flat key: ring head + shaft + two teeth. Ring is a single path with
+  an even-odd hole so no background colour is needed.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- key ring head with a hole -->
+  <path d="M40,32 A16,16 0 1,0 40,64 A16,16 0 1,0 40,32 Z M40,42 A6,6 0 1,1 40,54 A6,6 0 1,1 40,42 Z"
+        fill="#B0B8C0" fill-rule="evenodd"/>
+  <!-- shaft -->
+  <rect x="52" y="44" width="48" height="8" fill="#B0B8C0"/>
+  <!-- teeth -->
+  <rect x="84" y="52" width="6" height="10" fill="#B0B8C0"/>
+  <rect x="94" y="52" width="6" height="10" fill="#B0B8C0"/>
+</svg>

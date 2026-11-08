@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: UI art, the first-clear CHEST (closed).
+  Canvas 128x128, pure fills, no strokes or gradients (PROMPT 7.1 / docs/UNIT_ART.md 4).
+  One picture per state: chest_closed.svg is drawn while the reward is still inside,
+  chest_open.svg once the player has taken it. The glow behind a closed one is DRAWN
+  (BalanceUI.CHEST_GLOW_*), not part of this file, so it can pulse with the code.
+    wood   #8B5A2B   band  #D9A441   lock  #F2D27A
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="128" height="128">
+  <!-- body -->
+  <rect x="18" y="46" width="64" height="40" rx="3" fill="#8B5A2B"/>
+  <!-- lid, closed: a shallow dome sitting on the body -->
+  <rect x="16" y="30" width="68" height="18" rx="9" fill="#A2703C"/>
+  <!-- iron bands -->
+  <rect x="28" y="30" width="8" height="56" fill="#D9A441"/>
+  <rect x="64" y="30" width="8" height="56" fill="#D9A441"/>
+  <!-- lock plate -->
+  <rect x="44" y="46" width="12" height="14" rx="2" fill="#F2D27A"/>
+</svg>

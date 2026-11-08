@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, kernel-pult.
+  Corn-husk base + corn-cob body with kernel rows + eyes + brows
+  + extended stem + hanging kernel.
+  All polygon / rect, no path.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- husk base -->
+  <polygon points="20,114 34,102 64,96 94,102 108,114 94,122 64,124 34,122" fill="#4CAF50"/>
+  <polygon points="36,114 50,104 64,100 64,120 50,120" fill="#2E7D32"/>
+  <polygon points="92,114 78,104 64,100 64,120 78,120" fill="#2E7D32"/>
+
+  <!-- corn cob body -->
+  <polygon points="42,62 48,52 64,48 80,52 86,62 86,104 80,114 64,118 48,114 42,104" fill="#F4D040"/>
+  <!-- kernel rows -->
+  <polygon points="48,66 64,62 80,66 78,78 64,76 50,78" fill="#E8B820"/>
+  <polygon points="48,82 64,78 80,82 78,94 64,92 50,94" fill="#E8B820"/>
+  <polygon points="48,98 64,94 80,98 78,108 64,106 50,108" fill="#E8B820"/>
+
+  <!-- eyes -->
+  <circle cx="54" cy="78" r="3" fill="#2A2A2A"/>
+  <circle cx="74" cy="78" r="3" fill="#2A2A2A"/>
+  <circle cx="55" cy="77" r="1" fill="#FFFFFF"/>
+  <circle cx="75" cy="77" r="1" fill="#FFFFFF"/>
+
+  <!-- brows -->
+  <polygon points="46,70 58,72 58,74 46,72" fill="#4A3A1A"/>
+  <polygon points="70,72 82,70 82,72 70,74" fill="#4A3A1A"/>
+
+  <!-- stem to the projectile -->
+  <polygon points="58,50 66,50 28,20 18,30" fill="#2E7D32"/>
+
+  <!-- projectile: kernel -->
+  <polygon points="6,26 14,14 28,12 38,20 34,34 20,40 8,34" fill="#F4D040"/>
+  <polygon points="14,18 24,16 22,30 14,30" fill="#F8E878"/>
+</svg>

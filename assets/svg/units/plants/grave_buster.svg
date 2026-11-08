@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, grave buster.
+  Grey tombstone with dark cracks, green vines sprouting from the top.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <polygon points="30,124 30,60 44,36 84,36 98,60 98,124" fill="#707070"/>
+  <rect x="50" y="62" width="3" height="30" fill="#4A4A4A"/>
+  <rect x="74" y="76" width="3" height="24" fill="#4A4A4A"/>
+  <rect x="62" y="88" width="3" height="36" fill="#4A4A4A"/>
+  <polygon points="28,44 22,28 34,34 40,20 46,32 54,22 56,34 40,44" fill="#4CAF50"/>
+  <polygon points="100,44 106,28 94,34 88,20 82,32 74,22 72,34 88,44" fill="#4CAF50"/>
+  <rect x="62" y="22" width="4" height="14" fill="#4CAF50"/>
+</svg>

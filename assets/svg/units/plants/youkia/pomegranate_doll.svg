@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Pomegranate-doll. All crown spikes radiate from one single point
+  at the top of the body (64, 40).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- flame on top, still prominent -->
+  <polygon points="64,0 82,26 74,32 78,42 64,34 50,42 54,32 46,26" fill="#F4A020"/>
+  <polygon points="64,6 76,26 70,30 72,38 64,32 56,38 58,30 52,26" fill="#FFD040"/>
+  <polygon points="64,14 70,28 66,30 64,26 62,30 58,28" fill="#FFF080"/>
+
+  <!-- crown spikes: all four radiate from (64,40) -->
+  <polygon points="64,40 40,20 50,40" fill="#C83040"/>
+  <polygon points="64,40 58,14 68,40" fill="#C83040"/>
+  <polygon points="64,40 70,14 76,40" fill="#C83040"/>
+  <polygon points="64,40 88,20 78,40" fill="#C83040"/>
+
+  <!-- body -->
+  <polygon points="34,54 42,42 64,38 86,42 94,54 96,88 86,102 64,108 42,102 32,88" fill="#E53935"/>
+  <polygon points="40,58 50,48 64,44 64,58 48,64" fill="#F06060"/>
+  <polygon points="42,102 64,108 86,102 84,112 64,116 44,112" fill="#C83040"/>
+
+  <!-- eyes -->
+  <circle cx="52" cy="70" r="9" fill="#2A2A2A"/>
+  <circle cx="76" cy="70" r="9" fill="#2A2A2A"/>
+  <circle cx="54" cy="68" r="3" fill="#FFFFFF"/>
+  <circle cx="78" cy="68" r="3" fill="#FFFFFF"/>
+  <circle cx="48" cy="74" r="2" fill="#FFFFFF"/>
+  <circle cx="72" cy="74" r="2" fill="#FFFFFF"/>
+
+  <!-- mouth -->
+  <polygon points="58,90 70,90 68,100 60,100" fill="#C83040"/>
+  <polygon points="60,92 68,92 67,96 61,96" fill="#F0E8E0"/>
+</svg>

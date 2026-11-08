@@ -1,0 +1,76 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 太阳主体渐变 -->
+    <radialGradient id="sunGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="60%" stop-color="#FFD54F" />
+      <stop offset="100%" stop-color="#FFC107" />
+    </radialGradient>
+
+    <!-- 太阳外圈渐变 -->
+    <linearGradient id="sunRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+
+    <!-- 光芒渐变 -->
+    <linearGradient id="rayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F" />
+      <stop offset="100%" stop-color="#FFB300" />
+    </linearGradient>
+  </defs>
+
+  <!-- ===== 光芒（围绕太阳的 8 道短粗光芒） ===== -->
+  <g fill="url(#rayGrad)">
+    <!-- 上方 -->
+    <path d="M 100 12 L 108 38 L 92 38 Z" />
+    <!-- 下方 -->
+    <path d="M 100 188 L 92 162 L 108 162 Z" />
+    <!-- 左方 -->
+    <path d="M 12 100 L 38 92 L 38 108 Z" />
+    <!-- 右方 -->
+    <path d="M 188 100 L 162 108 L 162 92 Z" />
+    <!-- 左上 -->
+    <path d="M 38 38 L 58 56 L 50 64 Z" />
+    <!-- 右上 -->
+    <path d="M 162 38 L 142 56 L 150 64 Z" />
+    <!-- 左下 -->
+    <path d="M 38 162 L 50 136 L 58 144 Z" />
+    <!-- 右下 -->
+    <path d="M 162 162 L 150 136 L 142 144 Z" />
+  </g>
+
+  <!-- ===== 太阳主体 ===== -->
+  <!-- 外圈（稍深） -->
+  <circle cx="100" cy="100" r="56" fill="url(#sunRingGrad)" />
+  <!-- 内圈（主体） -->
+  <circle cx="100" cy="100" r="48" fill="url(#sunGrad)" />
+
+  <!-- 太阳内部高光（左上方柔和亮块） -->
+  <ellipse cx="85" cy="82" rx="20" ry="14" fill="#FFF8E1" opacity="0.55" transform="rotate(-25, 85, 82)" />
+
+  <!-- ===== 四角星闪烁（与参考图风格一致） ===== -->
+  <!-- 主星（右上方，较大） -->
+  <g transform="translate(148, 52)">
+    <path d="M 0 -14 Q 2 -3 14 0 Q 2 3 0 14 Q -2 3 -14 0 Q -2 -3 0 -14 Z"
+          fill="#FFFFFF" opacity="0.95" />
+  </g>
+
+  <!-- 小星（左下方） -->
+  <g transform="translate(52, 148)">
+    <path d="M 0 -8 Q 1.2 -1.8 8 0 Q 1.2 1.8 0 8 Q -1.2 1.8 -8 0 Q -1.2 -1.8 0 -8 Z"
+          fill="#FFFFFF" opacity="0.85" />
+  </g>
+
+  <!-- 微小星（右下方） -->
+  <g transform="translate(156, 148)">
+    <path d="M 0 -5 Q 0.8 -1.2 5 0 Q 0.8 1.2 0 5 Q -0.8 1.2 -5 0 Q -0.8 -1.2 0 -5 Z"
+          fill="#FFFFFF" opacity="0.7" />
+  </g>
+
+  <!-- 微小星（左上方） -->
+  <g transform="translate(46, 46)">
+    <path d="M 0 -5 Q 0.8 -1.2 5 0 Q 0.8 1.2 0 5 Q -0.8 1.2 -5 0 Q -0.8 -1.2 0 -5 Z"
+          fill="#FFFFFF" opacity="0.7" />
+  </g>
+</svg>

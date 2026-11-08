@@ -1,0 +1,17 @@
+piece	col	row	权重	起始	档位
+militia	2	1	10	否	
+archer	2	2	10		
+shieldman	2	3	10		
+knight	-1	-1	6	否	
+gunner	-1	-1	6		
+laser_eye	-1	-1	5		
+flame_eye	-1	-1	5		
+laser_eye_tower	-1	-1	2		
+flame_eye_tower	-1	-1	2		
+green_slim	-1	-1	3		
+thundercorn	-1	-1	3		
+lobber	-1	-1	3
+snorlax	-1	-1	3		
+warm_sunflower	-1	-1	3		3
+bird	2	1	3		
+wallnut	-1	-1	2	否	3

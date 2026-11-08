@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, sunflower talent potion (skill +50%).
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    glass  Color(0.86,0.90,0.95)   #DBE6F2
+    liquid Balance.COLOR_SUNFLOWER (0.95,0.80,0.20)   #F2CC33
+    cork   brown                                       #6B4A2E
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="50" y="14" width="28" height="16" fill="#6B4A2E"/>
+  <rect x="56" y="28" width="16" height="20" fill="#DBE6F2"/>
+  <polygon points="52,46 76,46 86,112 42,112" fill="#DBE6F2"/>
+  <polygon points="53,74 87,74 93,110 39,110" fill="#F2CC33"/>
+  <!-- a small sun tells you which plant it belongs to -->
+  <circle cx="64" cy="24" r="14" fill="#F2CC33"/>
+</svg>

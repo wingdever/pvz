@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, diamond.
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    base    darkened(0.30) of COLOR_COIN_DIAMOND   #3B9EA6
+    table   Balance.COLOR_COIN_DIAMOND (0.55,0.90,0.95)   #8CE6F2
+    facets  lightened(0.35) / darkened(0.14)        #C7F3FA / #79C6D0
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- lower half: the classic pavilion cut -->
+  <polygon points="24,56 104,56 64,116" fill="#3B9EA6"/>
+  <!-- crown -->
+  <polygon points="44,20 84,20 104,56 24,56" fill="#8CE6F2"/>
+  <!-- facets -->
+  <polygon points="44,20 64,20 64,56 24,56" fill="#C7F3FA"/>
+  <polygon points="64,56 104,56 64,116" fill="#79C6D0"/>
+</svg>

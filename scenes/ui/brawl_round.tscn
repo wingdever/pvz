@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/brawl/brawl_round.gd" id="1_round"]
+
+[node name="BrawlRound" type="Control"]
+script = ExtResource("1_round")
+
+[node name="Background" type="ColorRect" parent="."]
+
+[node name="Title" type="Label" parent="."]
+
+[node name="Subtitle" type="Label" parent="."]
+
+[node name="Hint" type="Label" parent="."]
+
+[node name="ButtonLayer" type="Control" parent="."]

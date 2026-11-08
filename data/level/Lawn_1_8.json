@@ -1,0 +1,41 @@
+{
+  "initial_sun": 250,
+  "brain_hp": 100,
+  "zombie_hp": 270,
+  "spawn_cols": [6, 7, 8],
+  "rows": [2],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": { "shovel": { "threshold": 2 }, "glove": { "threshold": 5 }, "hammer": { "threshold": 12 } },
+  "cards": { "peashooter": { "cooldown": 3 }, "sunflower": { "cooldown": 2 }, "wallnut": { "cooldown": 5 } },
+  "summons_per_turn": 2,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    { "id": 1, "start_round": 1, "spawns": [
+      { "round": 1, "type": "zombie", "count": 2 }
+    ]},
+    { "id": 2, "start_round": 6, "spawns": [
+      { "round": 6, "type": "zombie_cone", "count": 1 }
+    ]},
+    { "id": 3, "start_round": 12, "spawns": [
+      { "round": 12, "type": "zombie", "count": 4 }
+    ]},
+    { "id": 4, "start_round": 20, "spawns": [
+      { "round": 20, "type": "zombie_cone", "count": 2 },
+      { "round": 24, "type": "zombie", "count": 3 }
+    ], "banner": true }
+  ],
+  "first_clear_plant": "gatling_pea",
+  "first_clear": { "scroll_gatling_pea": 1, "scroll_spirit_gatling_pea": 1 },
+  "rewards": [
+    { "chance": 1.00, "items": { "coin_gold": 25 } },
+    { "chance": 0.30, "plant": "threepeater" },
+    { "chance": 0.20, "items": { "potion_threepeater": 1 } },
+    { "chance": 0.20, "plant": "gatling_pea" },
+    { "chance": 0.20, "items": { "potion_fume_shroom": 1 } },
+    { "chance": 0.20, "plant": "jalapeno" },
+    { "chance": 0.15, "plant": "melon_pult" },
+    { "chance": 0.15, "items": { "potion_melon_pult": 1 } }
+  ]
+}

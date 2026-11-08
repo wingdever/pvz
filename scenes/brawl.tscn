@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cd0sql7i0lytl"]
+
+[ext_resource type="Script" uid="uid://d2rg1qjmrd0ef" path="res://scripts/core/brawl/brawl.gd" id="1_brawl"]
+[ext_resource type="Script" uid="uid://b2ns2nbsr84h6" path="res://scripts/core/brawl/brawl_field.gd" id="2_field"]
+
+[node name="Brawl" type="Node2D" unique_id=737714775]
+script = ExtResource("1_brawl")
+
+[node name="BrawlField" type="Node2D" parent="." unique_id=359061924]
+script = ExtResource("2_field")

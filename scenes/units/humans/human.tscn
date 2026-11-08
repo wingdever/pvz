@@ -1,0 +1,1031 @@
+[gd_scene format=3 uid="uid://dg2riesmar6ya"]
+
+[ext_resource type="Script" uid="uid://de3jpss66xjfh" path="res://addons/curved_lines_2d/scalable_vector_shape_2d.gd" id="1_g5mj2"]
+[ext_resource type="Script" uid="uid://dlbv4pit17dnu" path="res://addons/curved_lines_2d/scalable_arc.gd" id="2_7mky2"]
+[ext_resource type="Script" uid="uid://dl1t88tthmwts" path="res://addons/curved_lines_2d/scalable_arc_list.gd" id="3_u0cno"]
+
+[sub_resource type="Curve2D" id="Curve2D_foh6s"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 1.1046, 4, -2, 1.1046, 0, -1.1046, 0, 2, 0, 0, 1.1046, 0, -1.1046, 0, -2, -1.1046, 0, 1.1046, 0, 2, -4, 0, -1.1046, 0, 0, 4, -2)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_yqdhw"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_awxuj"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 1.1046, -5, -1, 1.1046, 0, -1.1046, 0, -7, 1, 0, 1.1046, 0, -1.1046, -9, -1, -1.1046, 0, 1.1046, 0, -7, -3, 0, -1.1046, 0, 0, -5, -1)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_aigty"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_u734i"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 4.4184, 8, 0, 4.4184, 0, -4.4184, 0, 0, 8, 0, 4.4184, 0, -4.4184, -8, 0, -4.4184, 0, 4.4184, 0, 0, -8, 0, -4.4184, 0, 0, 8, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_7w6eq"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_m80o2"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0.82845, 1.5, 0, 0.82845, 0, -0.82845, 0, 0, 1.5, 0, 0.82845, 0, -0.82845, -1.5, 0, -0.82845, 0, 0.82845, 0, 0, -1.5, 0, -0.82845, 0, 0, 1.5, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_gxdsi"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_olmlc"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0.82845, 1.5, 0, 0.82845, 0, -0.82845, 0, 0, 1.5, 0, 0.82845, 0, -0.82845, -1.5, 0, -0.82845, 0, 0.82845, 0, 0, -1.5, 0, -0.82845, 0, 0, 1.5, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_swdbw"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_6yq5m"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 2, -3, 0, 0, 0, 0, 1, -8, 0, 0, 0, 0, -6, -1, 0, 0, 0, 0, -10, -4, 0, 0, 0, 0, -10, 5, 0, 0, 0, 0, -9, 8, 0, 0, 0, 0, -5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 0, 0, 0, 0, 10, -4, 0, 0, 0, 0, 2, -3)
+}
+point_count = 11
+
+[sub_resource type="Resource" id="Resource_sglgr"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_8neyv"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, -2, 0, 0, 0, 0, 3, -2, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, -2, 3, 0, 0, 0, 0, -2, -2)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_81qdl"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_mpg72"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -5, -14, 0, 0, 0, 0, 7, -14, 0, 0, 0, 0, 6, 18, 0, 0, 0, 0, -6, 18, 0, 0, 0, 0, -5, -14)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_fn8ft"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_nsqax"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -5.5, -5, 0, 0, 0, 0, -3.5, -5, 0, 0, 0, 0, 5.5, 4, 0, 0, 0, 0, 2.5, 5, 0, 0, 0, 0, -5.5, -3, 0, 0, 0, 0, -5.5, -5)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_25n01"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_ky8vl"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, -3.5, 0, 0, 0, 0, 0, -3.5, 0, 0, 0, 0, 3, 3.5, 0, 0, 0, 0, -1, 3.5, 0, 0, 0, 0, -3, -3.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_760cl"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_nogtf"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 1.6569, 3, 0, 1.6569, 0, -1.6569, 0, 0, 3, 0, 1.6569, 0, -1.6569, -3, 0, -1.6569, 0, 1.6569, 0, 0, -3, 0, -1.6569, 0, 0, 3, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_2shki"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_dgh3d"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -4.5, -8, 0, 0, 0, 0, -0.5, -8, 0, 0, 0, 0, 4.5, 8, 0, 0, 0, 0, 0.5, 8, 0, 0, 0, 0, -4.5, -8)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_8viy2"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_2ij7b"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -1.5, -6.5, 0, 0, 0, 0, 2.5, -6.5, 0, 0, 0, 0, 1.5, 6.5, 0, 0, 0, 0, -2.5, 6.5, 0, 0, 0, 0, -1.5, -6.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_oi0da"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_jmu1s"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -5, -1.5, 0, 0, 0, 0, -1, -1.5, 0, 0, 0, 0, 5, 1.5, 0, 0, 0, 0, -5, 1.5, 0, 0, 0, 0, -5, -1.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_4dh7b"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_38ivb"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, -8, 0, 0, 0, 0, 2, -8, 0, 0, 0, 0, 2, 8, 0, 0, 0, 0, -2, 8, 0, 0, 0, 0, -2, -8)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_ryv0r"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_c1v5p"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -1.5, -6.5, 0, 0, 0, 0, 2.5, -6.5, 0, 0, 0, 0, 1.5, 6.5, 0, 0, 0, 0, -2.5, 6.5, 0, 0, 0, 0, -1.5, -6.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_6orwq"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_vnxlo"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -5, -1.5, 0, 0, 0, 0, -1, -1.5, 0, 0, 0, 0, 5, 1.5, 0, 0, 0, 0, -5, 1.5, 0, 0, 0, 0, -5, -1.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_uj50r"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_owxhk"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2.5, -8, 0, 0, 0, 0, 3.5, -9, 0, 0, 0, 0, 2.5, 9, 0, 0, 0, 0, -3.5, 9, 0, 0, 0, 0, -2.5, -8)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_rwlcv"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_yi4wh"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -7.5, -6.5, 0, 0, 0, 0, 7.5, -3.5, 0, 0, 0, 0, 7.5, 4.5, 0, 0, 0, 0, -7.5, 6.5, 0, 0, 0, 0, -7.5, -6.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_075ng"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_hmao8"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, -7, 0, 0, 0, 0, 4, -7, 0, 0, 0, 0, 2, 7, 0, 0, 0, 0, -4, 7, 0, 0, 0, 0, -2, -7)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_veox6"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_h0onu"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6.5, -1.5, 0, 0, 0, 0, -0.5, -2.5, 0, 0, 0, 0, 6.5, 2.5, 0, 0, 0, 0, -5.5, 2.5, 0, 0, 0, 0, -6.5, -1.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_vsa8a"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_unnmk"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, -7.5, 0, 0, 0, 0, 1, -7.5, 0, 0, 0, 0, 6, 7.5, 0, 0, 0, 0, -1, 7.5, 0, 0, 0, 0, -6, -7.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_w2nlh"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_q7y86"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, -7, 0, 0, 0, 0, 4, -7, 0, 0, 0, 0, 2, 7, 0, 0, 0, 0, -4, 7, 0, 0, 0, 0, -2, -7)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_p7h3d"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_urxvc"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -5, -2.5, 0, 0, 0, 0, 0, -2.5, 0, 0, 0, 0, 6, 2.5, 0, 0, 0, 0, -6, 2.5, 0, 0, 0, 0, -5, -2.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_fh6oh"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_x1yy8"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6.5, -15, 0, 0, 0, 0, 7.5, -15, 0, 0, 0, 0, 7.5, 14, 0, 0, 0, 0, -7.5, 15, 0, 0, 0, 0, -6.5, -15)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_mfvfb"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_i8uct"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 4.5, -7, 0, 0, 0, 0, 4.5, -4, 0, 0, 0, 0, -1.5, 7, 0, 0, 0, 0, -4.5, 6, 0, 0, 0, 0, 1.5, -5, 0, 0, 0, 0, 4.5, -7)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_tocl2"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_3or8w"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, -3, 9, 0, 0, 0, 0, -2, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_ppbxc"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_5n0yb"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 23, -10, 0, 0, 0, 0, 57, -22, 0, 0, 0, 0, 24, -7, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, -8, 5, 0, 0, 0, 0, -9, 3, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 23, -10)
+}
+point_count = 8
+
+[sub_resource type="Resource" id="Resource_2rmp5"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Curve2D" id="Curve2D_gxvn1"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 1.6569, 3, 0, 1.6569, 0, -1.6569, 0, 0, 3, 0, 1.6569, 0, -1.6569, -3, 0, -1.6569, 0, 1.6569, 0, 0, -3, 0, -1.6569, 0, 0, 3, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_ftjom"]
+resource_local_to_scene = true
+script = ExtResource("3_u0cno")
+
+[sub_resource type="Animation" id="Animation_7mky2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Body/ArmUL:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/Body/ArmUL/ArmDL:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton2D/Root/Body/ArmUL/ArmDL/HandL:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_u0cno"]
+resource_name = "attack"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Body/ArmUL:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.033333335, 0.1, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 1.5707963267948966, -1.5707963267948966, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/Body/ArmUL/ArmDL:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.033333335, 0.1, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton2D/Root/Body/ArmUL/ArmDL/HandL:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.033333335, 0.1, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.5235987755982988, 2.0943951023931953, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_g5mj2"]
+resource_name = "idle"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Body/ArmUL:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.08726646259971647, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7mky2"]
+_data = {
+&"RESET": SubResource("Animation_7mky2"),
+&"attack": SubResource("Animation_u0cno"),
+&"idle": SubResource("Animation_g5mj2")
+}
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_g5mj2"]
+
+[node name="Human" type="Node2D" unique_id=1646182788]
+
+[node name="Human" type="Node2D" parent="." unique_id=239576582]
+position = Vector2(-64, -112)
+metadata/svg_root = true
+
+[node name="EarR" type="Node2D" parent="Human" unique_id=1768614193 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(69, 33)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_foh6s")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_yqdhw")
+shape_type = 2
+offset = Vector2(2, -2)
+size = Vector2(4, 4)
+rx = 2.0
+ry = 2.0
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck/Head/EyeR")
+
+[node name="Fill" type="Polygon2D" parent="Human/EarR" unique_id=1297808758]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(4, -2, 3.9896746, -1.7955066, 3.9593685, -1.5969214, 3.9100866, -1.4052498, 3.8428345, -1.2214968, 3.758617, -1.0466678, 3.6584394, -0.88176763, 3.543307, -0.7278016, 3.414225, -0.585775, 3.2721984, -0.45669293, 3.1182325, -0.34156057, 2.9533322, -0.24138308, 2.778503, -0.15716563, 2.5947502, -0.08991343, 2.4030786, -0.040631644, 2.2044935, -0.01032544, 2, 0, 1.7955066, -0.01032544, 1.5969214, -0.040631644, 1.4052498, -0.08991343, 1.2214968, -0.15716563, 1.0466678, -0.24138308, 0.88176763, -0.34156057, 0.7278016, -0.45669293, 0.585775, -0.585775, 0.45669293, -0.7278016, 0.34156057, -0.88176763, 0.24138308, -1.0466678, 0.15716563, -1.2214968, 0.08991343, -1.4052498, 0.040631644, -1.5969214, 0.01032544, -1.7955066, 0, -2, 0.01032544, -2.2044935, 0.040631644, -2.4030786, 0.08991343, -2.59475, 0.15716563, -2.778503, 0.24138308, -2.9533322, 0.34156057, -3.1182325, 0.45669293, -3.2721982, 0.585775, -3.414225, 0.7278016, -3.543307, 0.88176763, -3.6584394, 1.0466678, -3.758617, 1.2214968, -3.8428345, 1.4052498, -3.9100866, 1.5969214, -3.9593682, 1.7955066, -3.9896746, 2, -4, 2.2044935, -3.9896746, 2.4030786, -3.9593685, 2.59475, -3.9100866, 2.778503, -3.8428345, 2.9533322, -3.758617, 3.1182325, -3.6584394, 3.2721982, -3.543307, 3.414225, -3.414225, 3.543307, -3.2721984, 3.6584394, -3.1182325, 3.758617, -2.9533322, 3.8428345, -2.778503, 3.9100866, -2.5947502, 3.9593682, -2.4030786, 3.9896746, -2.2044935)
+metadata/_edit_lock_ = true
+
+[node name="EarL" type="Node2D" parent="Human" unique_id=1389892946 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(64, 37)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_awxuj")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_aigty")
+shape_type = 2
+offset = Vector2(-7, -1)
+size = Vector2(4, 4)
+rx = 2.0
+ry = 2.0
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck/Head/EyeL")
+
+[node name="Fill" type="Polygon2D" parent="Human/EarL" unique_id=2065134233]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-5, -1, -5.0103254, -0.7955066, -5.040632, -0.5969215, -5.0899134, -0.40524986, -5.1571655, -0.22149688, -5.241383, -0.046667755, -5.3415604, 0.1182324, -5.456693, 0.27219838, -5.585775, 0.41422498, -5.7278013, 0.54330707, -5.8817673, 0.6584394, -6.046668, 0.7586169, -6.221497, 0.84283435, -6.4052496, 0.9100866, -6.5969214, 0.95936835, -6.7955065, 0.98967457, -7, 1, -7.2044935, 0.98967457, -7.4030786, 0.95936835, -7.5947504, 0.9100866, -7.778503, 0.84283435, -7.9533324, 0.7586169, -8.118233, 0.65843946, -8.272198, 0.54330707, -8.414225, 0.41422498, -8.543307, 0.27219838, -8.65844, 0.1182324, -8.758617, -0.046667755, -8.842834, -0.2214969, -8.910087, -0.40524986, -8.959368, -0.5969215, -8.989675, -0.7955066, -9, -1, -8.989675, -1.2044934, -8.959369, -1.4030786, -8.910087, -1.5947502, -8.842834, -1.7785031, -8.758617, -1.9533322, -8.65844, -2.1182325, -8.543306, -2.2721982, -8.414225, -2.414225, -8.272198, -2.543307, -8.118233, -2.6584394, -7.953332, -2.758617, -7.778503, -2.8428345, -7.5947504, -2.9100866, -7.4030786, -2.9593682, -7.2044935, -2.9896746, -7, -3, -6.7955065, -2.9896746, -6.5969214, -2.9593685, -6.4052496, -2.9100866, -6.221497, -2.8428345, -6.0466676, -2.758617, -5.8817673, -2.6584394, -5.727802, -2.543307, -5.585775, -2.414225, -5.4566927, -2.2721984, -5.3415604, -2.1182325, -5.241383, -1.9533322, -5.1571655, -1.7785031, -5.0899134, -1.5947502, -5.040632, -1.4030786, -5.0103254, -1.2044934)
+metadata/_edit_lock_ = true
+
+[node name="Head" type="Node2D" parent="Human" unique_id=356260483 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(65, 36)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_u734i")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_7w6eq")
+shape_type = 2
+size = Vector2(16, 16)
+rx = 8.0
+ry = 8.0
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck/Head")
+
+[node name="Fill" type="Polygon2D" parent="Human/Head" unique_id=1591844280]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(8, 0, 7.9586983, 0.8179736, 7.8374734, 1.612314, 7.640346, 2.3790007, 7.3713374, 3.1140125, 7.0344677, 3.8133292, 6.6337576, 4.4729295, 6.1732283, 5.0887938, 5.6569, 5.6569, 5.0887938, 6.1732283, 4.4729295, 6.6337576, 3.813329, 7.0344677, 3.1140125, 7.3713374, 2.3790004, 7.6403465, 1.612314, 7.8374734, 0.8179736, 7.9586983, 0, 8, -0.8179736, 7.9586983, -1.612314, 7.8374734, -2.3790007, 7.640346, -3.1140125, 7.3713374, -3.8133292, 7.0344677, -4.4729295, 6.6337576, -5.0887938, 6.1732283, -5.6569, 5.6569, -6.1732283, 5.0887938, -6.6337576, 4.4729295, -7.0344677, 3.813329, -7.3713374, 3.1140125, -7.6403465, 2.3790004, -7.8374734, 1.612314, -7.9586983, 0.8179736, -8, 0, -7.9586983, -0.8179736, -7.8374734, -1.612314, -7.640346, -2.3790007, -7.3713374, -3.1140125, -7.0344677, -3.8133292, -6.6337576, -4.4729295, -6.1732283, -5.0887938, -5.6569, -5.6569, -5.0887938, -6.1732283, -4.4729295, -6.6337576, -3.813329, -7.0344677, -3.1140125, -7.3713374, -2.3790004, -7.6403465, -1.612314, -7.8374734, -0.8179736, -7.9586983, 0, -8, 0.8179736, -7.9586983, 1.612314, -7.8374734, 2.3790007, -7.640346, 3.1140125, -7.3713374, 3.8133292, -7.0344677, 4.4729295, -6.6337576, 5.0887938, -6.1732283, 5.6569, -5.6569, 6.1732283, -5.0887938, 6.6337576, -4.4729295, 7.0344677, -3.813329, 7.3713374, -3.1140125, 7.6403465, -2.3790004, 7.8374734, -1.612314, 7.9586983, -0.8179736)
+metadata/_edit_lock_ = true
+
+[node name="EyeR" type="Node2D" parent="Human" unique_id=428800637 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(69, 33)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_m80o2")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_gxdsi")
+shape_type = 2
+size = Vector2(3, 3)
+rx = 1.5
+ry = 1.5
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck/Head/EyeR")
+
+[node name="Fill" type="Polygon2D" parent="Human/EyeR" unique_id=1338713301]
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = PackedVector2Array(1.5, 0, 1.4922559, 0.15337007, 1.4695263, 0.3023089, 1.432565, 0.44606262, 1.3821257, 0.5838773, 1.3189627, 0.7149992, 1.2438296, 0.8386743, 1.1574804, 0.95414877, 1.0606687, 1.0606687, 0.95414877, 1.1574804, 0.8386743, 1.2438296, 0.7149992, 1.3189627, 0.5838773, 1.3821259, 0.44606262, 1.432565, 0.3023089, 1.4695263, 0.15337007, 1.4922559, 0, 1.5, -0.15337007, 1.4922559, -0.3023089, 1.4695263, -0.44606262, 1.432565, -0.5838773, 1.3821257, -0.7149992, 1.3189627, -0.8386743, 1.2438296, -0.95414877, 1.1574804, -1.0606687, 1.0606687, -1.1574804, 0.95414877, -1.2438296, 0.8386743, -1.3189627, 0.7149992, -1.3821259, 0.5838773, -1.432565, 0.44606262, -1.4695263, 0.3023089, -1.4922559, 0.15337007, -1.5, 0, -1.4922559, -0.15337007, -1.4695263, -0.3023089, -1.432565, -0.44606262, -1.3821257, -0.5838773, -1.3189627, -0.7149992, -1.2438296, -0.8386743, -1.1574804, -0.95414877, -1.0606687, -1.0606687, -0.95414877, -1.1574804, -0.8386743, -1.2438296, -0.7149992, -1.3189627, -0.5838773, -1.3821259, -0.44606262, -1.432565, -0.3023089, -1.4695263, -0.15337007, -1.4922559, 0, -1.5, 0.15337007, -1.4922559, 0.3023089, -1.4695263, 0.44606262, -1.432565, 0.5838773, -1.3821257, 0.7149992, -1.3189627, 0.8386743, -1.2438296, 0.95414877, -1.1574804, 1.0606687, -1.0606687, 1.1574804, -0.95414877, 1.2438296, -0.8386743, 1.3189627, -0.7149992, 1.3821259, -0.5838773, 1.432565, -0.44606262, 1.4695263, -0.3023089, 1.4922559, -0.15337007)
+metadata/_edit_lock_ = true
+
+[node name="EyeL" type="Node2D" parent="Human" unique_id=333010355 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(64, 37)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_olmlc")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_swdbw")
+shape_type = 2
+size = Vector2(3, 3)
+rx = 1.5
+ry = 1.5
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck/Head/EyeL")
+
+[node name="Fill" type="Polygon2D" parent="Human/EyeL" unique_id=796600259]
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = PackedVector2Array(1.5, 0, 1.4922559, 0.15337007, 1.4695263, 0.3023089, 1.432565, 0.44606262, 1.3821257, 0.5838773, 1.3189627, 0.7149992, 1.2438296, 0.8386743, 1.1574804, 0.95414877, 1.0606687, 1.0606687, 0.95414877, 1.1574804, 0.8386743, 1.2438296, 0.7149992, 1.3189627, 0.5838773, 1.3821259, 0.44606262, 1.432565, 0.3023089, 1.4695263, 0.15337007, 1.4922559, 0, 1.5, -0.15337007, 1.4922559, -0.3023089, 1.4695263, -0.44606262, 1.432565, -0.5838773, 1.3821257, -0.7149992, 1.3189627, -0.8386743, 1.2438296, -0.95414877, 1.1574804, -1.0606687, 1.0606687, -1.1574804, 0.95414877, -1.2438296, 0.8386743, -1.3189627, 0.7149992, -1.3821259, 0.5838773, -1.432565, 0.44606262, -1.4695263, 0.3023089, -1.4922559, 0.15337007, -1.5, 0, -1.4922559, -0.15337007, -1.4695263, -0.3023089, -1.432565, -0.44606262, -1.3821257, -0.5838773, -1.3189627, -0.7149992, -1.2438296, -0.8386743, -1.1574804, -0.95414877, -1.0606687, -1.0606687, -0.95414877, -1.1574804, -0.8386743, -1.2438296, -0.7149992, -1.3189627, -0.5838773, -1.3821259, -0.44606262, -1.432565, -0.3023089, -1.4695263, -0.15337007, -1.4922559, 0, -1.5, 0.15337007, -1.4922559, 0.3023089, -1.4695263, 0.44606262, -1.432565, 0.5838773, -1.3821257, 0.7149992, -1.3189627, 0.8386743, -1.2438296, 0.95414877, -1.1574804, 1.0606687, -1.0606687, 1.1574804, -0.95414877, 1.2438296, -0.8386743, 1.3189627, -0.7149992, 1.3821259, -0.5838773, 1.432565, -0.44606262, 1.4695263, -0.3023089, 1.4922559, -0.15337007)
+metadata/_edit_lock_ = true
+
+[node name="Hair" type="Node2D" parent="Human" unique_id=266417640 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(66, 29)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.2901961, 0.17254902, 0.09019608, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_6yq5m")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_sglgr")
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck/Head/Hair")
+
+[node name="Fill" type="Polygon2D" parent="Human/Hair" unique_id=1157841846]
+color = Color(0.2901961, 0.17254902, 0.09019608, 1)
+polygon = PackedVector2Array(2, -3, 1, -8, -6, -1, -10, -4, -10, 5, -9, 8, -5, 3, 0, 0, 4, 1, 10, -4)
+metadata/_edit_lock_ = true
+
+[node name="Neck" type="Node2D" parent="Human" unique_id=725744511 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(64, 45)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_8neyv")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_81qdl")
+shape_type = 1
+offset = Vector2(0.5, 0.5)
+size = Vector2(5, 5)
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/Neck")
+
+[node name="Fill" type="Polygon2D" parent="Human/Neck" unique_id=2098986635]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-2, -2, 3, -2, 3, 3, -2, 3)
+metadata/_edit_lock_ = true
+
+[node name="Body" type="Node2D" parent="Human" unique_id=264740351 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(64, 62)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_mpg72")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_fn8ft")
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body")
+
+[node name="Fill" type="Polygon2D" parent="Human/Body" unique_id=281633403]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-5, -14, 7, -14, 6, 18, -6, 18)
+metadata/_edit_lock_ = true
+
+[node name="ArmUR" type="Node2D" parent="Human" unique_id=1961106820 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(75.5, 53)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_nsqax")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_25n01")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/Body/ArmUR"),
+2: NodePath("../../Skeleton2D/Root/Body/ArmUR"),
+3: NodePath("../../Skeleton2D/Root/Body/ArmUR")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/ArmUR" unique_id=420534311]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-5.5, -5, -3.5, -5, 5.5, 4, 2.5, 5, -5.5, -3)
+metadata/_edit_lock_ = true
+
+[node name="ArmDR" type="Node2D" parent="Human" unique_id=844034165 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(81, 60.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_ky8vl")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_760cl")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/ArmUR/ArmDR"),
+3: NodePath("../../Skeleton2D/Root/Body/ArmUR/ArmDR")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/ArmDR" unique_id=797389147]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-3, -3.5, 0, -3.5, 3, 3.5, -1, 3.5)
+metadata/_edit_lock_ = true
+
+[node name="HandR" type="Node2D" parent="Human" unique_id=1559634605 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(82, 65)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_nogtf")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_2shki")
+shape_type = 2
+size = Vector2(6, 6)
+rx = 3.0
+ry = 3.0
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/ArmUR/ArmDR/HandR")
+
+[node name="Fill" type="Polygon2D" parent="Human/HandR" unique_id=759777680]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(3, 0, 2.9845119, 0.30674013, 2.9390526, 0.6046178, 2.86513, 0.89212525, 2.7642515, 1.1677547, 2.6379254, 1.4299984, 2.4876592, 1.6773486, 2.3149607, 1.9082975, 2.1213374, 2.1213374, 1.9082975, 2.3149607, 1.6773486, 2.4876592, 1.4299984, 2.6379254, 1.1677547, 2.7642517, 0.89212525, 2.86513, 0.6046178, 2.9390526, 0.30674013, 2.9845119, 0, 3, -0.30674013, 2.9845119, -0.6046178, 2.9390526, -0.89212525, 2.86513, -1.1677547, 2.7642515, -1.4299984, 2.6379254, -1.6773486, 2.4876592, -1.9082975, 2.3149607, -2.1213374, 2.1213374, -2.3149607, 1.9082975, -2.4876592, 1.6773486, -2.6379254, 1.4299984, -2.7642517, 1.1677547, -2.86513, 0.89212525, -2.9390526, 0.6046178, -2.9845119, 0.30674013, -3, 0, -2.9845119, -0.30674013, -2.9390526, -0.6046178, -2.86513, -0.89212525, -2.7642515, -1.1677547, -2.6379254, -1.4299984, -2.4876592, -1.6773486, -2.3149607, -1.9082975, -2.1213374, -2.1213374, -1.9082975, -2.3149607, -1.6773486, -2.4876592, -1.4299984, -2.6379254, -1.1677547, -2.7642517, -0.89212525, -2.86513, -0.6046178, -2.9390526, -0.30674013, -2.9845119, 0, -3, 0.30674013, -2.9845119, 0.6046178, -2.9390526, 0.89212525, -2.86513, 1.1677547, -2.7642515, 1.4299984, -2.6379254, 1.6773486, -2.4876592, 1.9082975, -2.3149607, 2.1213374, -2.1213374, 2.3149607, -1.9082975, 2.4876592, -1.6773486, 2.6379254, -1.4299984, 2.7642517, -1.1677547, 2.86513, -0.89212525, 2.9390526, -0.6046178, 2.9845119, -0.30674013)
+metadata/_edit_lock_ = true
+
+[node name="LegUR" type="Node2D" parent="Human" unique_id=1508833727 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(70.5, 88)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_dgh3d")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_8viy2")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/LegUR"),
+3: NodePath("../../Skeleton2D/Root/Body/LegUR")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/LegUR" unique_id=1972184598]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-4.5, -8, -0.5, -8, 4.5, 8, 0.5, 8)
+metadata/_edit_lock_ = true
+
+[node name="LegDR" type="Node2D" parent="Human" unique_id=1384931857 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(72.5, 102.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_2ij7b")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_oi0da")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/LegUR/LegDR"),
+3: NodePath("../../Skeleton2D/Root/Body/LegUR/LegDR")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/LegDR" unique_id=2100815712]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-1.5, -6.5, 2.5, -6.5, 1.5, 6.5, -2.5, 6.5)
+metadata/_edit_lock_ = true
+
+[node name="FootR" type="Node2D" parent="Human" unique_id=628980559 node_paths=PackedStringArray("polygon")]
+position = Vector2(75, 110.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_jmu1s")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_4dh7b")
+
+[node name="Fill" type="Polygon2D" parent="Human/FootR" unique_id=2065585567]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-5, -1.5, -1, -1.5, 5, 1.5, -5, 1.5)
+metadata/_edit_lock_ = true
+
+[node name="LegUL" type="Node2D" parent="Human" unique_id=79077460 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(60, 88)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_38ivb")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ryv0r")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/LegUL"),
+3: NodePath("../../Skeleton2D/Root/Body/LegUL")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/LegUL" unique_id=262746066]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-2, -8, 2, -8, 2, 8, -2, 8)
+metadata/_edit_lock_ = true
+
+[node name="LegDL" type="Node2D" parent="Human" unique_id=1535136577 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(59.5, 102.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_c1v5p")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_6orwq")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/LegUL/LegDL"),
+3: NodePath("../../Skeleton2D/Root/Body/LegUL/LegDL")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/LegDL" unique_id=480205153]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-1.5, -6.5, 2.5, -6.5, 1.5, 6.5, -2.5, 6.5)
+metadata/_edit_lock_ = true
+
+[node name="FootL" type="Node2D" parent="Human" unique_id=1996899650 node_paths=PackedStringArray("polygon")]
+position = Vector2(62, 110.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_vnxlo")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_uj50r")
+
+[node name="Fill" type="Polygon2D" parent="Human/FootL" unique_id=2118908836]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-5, -1.5, -1, -1.5, 5, 1.5, -5, 1.5)
+metadata/_edit_lock_ = true
+
+[node name="PantUL" type="Node2D" parent="Human" unique_id=1813133788 node_paths=PackedStringArray("polygon")]
+position = Vector2(60.5, 88)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_owxhk")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_rwlcv")
+
+[node name="Fill" type="Polygon2D" parent="Human/PantUL" unique_id=1366390475]
+color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = PackedVector2Array(-2.5, -8, 3.5, -9, 2.5, 9, -3.5, 9)
+metadata/_edit_lock_ = true
+
+[node name="PantRoot" type="Node2D" parent="Human" unique_id=1842270113 node_paths=PackedStringArray("polygon")]
+position = Vector2(64.5, 76.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_yi4wh")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_075ng")
+
+[node name="Fill" type="Polygon2D" parent="Human/PantRoot" unique_id=2114720052]
+color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = PackedVector2Array(-7.5, -6.5, 7.5, -3.5, 7.5, 4.5, -7.5, 6.5)
+metadata/_edit_lock_ = true
+
+[node name="PantDR" type="Node2D" parent="Human" unique_id=835927165 node_paths=PackedStringArray("polygon")]
+position = Vector2(72, 103)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_hmao8")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_veox6")
+
+[node name="Fill" type="Polygon2D" parent="Human/PantDR" unique_id=507871328]
+color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = PackedVector2Array(-2, -7, 4, -7, 2, 7, -4, 7)
+metadata/_edit_lock_ = true
+
+[node name="ShoeR" type="Node2D" parent="Human" unique_id=620974474 node_paths=PackedStringArray("polygon")]
+position = Vector2(74.5, 109.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_h0onu")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_vsa8a")
+
+[node name="Fill" type="Polygon2D" parent="Human/ShoeR" unique_id=503215786]
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = PackedVector2Array(-6.5, -1.5, -0.5, -2.5, 6.5, 2.5, -5.5, 2.5)
+metadata/_edit_lock_ = true
+
+[node name="PantUR" type="Node2D" parent="Human" unique_id=2047620494 node_paths=PackedStringArray("polygon")]
+position = Vector2(71, 88.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_unnmk")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_w2nlh")
+
+[node name="Fill" type="Polygon2D" parent="Human/PantUR" unique_id=1936736951]
+color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = PackedVector2Array(-6, -7.5, 1, -7.5, 6, 7.5, -1, 7.5)
+metadata/_edit_lock_ = true
+
+[node name="PantDR2" type="Node2D" parent="Human" unique_id=545417034 node_paths=PackedStringArray("polygon")]
+position = Vector2(59, 101)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_q7y86")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_p7h3d")
+
+[node name="Fill" type="Polygon2D" parent="Human/PantDR2" unique_id=2036521867]
+color = Color(0.17254902, 0.3529412, 0.627451, 1)
+polygon = PackedVector2Array(-2, -7, 4, -7, 2, 7, -4, 7)
+metadata/_edit_lock_ = true
+
+[node name="ShoeL" type="Node2D" parent="Human" unique_id=1482555279 node_paths=PackedStringArray("polygon")]
+position = Vector2(62, 109.5)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_urxvc")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_fh6oh")
+
+[node name="Fill" type="Polygon2D" parent="Human/ShoeL" unique_id=1001757515]
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = PackedVector2Array(-5, -2.5, 0, -2.5, 6, 2.5, -6, 2.5)
+metadata/_edit_lock_ = true
+
+[node name="Shirt" type="Node2D" parent="Human" unique_id=1469763216 node_paths=PackedStringArray("polygon")]
+position = Vector2(64.5, 62)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.23137255, 0.49019608, 0.84705883, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_x1yy8")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_mfvfb")
+
+[node name="Fill" type="Polygon2D" parent="Human/Shirt" unique_id=105821559]
+color = Color(0.23137255, 0.49019608, 0.84705883, 1)
+polygon = PackedVector2Array(-6.5, -15, 7.5, -15, 7.5, 14, -7.5, 15)
+metadata/_edit_lock_ = true
+
+[node name="ArmUL" type="Node2D" parent="Human" unique_id=1611919484 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(54.5, 55)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_i8uct")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_tocl2")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/ArmUL"),
+3: NodePath("../../Skeleton2D/Root/Body/ArmUL"),
+4: NodePath("../../Skeleton2D/Root/Body/ArmUL")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/ArmUL" unique_id=273858517]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(4.5, -7, 4.5, -4, -1.5, 7, -4.5, 6, 1.5, -5)
+metadata/_edit_lock_ = true
+
+[node name="ArmDL" type="Node2D" parent="Human" unique_id=1676496198 node_paths=PackedStringArray("polygon", "skeleton", "bone", "deformation_map")]
+position = Vector2(52, 61)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_3or8w")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ppbxc")
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/ArmUL/ArmDL")
+deformation_map = {
+2: NodePath("../../Skeleton2D/Root/Body/ArmUL"),
+3: NodePath("../../Skeleton2D/Root/Body/ArmUL"),
+4: NodePath("../../Skeleton2D/Root/Body/ArmUL")
+}
+
+[node name="Fill" type="Polygon2D" parent="Human/ArmDL" unique_id=1457861558]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(-2, 0, 1, 0, 0, 9, -3, 9)
+metadata/_edit_lock_ = true
+
+[node name="SwordL" type="Node2D" parent="Human" unique_id=785466884 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(55, 70)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_5n0yb")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_2rmp5")
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/ArmUL/ArmDL/HandL/SwordL")
+
+[node name="Fill" type="Polygon2D" parent="Human/SwordL" unique_id=313941461]
+color = Color(0.16862746, 0.16862746, 0.16862746, 1)
+polygon = PackedVector2Array(23, -10, 57, -22, 24, -7, 0, 2, -8, 5, -9, 3, -1, 0)
+metadata/_edit_lock_ = true
+
+[node name="HandL" type="Node2D" parent="Human" unique_id=575505948 node_paths=PackedStringArray("polygon", "skeleton", "bone")]
+position = Vector2(51, 72)
+script = ExtResource("1_g5mj2")
+fill_color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_gxvn1")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ftjom")
+shape_type = 2
+size = Vector2(6, 6)
+rx = 3.0
+ry = 3.0
+skeleton = NodePath("../../Skeleton2D")
+bone = NodePath("../../Skeleton2D/Root/Body/ArmUL/ArmDL/HandL")
+
+[node name="Fill" type="Polygon2D" parent="Human/HandL" unique_id=834056652]
+color = Color(0.9490196, 0.7764706, 0.627451, 1)
+polygon = PackedVector2Array(3, 0, 2.9845119, 0.30674013, 2.9390526, 0.6046178, 2.86513, 0.89212525, 2.7642515, 1.1677547, 2.6379254, 1.4299984, 2.4876592, 1.6773486, 2.3149607, 1.9082975, 2.1213374, 2.1213374, 1.9082975, 2.3149607, 1.6773486, 2.4876592, 1.4299984, 2.6379254, 1.1677547, 2.7642517, 0.89212525, 2.86513, 0.6046178, 2.9390526, 0.30674013, 2.9845119, 0, 3, -0.30674013, 2.9845119, -0.6046178, 2.9390526, -0.89212525, 2.86513, -1.1677547, 2.7642515, -1.4299984, 2.6379254, -1.6773486, 2.4876592, -1.9082975, 2.3149607, -2.1213374, 2.1213374, -2.3149607, 1.9082975, -2.4876592, 1.6773486, -2.6379254, 1.4299984, -2.7642517, 1.1677547, -2.86513, 0.89212525, -2.9390526, 0.6046178, -2.9845119, 0.30674013, -3, 0, -2.9845119, -0.30674013, -2.9390526, -0.6046178, -2.86513, -0.89212525, -2.7642515, -1.1677547, -2.6379254, -1.4299984, -2.4876592, -1.6773486, -2.3149607, -1.9082975, -2.1213374, -2.1213374, -1.9082975, -2.3149607, -1.6773486, -2.4876592, -1.4299984, -2.6379254, -1.1677547, -2.7642517, -0.89212525, -2.86513, -0.6046178, -2.9390526, -0.30674013, -2.9845119, 0, -3, 0.30674013, -2.9845119, 0.6046178, -2.9390526, 0.89212525, -2.86513, 1.1677547, -2.7642515, 1.4299984, -2.6379254, 1.6773486, -2.4876592, 1.9082975, -2.3149607, 2.1213374, -2.1213374, 2.3149607, -1.9082975, 2.4876592, -1.6773486, 2.6379254, -1.4299984, 2.7642517, -1.1677547, 2.86513, -0.89212525, 2.9390526, -0.6046178, 2.9845119, -0.30674013)
+metadata/_edit_lock_ = true
+
+[node name="Skeleton2D" type="Skeleton2D" parent="." unique_id=1114720994]
+visible = false
+
+[node name="Root" type="Bone2D" parent="Skeleton2D" unique_id=684857855]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="Body" type="Bone2D" parent="Skeleton2D/Root" unique_id=1657184040]
+position = Vector2(0, -50)
+rest = Transform2D(1, 0, 0, 1, 0, -50)
+
+[node name="Neck" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=991164138]
+position = Vector2(0, -17)
+rest = Transform2D(1, 0, 0, 1, 0, -17)
+
+[node name="Head" type="Bone2D" parent="Skeleton2D/Root/Body/Neck" unique_id=310555616]
+position = Vector2(1, -9)
+rest = Transform2D(1, 0, 0, 1, 1, -9)
+
+[node name="EyeL" type="Bone2D" parent="Skeleton2D/Root/Body/Neck/Head" unique_id=17454277]
+position = Vector2(-1, 1)
+rest = Transform2D(1, 0, 0, 1, -1, 1)
+
+[node name="EyeR" type="Bone2D" parent="Skeleton2D/Root/Body/Neck/Head" unique_id=1760310439]
+position = Vector2(4, -3)
+rest = Transform2D(1, 0, 0, 1, 4, -3)
+
+[node name="EarL" type="Bone2D" parent="Skeleton2D/Root/Body/Neck/Head" unique_id=1349645232]
+position = Vector2(-8, 0)
+rest = Transform2D(1, 0, 0, 1, -8, 0)
+
+[node name="EarR" type="Bone2D" parent="Skeleton2D/Root/Body/Neck/Head" unique_id=380396897]
+position = Vector2(6, -5)
+rest = Transform2D(1, 0, 0, 1, 6, -5)
+
+[node name="Hair" type="Bone2D" parent="Skeleton2D/Root/Body/Neck/Head" unique_id=1212876821]
+position = Vector2(1, -7)
+rest = Transform2D(1, 0, 0, 1, 1, -7)
+
+[node name="ArmUL" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=1452846693]
+position = Vector2(-6, -11)
+rest = Transform2D(1, 0, 0, 1, -6, -11)
+
+[node name="ArmDL" type="Bone2D" parent="Skeleton2D/Root/Body/ArmUL" unique_id=1552051319]
+position = Vector2(-6, 10)
+rest = Transform2D(1, 0, 0, 1, -6, 10)
+
+[node name="HandL" type="Bone2D" parent="Skeleton2D/Root/Body/ArmUL/ArmDL" unique_id=505486294]
+position = Vector2(-1, 11)
+rest = Transform2D(1, 0, 0, 1, -1, 11)
+
+[node name="SwordL" type="Bone2D" parent="Skeleton2D/Root/Body/ArmUL/ArmDL/HandL" unique_id=559685340]
+position = Vector2(4, -2)
+rest = Transform2D(1, 0, 0, 1, 4, -2)
+
+[node name="ArmUR" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=1032560368]
+position = Vector2(8, -12)
+rest = Transform2D(1, 0, 0, 1, 8, -12)
+
+[node name="ArmDR" type="Bone2D" parent="Skeleton2D/Root/Body/ArmUR" unique_id=1798027940]
+position = Vector2(7, 7)
+rest = Transform2D(1, 0, 0, 1, 7, 7)
+
+[node name="HandR" type="Bone2D" parent="Skeleton2D/Root/Body/ArmUR/ArmDR" unique_id=2108608476]
+position = Vector2(3, 8)
+rest = Transform2D(1, 0, 0, 1, 3, 8)
+
+[node name="LegUL" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=43637835]
+position = Vector2(-4, 19)
+rest = Transform2D(1, 0, 0, 1, -4, 19)
+
+[node name="LegDL" type="Bone2D" parent="Skeleton2D/Root/Body/LegUL" unique_id=1849031192]
+position = Vector2(0, 12)
+rest = Transform2D(1, 0, 0, 1, 0, 12)
+
+[node name="LegUR" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=971399509]
+position = Vector2(6, 19)
+rest = Transform2D(1, 0, 0, 1, 6, 19)
+
+[node name="LegDR" type="Bone2D" parent="Skeleton2D/Root/Body/LegUR" unique_id=1524781578]
+position = Vector2(2, 13)
+rest = Transform2D(1, 0, 0, 1, 2, 13)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=843640311]
+libraries/ = SubResource("AnimationLibrary_7mky2")
+
+[node name="AnimationTree" type="AnimationTree" parent="." unique_id=1265409848]
+tree_root = SubResource("AnimationNodeStateMachine_g5mj2")
+advance_expression_base_node = NodePath("..")
+anim_player = NodePath("../AnimationPlayer")

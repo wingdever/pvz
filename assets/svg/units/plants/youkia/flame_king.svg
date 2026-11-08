@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Flame-king. Scythe occupies roughly half the canvas. Double-bladed
+  scythe with extra-curly horns. Ground fire smaller than before so the
+  scythe dominates.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- small ground fire -->
+  <polygon points="44,116 54,102 62,112 70,100 78,112 86,102 94,116 90,124 48,124" fill="#F4A020"/>
+  <polygon points="54,116 60,106 66,114 72,106 78,116 74,122 58,122" fill="#FFD040"/>
+
+  <!-- bat wings -->
+  <polygon points="0,72 20,60 28,78 12,88 26,96 12,108 -2,100" fill="#1A3A5A"/>
+  <polygon points="128,72 108,60 100,78 116,88 102,96 116,108 130,100" fill="#1A3A5A"/>
+  <polygon points="4,76 18,68 20,80 6,88" fill="#2196F3"/>
+  <polygon points="124,76 110,68 108,80 122,88" fill="#2196F3"/>
+
+  <!-- wing fire -->
+  <polygon points="4,54 14,28 26,48 36,24 46,50 36,68 18,70 8,62" fill="#F4A020"/>
+  <polygon points="12,54 20,34 28,50 34,34 40,52 30,64 20,62" fill="#FFD040"/>
+  <polygon points="124,54 114,28 102,48 92,24 82,50 92,68 110,70 120,62" fill="#F4A020"/>
+  <polygon points="116,54 108,34 100,50 94,34 88,52 98,64 108,62" fill="#FFD040"/>
+
+  <!-- extra-curly horns: drawn before leaves -->
+  <polygon points="48,56 26,4 44,20 38,36 58,44" fill="#4A2E1A"/>
+  <polygon points="26,16 30,0 42,10 38,22" fill="#4A2E1A"/>
+  <polygon points="80,56 102,4 84,20 90,36 70,44" fill="#4A2E1A"/>
+  <polygon points="102,16 98,0 86,10 90,22" fill="#4A2E1A"/>
+
+  <!-- leaves -->
+  <polygon points="60,46 68,46 66,34 62,34" fill="#2E7D32"/>
+  <polygon points="60,42 46,36 52,46 60,50" fill="#4CAF50"/>
+  <polygon points="68,42 82,36 76,46 68,50" fill="#4CAF50"/>
+
+  <!-- pumpkin body -->
+  <polygon points="42,66 50,50 64,46 78,50 86,66 86,96 78,108 64,114 50,108 42,96" fill="#E88A10"/>
+  <polygon points="54,50 58,50 58,112 54,110" fill="#C87000"/>
+  <polygon points="70,50 74,50 74,110 70,112" fill="#C87000"/>
+
+  <!-- face -->
+  <polygon points="46,72 58,68 60,76 48,80" fill="#FFD040"/>
+  <polygon points="70,68 82,72 80,80 68,76" fill="#FFD040"/>
+  <polygon points="46,88 54,86 58,92 66,86 74,90 82,86 78,98 70,96 64,100 56,96" fill="#FFD040"/>
+
+  <!-- green fists -->
+  <circle cx="30" cy="94" r="8" fill="#4CAF50"/>
+  <circle cx="30" cy="94" r="4" fill="#2E7D32"/>
+  <circle cx="98" cy="98" r="8" fill="#4CAF50"/>
+  <circle cx="98" cy="98" r="4" fill="#2E7D32"/>
+
+  <!-- HUGE scythe: pole nearly across the whole canvas -->
+  <polygon points="-10,96 122,32 126,40 0,106" fill="#8B5A2B"/>
+
+  <!-- scythe: top blade, very large -->
+  <polygon points="110,32 128,2 154,0 146,26 122,44" fill="#C83040"/>
+  <polygon points="114,32 128,8 144,4 138,22 122,38" fill="#F0E8E0"/>
+
+  <!-- scythe: bottom blade, large -->
+  <polygon points="66,66 88,68 104,84 80,84 62,74" fill="#C83040"/>
+  <polygon points="72,68 88,72 100,82 82,80 68,74" fill="#F0E8E0"/>
+</svg>

@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dd1ql08j0rov5"]
+
+[node name="Shell" type="Node2D" unique_id=1645379286]
+
+[node name="MenuLayer" type="CanvasLayer" parent="." unique_id=1818647515]
+layer = 20
+
+[node name="GardenLayer" type="CanvasLayer" parent="." unique_id=1503505837]
+layer = 20

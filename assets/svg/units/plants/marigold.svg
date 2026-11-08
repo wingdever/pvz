@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, marigold.
+
+  Same stem + leaves + silhouette rules as sunflower.svg, only the head
+  is swapped: a ring of white petals around a yellow centre, with a
+  simple face. Pure fills, no strokes.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: same as sunflower -->
+  <polygon points="58,112 70,112 67,62 61,62" fill="#2D8636"/>
+  <!-- leaves: same two kites -->
+  <polygon points="62,94 22,74 18,88 58,104" fill="#38A843"/>
+  <polygon points="66,94 106,74 110,88 70,104" fill="#38A843"/>
+
+  <!-- petals: 10 white triangles around the centre, drawn as one ring layer -->
+  <polygon points="64,6  74,16 64,20 54,16" fill="#FFFFFF"/>
+  <polygon points="88,14 90,28 80,26 78,16" fill="#FFFFFF"/>
+  <polygon points="108,32 102,44 94,36 100,28" fill="#FFFFFF"/>
+  <polygon points="118,54 108,60 106,50 114,44" fill="#FFFFFF"/>
+  <polygon points="108,76 96,78 98,68 108,66" fill="#FFFFFF"/>
+  <polygon points="88,94 78,90 84,80 92,86" fill="#FFFFFF"/>
+  <polygon points="64,100 54,90 64,86 74,90" fill="#FFFFFF"/>
+  <polygon points="40,94 30,88 34,78 44,82" fill="#FFFFFF"/>
+  <polygon points="20,76 10,66 18,60 28,68" fill="#FFFFFF"/>
+  <polygon points="10,54 18,44 26,48 22,58" fill="#FFFFFF"/>
+  <polygon points="20,32 32,28 36,38 28,44" fill="#FFFFFF"/>
+  <polygon points="40,14 50,14 46,24 38,22" fill="#FFFFFF"/>
+
+  <!-- centre: yellow disc -->
+  <circle cx="64" cy="52" r="24" fill="#F4C430"/>
+  <!-- inner shade: slightly darker ring -->
+  <circle cx="64" cy="52" r="18" fill="#E8B520"/>
+
+  <!-- eyes -->
+  <circle cx="56" cy="50" r="3" fill="#2A2A2A"/>
+  <circle cx="72" cy="50" r="3" fill="#2A2A2A"/>
+  <circle cx="57" cy="49" r="1" fill="#FFFFFF"/>
+  <circle cx="73" cy="49" r="1" fill="#FFFFFF"/>
+
+  <!-- brows: short green strips -->
+  <polygon points="50,44 60,43 60,45 50,46" fill="#4CAF50"/>
+  <polygon points="68,43 78,44 78,46 68,45" fill="#4CAF50"/>
+
+  <!-- smile -->
+  <polygon points="52,60 58,64 70,64 76,60 74,62 70,66 58,66 54,62" fill="#8B5A2B"/>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, peashooter.
+
+  Canvas 128x128. Unit._draw_body() draws this into a 60x60 box centred on the
+  cell centre (Balance.UNIT_ART_SIZE), so the art must stay inside roughly
+  x 4..124 and y 4..124 with the plant standing near the bottom.
+
+  Shape rules (see docs/HANDOFF.md 7.19): pure fills, no strokes, one flat
+  colour per part, parts separated by lightness only.
+    head  trapezoid lying on its side: tall at the back, narrowing to the
+          MOUTH on the right - that narrow edge is where the pea comes out
+    body  tapered stem, thicker at the root
+    arms  two leaves, left and right
+          (the sunflower shares body + arms and only swaps the head for a circle)
+
+  Palette mirrors Balance.COLOR_PEASHOOTER (0.25, 0.75, 0.30) = #40BF4D and its
+  darkened variants. SVG cannot read GDScript constants, so re-colour both
+  places when you change one.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: tapered stalk, 12 px at the root, 6 px where the head sits -->
+  <polygon points="58,112 70,112 67,58 61,58" fill="#2D8636"/>
+  <!-- leaves: two kites, the balance arms -->
+  <polygon points="62,92 22,72 18,86 58,102" fill="#38A843"/>
+  <polygon points="66,92 106,72 110,86 70,102" fill="#38A843"/>
+  <!-- head: trapezoid on its side - 38 px tall at the back, tapering to an
+       18 px MOUTH on the right (x 90, y 40..58). Same 52x38 bounding box as
+       the first version, just turned 90 degrees so the narrow edge is the
+       muzzle. Keep the mouth at the right edge: the pea is spawned there. -->
+  <polygon points="38,30 90,40 90,58 38,68" fill="#40BF4D"/>
+</svg>

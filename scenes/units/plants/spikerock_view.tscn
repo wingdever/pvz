@@ -1,0 +1,626 @@
+[gd_scene format=3 uid="uid://bpkwdgp5tdtco"]
+
+[ext_resource type="Script" uid="uid://de3jpss66xjfh" path="res://addons/curved_lines_2d/scalable_vector_shape_2d.gd" id="1_whnwy"]
+[ext_resource type="Script" uid="uid://dlbv4pit17dnu" path="res://addons/curved_lines_2d/scalable_arc.gd" id="2_xta4g"]
+[ext_resource type="Script" uid="uid://dl1t88tthmwts" path="res://addons/curved_lines_2d/scalable_arc_list.gd" id="3_6w05v"]
+
+[sub_resource type="Curve2D" id="Curve2D_f42np"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, 13, 0, 0, 0, 0, 0, -13, 0, 0, 0, 0, 6, 13, 0, 0, 0, 0, -6, 13)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_ue3pt"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_gbc78"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, 17, 0, 0, 0, 0, 0, -17, 0, 0, 0, 0, 6, 17, 0, 0, 0, 0, -6, 17)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_2dhe5"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_xvfsa"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, 21, 0, 0, 0, 0, 0, -21, 0, 0, 0, 0, 6, 21, 0, 0, 0, 0, -6, 21)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_xjj7j"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_cfo5d"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, 21, 0, 0, 0, 0, 0, -21, 0, 0, 0, 0, 6, 21, 0, 0, 0, 0, -6, 21)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_jbgjm"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_uqhtu"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, 17, 0, 0, 0, 0, 0, -17, 0, 0, 0, 0, 6, 17, 0, 0, 0, 0, -6, 17)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_iwhpq"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_xp0lu"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, 13, 0, 0, 0, 0, 0, -13, 0, 0, 0, 0, 6, 13, 0, 0, 0, 0, -6, 13)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_mkglf"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_2kuvl"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -8, 37, 0, 0, 0, 0, 0, -37, 0, 0, 0, 0, 8, 37, 0, 0, 0, 0, -8, 37)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_01pfr"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_yinx7"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -4, -37, 0, 0, 0, 0, 4, 37, 0, 0, 0, 0, -4, 37, 0, 0, 0, 0, -4, -37)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_e6osm"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_deo1l"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 25, 0, 0, 0, 0, -8, -25, 0, 0, 0, 0, 8, 21, 0, 0, 0, 0, 0, 25)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_mr4dj"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_3q2hj"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 4, 25, 0, 0, 0, 0, -4, -25, 0, 0, 0, 0, 4, 19, 0, 0, 0, 0, 4, 25)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_8oqwu"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_ucirw"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 8, -25, 0, 0, 0, 0, -8, 21, 0, 0, 0, 0, 0, 25)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_ifjuq"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_g3ohm"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -58, -3, 0, 0, 0, 0, -46, -11, 0, 0, 0, 0, -26, -15, 0, 0, 0, 0, 0, -17, 0, 0, 0, 0, 26, -15, 0, 0, 0, 0, 46, -11, 0, 0, 0, 0, 58, -3, 0, 0, 0, 0, 54, 11, 0, 0, 0, 0, 26, 15, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, -26, 15, 0, 0, 0, 0, -54, 11, 0, 0, 0, 0, -58, -3)
+}
+point_count = 13
+
+[sub_resource type="Resource" id="Resource_5edei"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_vqn6c"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -54, -5, 0, 0, 0, 0, -26, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 26, -1, 0, 0, 0, 0, 54, -5, 0, 0, 0, 0, 54, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, -54, 1, 0, 0, 0, 0, -54, -5)
+}
+point_count = 9
+
+[sub_resource type="Resource" id="Resource_rtrlp"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_madgy"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -16, -15, 0, 0, 0, 0, 4, -11, 0, 0, 0, 0, 16, -3, 0, 0, 0, 0, 12, 11, 0, 0, 0, 0, -16, 15, 0, 0, 0, 0, -16, -15)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_skiww"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_e6f5y"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -10, -4, 0, 0, 0, 0, 8, -6, 0, 0, 0, 0, 10, 4, 0, 0, 0, 0, -8, 6, 0, 0, 0, 0, -10, -4)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_lia53"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_4a14b"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -8, -6, 0, 0, 0, 0, 10, -4, 0, 0, 0, 0, 8, 6, 0, 0, 0, 0, -10, 4, 0, 0, 0, 0, -8, -6)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_krd3n"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_2t7le"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, -3, 0, 0, 0, 0, 3, -4, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, -3, 4, 0, 0, 0, 0, -3, -3)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_74j5s"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Curve2D" id="Curve2D_ytdwx"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, -4, 0, 0, 0, 0, 3, -3, 0, 0, 0, 0, 3, 4, 0, 0, 0, 0, -3, 3, 0, 0, 0, 0, -3, -4)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_blx3l"]
+resource_local_to_scene = true
+script = ExtResource("3_6w05v")
+
+[sub_resource type="Animation" id="Animation_xta4g"]
+resource_name = "idle"
+length = 0.39999999999999997
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/spike1:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [29.000002, 60.0, 29.000002]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/spike2:position:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [30.000002]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Spikerock/spike3:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [50.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Skeleton2D/Root/spike3:position:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [32.0]
+}
+
+[sub_resource type="Animation" id="Animation_6w05v"]
+resource_name = "spike_attack"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/spike1:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.16666667, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [29.000002, 60.0, 29.000002]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/spike2:position:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.13333334, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [30.000002, 60.0, 30.000002]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton2D/Root/spike3:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.13333334, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [32.0, 60.0, 32.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_f42np"]
+_data = {
+&"idle": SubResource("Animation_xta4g"),
+&"spike_attack": SubResource("Animation_6w05v")
+}
+
+[node name="Node2D" type="Node2D" unique_id=2006668147]
+
+[node name="Spikerock" type="Node2D" parent="." unique_id=2102214668]
+position = Vector2(-64, -112)
+metadata/svg_root = true
+
+[node name="spike1" type="Node2D" parent="Spikerock" unique_id=977161477 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(24, 79)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_f42np")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ue3pt")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/spike1")
+}
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/spike1" unique_id=123545995]
+color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = PackedVector2Array(-6, 13, -3.8146973e-06, -32.470634, 6, 13)
+metadata/_edit_lock_ = true
+
+[node name="spike2" type="Node2D" parent="Spikerock" unique_id=1369631860 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(36, 75)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_gbc78")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_2dhe5")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/spike2")
+}
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/spike2" unique_id=1105577901]
+color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = PackedVector2Array(-6, 17, 0, -17, 6, 17)
+metadata/_edit_lock_ = true
+
+[node name="spike3" type="Node2D" parent="Spikerock" unique_id=507721943 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(50, 68)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_xvfsa")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_xjj7j")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/spike3")
+}
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/spike3" unique_id=2024847878]
+color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = PackedVector2Array(-6, 21, 0, -21, 6, 21)
+metadata/_edit_lock_ = true
+
+[node name="spike4" type="Node2D" parent="Spikerock" unique_id=360498858 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(78, 71)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_cfo5d")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_jbgjm")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/spike4")
+}
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/spike4" unique_id=1099880372]
+color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = PackedVector2Array(-6, 21, 0, -21, 6, 21)
+metadata/_edit_lock_ = true
+
+[node name="spike5" type="Node2D" parent="Spikerock" unique_id=1248156289 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(92, 75)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_uqhtu")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_iwhpq")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/spike5")
+}
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/spike5" unique_id=1094269945]
+color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = PackedVector2Array(-6, 17, 0, -17, 6, 17)
+metadata/_edit_lock_ = true
+
+[node name="spike6" type="Node2D" parent="Spikerock" unique_id=766301194 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(104, 79)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_xp0lu")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_mkglf")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+1: NodePath("../../Skeleton2D/Root/spike6")
+}
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/spike6" unique_id=1983862767]
+color = Color(0.65882355, 0.65882355, 0.6901961, 1)
+polygon = PackedVector2Array(-6, 13, 0, -13, 6, 13)
+metadata/_edit_lock_ = true
+
+[node name="Polygon7" type="Node2D" parent="Spikerock" unique_id=409168838 node_paths=PackedStringArray("polygon")]
+position = Vector2(64, 55)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.9411765, 0.9411765, 0.972549, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_2kuvl")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_01pfr")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon7" unique_id=848618389]
+color = Color(0.9411765, 0.9411765, 0.972549, 1)
+polygon = PackedVector2Array(-8, 37, 0, -37, 8, 37)
+metadata/_edit_lock_ = true
+
+[node name="Polygon8" type="Node2D" parent="Spikerock" unique_id=1806120944 node_paths=PackedStringArray("polygon")]
+position = Vector2(68, 55)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.78431374, 0.78431374, 0.84705883, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_yinx7")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_e6osm")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon8" unique_id=1364797542]
+color = Color(0.78431374, 0.78431374, 0.84705883, 1)
+polygon = PackedVector2Array(-4, -37, 4, 37, -4, 37)
+metadata/_edit_lock_ = true
+
+[node name="Polygon9" type="Node2D" parent="Spikerock" unique_id=1977618509 node_paths=PackedStringArray("polygon")]
+position = Vector2(22, 67)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.9411765, 0.9411765, 0.972549, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_deo1l")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_mr4dj")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon9" unique_id=856290532]
+color = Color(0.9411765, 0.9411765, 0.972549, 1)
+polygon = PackedVector2Array(0, 25, -8, -25, 8, 21)
+metadata/_edit_lock_ = true
+
+[node name="Polygon10" type="Node2D" parent="Spikerock" unique_id=193283755 node_paths=PackedStringArray("polygon")]
+position = Vector2(18, 67)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.78431374, 0.78431374, 0.84705883, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_3q2hj")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_8oqwu")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon10" unique_id=1155868514]
+color = Color(0.78431374, 0.78431374, 0.84705883, 1)
+polygon = PackedVector2Array(4, 25, -4, -25, 4, 19)
+metadata/_edit_lock_ = true
+
+[node name="Polygon11" type="Node2D" parent="Spikerock" unique_id=1926309736 node_paths=PackedStringArray("polygon")]
+position = Vector2(106, 67)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.9411765, 0.9411765, 0.972549, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_ucirw")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ifjuq")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon11" unique_id=2011781038]
+color = Color(0.9411765, 0.9411765, 0.972549, 1)
+polygon = PackedVector2Array(0, 25, 8, -25, -8, 21)
+metadata/_edit_lock_ = true
+
+[node name="stem" type="Node2D" parent="Spikerock" unique_id=1087349782]
+position = Vector2(2, -12)
+
+[node name="stem1" type="Node2D" parent="Spikerock/stem" unique_id=174454386 node_paths=PackedStringArray("polygon")]
+position = Vector2(64, 105)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.3529412, 0.3529412, 0.38431373, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_g3ohm")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_5edei")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/stem/stem1" unique_id=1954807528]
+color = Color(0.3529412, 0.3529412, 0.38431373, 1)
+polygon = PackedVector2Array(-58, -3, -46, -11, -26, -15, 0, -17, 26, -15, 46, -11, 58, -3, 54, 11, 26, 15, 0, 17, -26, 15, -54, 11)
+metadata/_edit_lock_ = true
+
+[node name="stem_shade" type="Node2D" parent="Spikerock/stem" unique_id=595326496 node_paths=PackedStringArray("polygon")]
+position = Vector2(64, 121)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.22745098, 0.22745098, 0.25882354, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_vqn6c")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_rtrlp")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/stem/stem_shade" unique_id=76374952]
+color = Color(0.22745098, 0.22745098, 0.25882354, 1)
+polygon = PackedVector2Array(-54, -5, -26, -1, 0, 1, 26, -1, 54, -5, 54, 1, 0, 5, -54, 1)
+metadata/_edit_lock_ = true
+
+[node name="stem_shade_right" type="Node2D" parent="Spikerock/stem" unique_id=1178017678 node_paths=PackedStringArray("polygon")]
+position = Vector2(106, 105)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.2901961, 0.2901961, 0.32156864, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_madgy")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_skiww")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/stem/stem_shade_right" unique_id=350219771]
+color = Color(0.2901961, 0.2901961, 0.32156864, 1)
+polygon = PackedVector2Array(-16, -15, 4, -11, 16, -3, 12, 11, -16, 15)
+metadata/_edit_lock_ = true
+
+[node name="Polygon13" type="Node2D" parent="Spikerock" unique_id=1314879274 node_paths=PackedStringArray("polygon")]
+position = Vector2(50, 92)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.95686275, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_e6f5y")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_lia53")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon13" unique_id=717689406]
+color = Color(0.95686275, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-10, -4, 8, -6, 10, 4, -8, 6)
+metadata/_edit_lock_ = true
+
+[node name="Polygon14" type="Node2D" parent="Spikerock" unique_id=89822293 node_paths=PackedStringArray("polygon")]
+position = Vector2(78, 92)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.95686275, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_4a14b")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_krd3n")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon14" unique_id=1362884615]
+color = Color(0.95686275, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-8, -6, 10, -4, 8, 6, -10, 4)
+metadata/_edit_lock_ = true
+
+[node name="Polygon15" type="Node2D" parent="Spikerock" unique_id=972435117 node_paths=PackedStringArray("polygon")]
+position = Vector2(55, 91)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.8980392, 0.22352941, 0.20784314, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_2t7le")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_74j5s")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon15" unique_id=1814972708]
+color = Color(0.8980392, 0.22352941, 0.20784314, 1)
+polygon = PackedVector2Array(-3, -3, 3, -4, 3, 3, -3, 4)
+metadata/_edit_lock_ = true
+
+[node name="Polygon16" type="Node2D" parent="Spikerock" unique_id=1725369161 node_paths=PackedStringArray("polygon")]
+position = Vector2(73, 91)
+script = ExtResource("1_whnwy")
+fill_color = Color(0.8980392, 0.22352941, 0.20784314, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_ytdwx")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_blx3l")
+
+[node name="Fill" type="Polygon2D" parent="Spikerock/Polygon16" unique_id=1742027473]
+color = Color(0.8980392, 0.22352941, 0.20784314, 1)
+polygon = PackedVector2Array(-3, -4, 3, -3, 3, 4, -3, 3)
+metadata/_edit_lock_ = true
+
+[node name="Skeleton2D" type="Skeleton2D" parent="." unique_id=123076477]
+visible = false
+
+[node name="Root" type="Bone2D" parent="Skeleton2D" unique_id=331765928]
+rotation = -1.5707964
+rest = Transform2D(-4.371139e-08, -1, 1, -4.371139e-08, 0, 0)
+
+[node name="spike1" type="Bone2D" parent="Skeleton2D/Root" unique_id=946879671]
+position = Vector2(29.000002, -41)
+rest = Transform2D(1, 0, 0, 1, 29.000002, -41)
+
+[node name="spike2" type="Bone2D" parent="Skeleton2D/Root" unique_id=1486174728]
+position = Vector2(30.000002, -27.999998)
+rest = Transform2D(1, 0, 0, 1, 30.000002, -27.999998)
+
+[node name="spike3" type="Bone2D" parent="Skeleton2D/Root" unique_id=95458545]
+position = Vector2(32, -13.999999)
+rest = Transform2D(1, 0, 0, 1, 32, -13.999999)
+
+[node name="spike4" type="Bone2D" parent="Skeleton2D/Root" unique_id=481139523]
+position = Vector2(35, 14.000002)
+rest = Transform2D(1, 0, 0, 1, 35, 14.000002)
+
+[node name="spike5" type="Bone2D" parent="Skeleton2D/Root" unique_id=440428180]
+position = Vector2(30.999998, 28.000002)
+rest = Transform2D(1, 0, 0, 1, 30.999998, 28.000002)
+
+[node name="spike6" type="Bone2D" parent="Skeleton2D/Root" unique_id=599813124]
+position = Vector2(28.999998, 39)
+rest = Transform2D(1, 0, 0, 1, 28.999998, 39)
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Skeleton2D/Root" unique_id=123204438]
+position = Vector2(124, -61.999996)
+rotation = 1.5707964
+remote_path = NodePath("../../../Spikerock/stem")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=712791530]
+libraries/ = SubResource("AnimationLibrary_f42np")

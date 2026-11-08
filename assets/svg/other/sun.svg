@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, sun (the in-battle currency readout).
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    core  Balance.COLOR_SUNFLOWER (0.95,0.80,0.20)   #F2CC33
+    rays  darkened(0.16) of it                       #CBA92A
+  Four long rays on the axes plus four diagonal rays: readable at 20 px.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="56" y="4" width="16" height="26" fill="#CBA92A"/>
+  <rect x="56" y="98" width="16" height="26" fill="#CBA92A"/>
+  <rect x="4" y="56" width="26" height="16" fill="#CBA92A"/>
+  <rect x="98" y="56" width="26" height="16" fill="#CBA92A"/>
+  <polygon points="44,20 56,32 32,56 20,44" fill="#CBA92A"/>
+  <polygon points="84,20 108,44 96,56 72,32" fill="#CBA92A"/>
+  <polygon points="84,108 72,96 96,72 108,84" fill="#CBA92A"/>
+  <polygon points="44,108 20,84 32,72 56,96" fill="#CBA92A"/>
+  <circle cx="64" cy="64" r="30" fill="#F2CC33"/>
+</svg>

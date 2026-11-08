@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, energy bean (instantly re-resolves a plant's skill).
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+    bean   Balance.COLOR_PEA (0.80,0.95,0.35)   #CCF259
+    shade  darkened(0.28) of it                  #93AE40
+    bolt   Balance.COLOR_SUNFLOWER               #F2CC33
+  A bean with a lightning bolt: "energy" in one glance at 24 px.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <ellipse cx="64" cy="70" rx="40" ry="50" fill="#93AE40"/>
+  <ellipse cx="62" cy="66" rx="36" ry="46" fill="#CCF259"/>
+  <!-- bolt -->
+  <polygon points="70,32 44,74 60,74 54,104 82,60 66,60" fill="#F2CC33"/>
+  <!-- stem -->
+  <rect x="60" y="14" width="8" height="14" fill="#93AE40"/>
+</svg>

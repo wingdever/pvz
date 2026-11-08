@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, cherry bomb.
+
+  Two red cherries side by side, sharing one short stem and two leaves.
+  Flat fills only, no strokes, no shading.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem -->
+  <polygon points="60,64 68,64 66,40 62,40" fill="#2D8636"/>
+  <!-- leaves -->
+  <polygon points="62,56 34,44 38,54 62,62" fill="#38A843"/>
+  <polygon points="66,56 94,44 90,54 66,62" fill="#38A843"/>
+  <!-- left cherry -->
+  <circle cx="48" cy="82" r="22" fill="#E53935"/>
+  <!-- right cherry -->
+  <circle cx="80" cy="82" r="22" fill="#E53935"/>
+</svg>

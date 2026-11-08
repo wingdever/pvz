@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, starfruit.
+
+  Flat shapes only, no strokes.
+    star : five-pointed yellow star
+    stem : small green stem + two tiny leaves on top
+    face : two eyes with pupils, pink blush, small mouth with tongue
+  Colour follows the reference:
+    star light  #FFD040
+    star mid    #F4B820
+    star edge   #E8A000
+    stem        #4CAF50
+    eye white   #FFFFFF
+    pupil       #2A2A2A
+    blush       #F0A0B0
+    mouth       #C83040
+    tongue      #F06080
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem + two tiny leaves on top -->
+  <polygon points="62,18 68,18 68,6 62,6" fill="#4CAF50"/>
+  <polygon points="62,14 50,6 54,16 62,18" fill="#4CAF50"/>
+  <polygon points="68,14 80,6 76,16 68,18" fill="#4CAF50"/>
+
+  <!-- star: five-pointed yellow star, alternating long/short radii -->
+  <polygon points="64,20 74,50 106,50 80,70 88,102
+                   64,82 40,102 48,70 22,50 54,50"
+           fill="#F4B820"/>
+
+  <!-- inner highlight: a smaller star, offset up-left -->
+  <polygon points="64,28 70,50 92,50 74,64 80,86
+                   64,72 48,86 54,64 36,50 58,50"
+           fill="#FFD040"/>
+
+  <!-- lower-right edge shading -->
+  <polygon points="88,102 80,70 106,50 100,58 88,76 84,98" fill="#E8A000"/>
+
+  <!-- eyes: white ovals -->
+  <ellipse cx="54" cy="60" rx="7" ry="6" fill="#FFFFFF"/>
+  <ellipse cx="74" cy="60" rx="7" ry="6" fill="#FFFFFF"/>
+  <!-- pupils: dark dots, slightly off-centre -->
+  <circle cx="56" cy="60" r="3" fill="#2A2A2A"/>
+  <circle cx="76" cy="60" r="3" fill="#2A2A2A"/>
+  <!-- small highlight in the pupils -->
+  <circle cx="57" cy="59" r="1" fill="#FFFFFF"/>
+  <circle cx="77" cy="59" r="1" fill="#FFFFFF"/>
+
+  <!-- blush: two pink ovals under the eyes -->
+  <ellipse cx="46" cy="70" rx="6" ry="4" fill="#F0A0B0"/>
+  <ellipse cx="82" cy="70" rx="6" ry="4" fill="#F0A0B0"/>
+
+  <!-- mouth: a small dark opening with a tongue -->
+  <polygon points="58,72 70,72 68,80 60,80" fill="#C83040"/>
+  <polygon points="61,77 67,77 66,80 62,80" fill="#F06080"/>
+</svg>

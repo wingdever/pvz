@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ brawl: EQUIPMENT icon, leather armour (data/brawl/gear.csv row leather_armor).
+  Canvas 128x128, pure fills, no strokes or gradients.
+    body #8B5A2B   plates #A2703C
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- torso -->
+  <rect x="38" y="26" width="52" height="80" rx="16" fill="#8B5A2B"/>
+  <!-- shoulder plates -->
+  <rect x="20" y="32" width="22" height="30" rx="10" fill="#A2703C"/>
+  <rect x="86" y="32" width="22" height="30" rx="10" fill="#A2703C"/>
+  <!-- chest piece -->
+  <rect x="48" y="46" width="32" height="40" rx="8" fill="#A2703C"/>
+</svg>

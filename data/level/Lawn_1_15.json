@@ -1,0 +1,160 @@
+{
+  "initial_sun": 275,
+  "brain_hp": 100,
+  "zombie_hp": 380,
+  "spawn_cols": [
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": {
+    "shovel": {
+      "threshold": 2
+    },
+    "glove": {
+      "threshold": 5
+    },
+    "hammer": {
+      "threshold": 12
+    }
+  },
+  "cards": {
+    "peashooter": {
+      "cooldown": 3
+    },
+    "sunflower": {
+      "cooldown": 2
+    },
+    "wallnut": {
+      "cooldown": 5
+    },
+    "split_pea": {
+      "cooldown": 5
+    },
+    "puff_shroom": {
+      "cooldown": 2
+    },
+    "snow_pea": {
+      "cooldown": 4
+    }
+  },
+  "summons_per_turn": 1,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    {
+      "id": 1,
+      "start_round": 36,
+      "spawns": [
+        {
+          "round": 36,
+          "type": "zombie_cone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_round": 40,
+      "spawns": [
+        {
+          "round": 40,
+          "type": "zombie_cone",
+          "count": 3
+        },
+        {
+          "round": 41,
+          "type": "zombie_cone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_round": 44,
+      "spawns": [
+        {
+          "round": 44,
+          "type": "zombie_newspaper",
+          "count": 2
+        },
+        {
+          "round": 45,
+          "type": "zombie_newspaper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_round": 48,
+      "spawns": [
+        {
+          "round": 48,
+          "type": "zombie_newspaper",
+          "count": 2
+        },
+        {
+          "round": 49,
+          "type": "zombie_newspaper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_round": 52,
+      "spawns": [
+        {
+          "round": 52,
+          "type": "zombie_newspaper",
+          "count": 3
+        },
+        {
+          "round": 53,
+          "type": "zombie_newspaper",
+          "count": 2
+        },
+        {
+          "round": 55,
+          "type": "zombie_cone",
+          "count": 7
+        }
+      ],
+      "banner": true
+    }
+  ],
+  "first_clear_plant": "chomper",
+  "first_clear": {
+    "scroll_chomper": 1,
+    "scroll_spirit_chomper": 1
+  },
+  "rewards": [
+    {
+      "chance": 1,
+      "items": {
+        "coin_gold": 15
+      }
+    },
+    {
+      "chance": 0.25,
+      "items": {
+        "coin_silver": 3
+      }
+    },
+    {
+      "chance": 0.2,
+      "items": {
+        "potion_chomper": 1
+      }
+    }
+  ]
+}

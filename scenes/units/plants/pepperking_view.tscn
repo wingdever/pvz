@@ -1,0 +1,675 @@
+[gd_scene format=3 uid="uid://cjo56mf81mnu3"]
+
+[ext_resource type="Script" uid="uid://de3jpss66xjfh" path="res://addons/curved_lines_2d/scalable_vector_shape_2d.gd" id="1_kda0y"]
+[ext_resource type="Script" uid="uid://dlbv4pit17dnu" path="res://addons/curved_lines_2d/scalable_arc.gd" id="2_rpeta"]
+[ext_resource type="Script" uid="uid://dl1t88tthmwts" path="res://addons/curved_lines_2d/scalable_arc_list.gd" id="3_qf14s"]
+
+[sub_resource type="Curve2D" id="Curve2D_nu42u"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -8.5, 2.5, 0, 0, 0, 0, -5.5, -8.5, 0, 0, 0, 0, 0.5, -8.5, 0, 0, 0, 0, 6.5, -8.5, 0, 0, 0, 0, 8.5, 1.5, 0, 0, 0, 0, 1.5, 8.5, 0, 0, 0, 0, -1.5, 2.5, 0, 0, 0, 0, -8.5, 2.5)
+}
+point_count = 8
+
+[sub_resource type="Resource" id="Resource_sg1up"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_xcsgp"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -8, -2.5, 0, 0, 0, 0, -4, -5.5, 0, 0, 0, 0, 1, -7.5, 0, 0, 0, 0, 6, -5.5, 0, 0, 0, 0, 8, -2.5, 0, 0, 0, 0, -3, -0.5, 0, 0, 0, 0, -4, 7.5, 0, 0, 0, 0, -8, -2.5)
+}
+point_count = 8
+
+[sub_resource type="Resource" id="Resource_p3k08"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_sinyb"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -12, -24, 0, 0, 0, 0, 15, -14, 0, 0, 0, 0, 15, -4, 0, 0, 0, 0, 27, -4, 0, 0, 0, 0, 19, 20, 0, 0, 0, 0, 3, 12, 0, 0, 0, 0, -9, 24, 0, 0, 0, 0, -5, 0, 0, 0, 0, 0, -27, 3, 0, 0, 0, 0, -12, -24)
+}
+point_count = 10
+
+[sub_resource type="Resource" id="Resource_272lm"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_l8gym"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 13, -23, 0, 0, 0, 0, -16, -15, 0, 0, 0, 0, -11, -3, 0, 0, 0, 0, -27, 0, 0, 0, 0, 0, -20, 19, 0, 0, 0, 0, -4, 11, 0, 0, 0, 0, 8, 23, 0, 0, 0, 0, 4, -5, 0, 0, 0, 0, 27, 2, 0, 0, 0, 0, 13, -23)
+}
+point_count = 10
+
+[sub_resource type="Resource" id="Resource_fl27f"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_5wfl3"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -22, -12.5, 0, 0, 0, 0, -15, -18.5, 0, 0, 0, 0, -3, -17.5, 0, 0, 0, 0, 8, -20.5, 0, 0, 0, 0, 18, -13.5, 0, 0, 0, 0, 23, 6.5, 0, 0, 0, 0, 17, 14.5, 0, 0, 0, 0, -1, 20.5, 0, 0, 0, 0, -18, 16.5, 0, 0, 0, 0, -23, 6.5, 0, 0, 0, 0, -22, -12.5)
+}
+point_count = 11
+
+[sub_resource type="Resource" id="Resource_8jjxk"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_dsxd6"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2, -18.5, 0, 0, 0, 0, 2, -18.5, 0, 0, 0, 0, 2, 18.5, 0, 0, 0, 0, -2, 16.5, 0, 0, 0, 0, -2, -18.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_5ribw"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_qyblw"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2.5, -18, 0, 0, 0, 0, 1.5, -20, 0, 0, 0, 0, 2.5, 19, 0, 0, 0, 0, -1.5, 20, 0, 0, 0, 0, -2.5, -18)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_mmmvb"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_upwrt"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -2.5, 3.5, 0, 0, 0, 0, 0.5, 3.5, 0, 0, 0, 0, 2.5, -3.5, 0, 0, 0, 0, -1.5, -3.5, 0, 0, 0, 0, -2.5, 3.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_ittqd"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_3142a"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 3, 0.5, 0, 0, 0, 0, -4, -4.5, 0, 0, 0, 0, -1, 1.5, 0, 0, 0, 0, 4, 4.5, 0, 0, 0, 0, 3, 0.5)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_e68go"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_0ycpu"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, 1, 0, 0, 0, 0, 3, -3, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -3, 3, 0, 0, 0, 0, -3, 1)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_l54pg"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_7yvmq"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6.5, 1, 0, 0, 0, 0, 2.5, -7, 0, 0, 0, 0, 6.5, 7, 0, 0, 0, 0, -6.5, 1)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_txngw"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_67yyl"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -7, 4, 0, 0, 0, 0, 6, -4, 0, 0, 0, 0, 7, 3, 0, 0, 0, 0, -7, 4)
+}
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_lsdhn"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_lf41i"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, -2, 0, 0, 0, 0, 6, -2, 0, 0, 0, 0, 6, 2, 0, 0, 0, 0, -6, 2, 0, 0, 0, 0, -6, -2)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_cudh6"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_0c4sh"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -5.5, -2, 0, 0, 0, 0, 5.5, -2, 0, 0, 0, 0, 5.5, 2, 0, 0, 0, 0, -5.5, 2, 0, 0, 0, 0, -5.5, -2)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_sbirt"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_s0mw5"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -6, -0.5, 0, 0, 0, 0, 1, -6.5, 0, 0, 0, 0, 6, -1.5, 0, 0, 0, 0, 6, 4.5, 0, 0, 0, 0, -3, 6.5, 0, 0, 0, 0, -6, -0.5)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_wcm4r"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_h82i3"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 5.5, 0, 0, 0, 0, 0, -2.5, -5, 0, 0, 0, 0, -5.5, -1, 0, 0, 0, 0, -5.5, 5, 0, 0, 0, 0, 0.5, 5, 0, 0, 0, 0, 5.5, 0)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_4ll2y"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_n7nf8"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -13, 2, 0, 0, 0, 0, 1, -16, 0, 0, 0, 0, 13, -2, 0, 0, 0, 0, 7, 16, 0, 0, 0, 0, -9, 16, 0, 0, 0, 0, -13, 2)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_jv2x4"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_rhgiu"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -7, 2, 0, 0, 0, 0, 1, -10, 0, 0, 0, 0, 7, -2, 0, 0, 0, 0, 3, 10, 0, 0, 0, 0, -5, 10, 0, 0, 0, 0, -7, 2)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_rkkfc"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_2t3k1"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 13, 2, 0, 0, 0, 0, -1, -16, 0, 0, 0, 0, -13, -2, 0, 0, 0, 0, -7, 16, 0, 0, 0, 0, 9, 16, 0, 0, 0, 0, 13, 2)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_gekg8"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_ehlpy"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 7, 2, 0, 0, 0, 0, -1, -10, 0, 0, 0, 0, -7, -2, 0, 0, 0, 0, -3, 10, 0, 0, 0, 0, 5, 10, 0, 0, 0, 0, 7, 2)
+}
+point_count = 6
+
+[sub_resource type="Resource" id="Resource_ec5qa"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_pn4ls"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -14, -3, 0, 0, 0, 0, -10, -4, 0, 0, 0, 0, -10, -1, 0, 0, 0, 0, -5, -1, 0, 0, 0, 0, -5, -5, 0, 0, 0, 0, -1, -5, 0, 0, 0, 0, -1, -1, 0, 0, 0, 0, 3, -1, 0, 0, 0, 0, 2, -5, 0, 0, 0, 0, 6, -5, 0, 0, 0, 0, 6, -2, 0, 0, 0, 0, 9, -2, 0, 0, 0, 0, 8, -6, 0, 0, 0, 0, 14, -5, 0, 0, 0, 0, 10, 6, 0, 0, 0, 0, 6, 5, 0, 0, 0, 0, 6, 1, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 6, 0, 0, 0, 0, -4, 5, 0, 0, 0, 0, -3, 2, 0, 0, 0, 0, -11, 1, 0, 0, 0, 0, -10, 4, 0, 0, 0, 0, -13, 4, 0, 0, 0, 0, -14, -3)
+}
+point_count = 25
+
+[sub_resource type="Resource" id="Resource_irtp4"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Curve2D" id="Curve2D_k3qs8"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -4, 5, 0, 0, 0, 0, 4, -5, 0, 0, 0, 0, -4, 5)
+}
+point_count = 3
+
+[sub_resource type="Resource" id="Resource_152lg"]
+resource_local_to_scene = true
+script = ExtResource("3_qf14s")
+
+[sub_resource type="Animation" id="Animation_kda0y"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Body/WingL:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-2.3561945]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/Body/WingR:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.5235988]
+}
+
+[sub_resource type="Animation" id="Animation_rpeta"]
+resource_name = "idle"
+length = 0.39999999999999997
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton2D/Root/Body/WingL:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [-2.3561945, -2.6179938779914944, -2.3561945, -2.0943951023931953, -2.3561945]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton2D/Root/Body/WingR:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.5235988, -0.2617993877991494, -0.5235988, -0.7853981633974483, -0.5235988]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_qf14s"]
+_data = {
+&"RESET": SubResource("Animation_kda0y"),
+&"idle": SubResource("Animation_rpeta")
+}
+
+[node name="PepperkingView" type="Node2D" unique_id=755486731]
+
+[node name="PepperKing" type="Node2D" parent="." unique_id=1429944993]
+position = Vector2(-64, -112)
+metadata/svg_root = true
+
+[node name="Polygon" type="Node2D" parent="PepperKing" unique_id=1424742548 node_paths=PackedStringArray("polygon")]
+position = Vector2(64.5, 106.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.95686275, 0.627451, 0.1254902, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_nu42u")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_sg1up")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon" unique_id=67755306]
+color = Color(0.95686275, 0.627451, 0.1254902, 1)
+polygon = PackedVector2Array(-8.5, 2.5, -5.5, -8.5, 0.5, -8.5, 6.5, -8.5, 8.5, 1.5, 1.5, 8.5, -1.5, 2.5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon2" type="Node2D" parent="PepperKing" unique_id=1036925353 node_paths=PackedStringArray("polygon")]
+position = Vector2(65, 105.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_xcsgp")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_p3k08")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon2" unique_id=1328131532]
+color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-8, -2.5, -4, -5.5, 1, -7.5, 6, -5.5, 8, -2.5, -3, -0.5, -4, 7.5)
+metadata/_edit_lock_ = true
+
+[node name="WingL" type="Node2D" parent="PepperKing" unique_id=1869474376 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(30, 48)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.101960786, 0.22745098, 0.3529412, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_sinyb")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_272lm")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+0: NodePath("../../Skeleton2D/Root/Body/WingL"),
+1: NodePath("../../Skeleton2D/Root/Body/WingL"),
+2: NodePath("../../Skeleton2D/Root/Body/WingL"),
+3: NodePath("../../Skeleton2D/Root/Body/WingL"),
+5: NodePath("../../Skeleton2D/Root/Body/WingL"),
+6: NodePath("../../Skeleton2D/Root/Body/WingL"),
+7: NodePath("../../Skeleton2D/Root/Body/WingL"),
+8: NodePath("../../Skeleton2D/Root/Body/WingL"),
+9: NodePath("../../Skeleton2D/Root/Body/WingL")
+}
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/WingL" unique_id=468840038]
+color = Color(0.101960786, 0.22745098, 0.3529412, 1)
+polygon = PackedVector2Array(-13.349552, -22.88808, 13.984753, -13.841764, 14.335688, -3.8479233, 26.328297, -4.269045, 19, 20, 2.9045753, 12.563343, -8.666912, 24.977074, -5.5116196, 0.85148335, -27.392788, 4.6216917)
+metadata/_edit_lock_ = true
+
+[node name="wingR" type="Node2D" parent="PepperKing" unique_id=1762567687 node_paths=PackedStringArray("polygon", "skeleton", "deformation_map")]
+position = Vector2(101, 53)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.101960786, 0.22745098, 0.3529412, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_l8gym")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_fl27f")
+skeleton = NodePath("../../Skeleton2D")
+deformation_map = {
+0: NodePath("../../Skeleton2D/Root/Body/WingR"),
+1: NodePath("../../Skeleton2D/Root/Body/WingR"),
+2: NodePath("../../Skeleton2D/Root/Body/WingR"),
+3: NodePath("../../Skeleton2D/Root/Body/WingR"),
+5: NodePath("../../Skeleton2D/Root/Body/WingR"),
+6: NodePath("../../Skeleton2D/Root/Body/WingR"),
+7: NodePath("../../Skeleton2D/Root/Body/WingR"),
+8: NodePath("../../Skeleton2D/Root/Body/WingR"),
+9: NodePath("../../Skeleton2D/Root/Body/WingR")
+}
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/wingR" unique_id=625134841]
+color = Color(0.101960786, 0.22745098, 0.3529412, 1)
+polygon = PackedVector2Array(14.1383705, -21.856686, -15.124513, -14.879322, -10.548714, -2.7112455, -26.644138, -0.27458763, -20, 19, -4.0443325, 11.525785, 7.527155, 23.939514, 4.5122337, -4.183613, 27.25241, 3.619224)
+metadata/_edit_lock_ = true
+
+[node name="Polygon5" type="Node2D" parent="PepperKing" unique_id=350131900 node_paths=PackedStringArray("polygon")]
+position = Vector2(66, 79.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.9098039, 0.5411765, 0.0627451, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_5wfl3")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_8jjxk")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon5" unique_id=372961034]
+color = Color(0.9098039, 0.5411765, 0.0627451, 1)
+polygon = PackedVector2Array(-22, -12.5, -15, -18.5, -3, -17.5, 8, -20.5, 18, -13.5, 23, 6.5, 17, 14.5, -1, 20.5, -18, 16.5, -23, 6.5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon6" type="Node2D" parent="PepperKing" unique_id=679141842 node_paths=PackedStringArray("polygon")]
+position = Vector2(55, 80.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.78431374, 0.4392157, 0, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_dsxd6")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_5ribw")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon6" unique_id=1598355433]
+color = Color(0.78431374, 0.4392157, 0, 1)
+polygon = PackedVector2Array(-2, -18.5, 2, -18.5, 2, 18.5, -2, 16.5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon7" type="Node2D" parent="PepperKing" unique_id=996831166 node_paths=PackedStringArray("polygon")]
+position = Vector2(72.5, 79)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.78431374, 0.4392157, 0, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_qyblw")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_mmmvb")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon7" unique_id=1504182740]
+color = Color(0.78431374, 0.4392157, 0, 1)
+polygon = PackedVector2Array(-2.5, -18, 1.5, -20, 2.5, 19, -1.5, 20)
+metadata/_edit_lock_ = true
+
+[node name="Polygon8" type="Node2D" parent="PepperKing" unique_id=1703119365 node_paths=PackedStringArray("polygon")]
+position = Vector2(60.5, 58.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.18039216, 0.49019608, 0.19607843, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_upwrt")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ittqd")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon8" unique_id=1947726146]
+color = Color(0.18039216, 0.49019608, 0.19607843, 1)
+polygon = PackedVector2Array(-2.5, 3.5, 0.5, 3.5, 2.5, -3.5, -1.5, -3.5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon9" type="Node2D" parent="PepperKing" unique_id=1751329232 node_paths=PackedStringArray("polygon")]
+position = Vector2(55, 58.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_3142a")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_e68go")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon9" unique_id=566516700]
+color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = PackedVector2Array(3, 0.5, -4, -4.5, -1, 1.5, 4, 4.5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon10" type="Node2D" parent="PepperKing" unique_id=1476819072 node_paths=PackedStringArray("polygon")]
+position = Vector2(64, 59)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_0ycpu")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_l54pg")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon10" unique_id=1309275931]
+color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = PackedVector2Array(-3, 1, 3, -3, 1, 1, -3, 3)
+metadata/_edit_lock_ = true
+
+[node name="Polygon11" type="Node2D" parent="PepperKing" unique_id=1037781565 node_paths=PackedStringArray("polygon")]
+position = Vector2(56.5, 71)
+script = ExtResource("1_kda0y")
+fill_color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_7yvmq")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_txngw")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon11" unique_id=1655635527]
+color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-6.5, 1, 2.5, -7, 6.5, 7)
+metadata/_edit_lock_ = true
+
+[node name="Polygon12" type="Node2D" parent="PepperKing" unique_id=874719455 node_paths=PackedStringArray("polygon")]
+position = Vector2(74, 74)
+script = ExtResource("1_kda0y")
+fill_color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_67yyl")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_lsdhn")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon12" unique_id=253344659]
+color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-7, 4, 6, -4, 7, 3)
+metadata/_edit_lock_ = true
+
+[node name="Rectangle" type="Node2D" parent="PepperKing" unique_id=1443135664 node_paths=PackedStringArray("polygon")]
+position = Vector2(38, 82)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_lf41i")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_cudh6")
+shape_type = 1
+size = Vector2(12, 4)
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Rectangle" unique_id=1563251927]
+color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = PackedVector2Array(-6, -2, 6, -2, 6, 2, -6, 2)
+metadata/_edit_lock_ = true
+
+[node name="Rectangle2" type="Node2D" parent="PepperKing" unique_id=1000374735 node_paths=PackedStringArray("polygon")]
+position = Vector2(92.5, 82)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_0c4sh")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_sbirt")
+shape_type = 1
+size = Vector2(11, 4)
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Rectangle2" unique_id=550150136]
+color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = PackedVector2Array(-5.5, -2, 5.5, -2, 5.5, 2, -5.5, 2)
+metadata/_edit_lock_ = true
+
+[node name="Polygon13" type="Node2D" parent="PepperKing" unique_id=179542191 node_paths=PackedStringArray("polygon")]
+position = Vector2(26, 80.5)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_s0mw5")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_wcm4r")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon13" unique_id=1837546664]
+color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = PackedVector2Array(-6, -0.5, 1, -6.5, 6, -1.5, 6, 4.5, -3, 6.5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon14" type="Node2D" parent="PepperKing" unique_id=329335907 node_paths=PackedStringArray("polygon")]
+position = Vector2(103.5, 80)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_h82i3")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_4ll2y")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon14" unique_id=657285921]
+color = Color(0.29803923, 0.6862745, 0.3137255, 1)
+polygon = PackedVector2Array(5.5, 0, -2.5, -5, -5.5, -1, -5.5, 5, 0.5, 5)
+metadata/_edit_lock_ = true
+
+[node name="Polygon15" type="Node2D" parent="PepperKing" unique_id=1996422288 node_paths=PackedStringArray("polygon")]
+position = Vector2(27, 33)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.95686275, 0.627451, 0.1254902, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_n7nf8")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_jv2x4")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon15" unique_id=90922209]
+color = Color(0.95686275, 0.627451, 0.1254902, 1)
+polygon = PackedVector2Array(-13, 2, 1, -16, 13, -2, 7, 16, -9, 16)
+metadata/_edit_lock_ = true
+
+[node name="Polygon16" type="Node2D" parent="PepperKing" unique_id=1695669121 node_paths=PackedStringArray("polygon")]
+position = Vector2(27, 34)
+script = ExtResource("1_kda0y")
+fill_color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_rhgiu")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_rkkfc")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon16" unique_id=53954510]
+color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-7, 2, 1, -10, 7, -2, 3, 10, -5, 10)
+metadata/_edit_lock_ = true
+
+[node name="Polygon17" type="Node2D" parent="PepperKing" unique_id=402506053 node_paths=PackedStringArray("polygon")]
+position = Vector2(96, 28)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.95686275, 0.627451, 0.1254902, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_2t3k1")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_gekg8")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon17" unique_id=817602097]
+color = Color(0.95686275, 0.627451, 0.1254902, 1)
+polygon = PackedVector2Array(13, 2, -1, -16, -13, -2, -7, 16, 9, 16)
+metadata/_edit_lock_ = true
+
+[node name="Polygon18" type="Node2D" parent="PepperKing" unique_id=1016900007 node_paths=PackedStringArray("polygon")]
+position = Vector2(95, 30)
+script = ExtResource("1_kda0y")
+fill_color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_ehlpy")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_ec5qa")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon18" unique_id=1050475946]
+color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(7, 2, -1, -10, -7, -2, -3, 10, 5, 10)
+metadata/_edit_lock_ = true
+
+[node name="Polygon19" type="Node2D" parent="PepperKing" unique_id=694352027 node_paths=PackedStringArray("polygon")]
+position = Vector2(65, 87)
+script = ExtResource("1_kda0y")
+fill_color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_pn4ls")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_irtp4")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon19" unique_id=1919580944]
+color = Color(1, 0.8156863, 0.2509804, 1)
+polygon = PackedVector2Array(-14, -3, -10, -4, -10, -1, -5, -1, -5, -5, -1, -5, -1, -1, 3, -1, 2, -5, 6, -5, 6, -2, 9, -2, 8, -6, 14, -5, 10, 6, 6, 5, 6, 1, 2, 2, 1, 6, -4, 5, -3, 2, -11, 1, -10, 4, -13, 4)
+metadata/_edit_lock_ = true
+
+[node name="Polygon20" type="Node2D" parent="PepperKing" unique_id=997729798 node_paths=PackedStringArray("polygon")]
+position = Vector2(58, 81)
+script = ExtResource("1_kda0y")
+fill_color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = NodePath("Fill")
+curve = SubResource("Curve2D_k3qs8")
+update_curve_at_runtime = true
+arc_list = SubResource("Resource_152lg")
+
+[node name="Fill" type="Polygon2D" parent="PepperKing/Polygon20" unique_id=2122274030]
+color = Color(0.2509804, 0.7490196, 0.3019608, 1)
+polygon = PackedVector2Array(-4, 5, 4, -5)
+metadata/_edit_lock_ = true
+
+[node name="Skeleton2D" type="Skeleton2D" parent="." unique_id=971671426]
+visible = false
+
+[node name="Root" type="Bone2D" parent="Skeleton2D" unique_id=1478708081]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="Body" type="Bone2D" parent="Skeleton2D/Root" unique_id=1044387433]
+position = Vector2(0, -30)
+rest = Transform2D(1, 0, 0, 1, 0, -30)
+
+[node name="WingL" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=120371727]
+position = Vector2(-15, -19)
+rotation = -2.3561945
+scale = Vector2(0.99999994, 0.99999994)
+rest = Transform2D(-0.70710677, -0.70710677, 0.70710677, -0.70710677, -15, -19)
+
+[node name="WingR" type="Bone2D" parent="Skeleton2D/Root/Body" unique_id=1163368427]
+position = Vector2(18, -19)
+rotation = -0.5235988
+rest = Transform2D(0.8660254, -0.5, 0.5, 0.8660254, 18, -19)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=765875594]
+libraries/ = SubResource("AnimationLibrary_qf14s")

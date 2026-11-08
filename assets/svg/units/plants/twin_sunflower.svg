@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, twin-sunflower.
+
+  Same silhouette rules as sunflower.svg. Two heads share one stem: the
+  left head sits lower, the right head sits higher, and the stem forks
+  to reach both. Pure fills, no strokes.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: a single trunk that forks into two arms -->
+  <polygon points="58,112 70,112 66,74 62,74" fill="#2D8636"/>
+  <!-- fork: left arm to the lower head -->
+  <polygon points="60,78 66,78 46,54 40,58" fill="#2D8636"/>
+  <!-- fork: right arm to the upper head -->
+  <polygon points="64,78 70,78 84,46 78,42" fill="#2D8636"/>
+
+  <!-- leaves: two kites, same as sunflower -->
+  <polygon points="62,96 22,76 18,90 58,106" fill="#38A843"/>
+  <polygon points="66,96 106,76 110,90 70,106" fill="#38A843"/>
+
+  <!-- left head: petals ring -->
+  <polygon points="40,20 50,20 46,30 38,28" fill="#F4C430"/>
+  <polygon points="22,28 32,32 26,40 18,34" fill="#F4C430"/>
+  <polygon points="12,46 22,48 18,58 10,54" fill="#F4C430"/>
+  <polygon points="14,66 24,64 24,74 16,76" fill="#F4C430"/>
+  <polygon points="26,82 34,76 38,86 30,90" fill="#F4C430"/>
+  <polygon points="44,90 48,80 56,86 52,94" fill="#F4C430"/>
+  <polygon points="58,82 56,72 64,70 66,80" fill="#F4C430"/>
+  <polygon points="62,62 52,58 56,50 66,54" fill="#F4C430"/>
+  <polygon points="58,42 50,40 52,32 60,34" fill="#F4C430"/>
+  <polygon points="40,20 40,30 34,28 36,20" fill="#F4C430"/>
+  <!-- left head: brown centre + face -->
+  <circle cx="38" cy="54" r="20" fill="#8B5A2B"/>
+  <ellipse cx="32" cy="52" rx="2" ry="3" fill="#2A2A2A"/>
+  <ellipse cx="44" cy="52" rx="2" ry="3" fill="#2A2A2A"/>
+  <polygon points="28,62 34,66 44,64 50,60 48,62 44,68 34,68 30,64" fill="#4A2E1A"/>
+
+  <!-- right head: petals ring -->
+  <polygon points="88,6 98,10 92,18 84,14" fill="#F4C430"/>
+  <polygon points="104,16 108,26 98,28 96,18" fill="#F4C430"/>
+  <polygon points="112,34 108,44 100,38 104,30" fill="#F4C430"/>
+  <polygon points="108,54 100,58 96,50 104,46" fill="#F4C430"/>
+  <polygon points="100,72 90,70 92,62 100,64" fill="#F4C430"/>
+  <polygon points="84,80 80,70 88,66 92,76" fill="#F4C430"/>
+  <polygon points="68,72 72,62 80,64 76,74" fill="#F4C430"/>
+  <polygon points="64,52 72,50 72,60 64,60" fill="#F4C430"/>
+  <polygon points="70,30 80,30 78,38 68,38" fill="#F4C430"/>
+  <polygon points="88,6 88,16 80,14 82,8" fill="#F4C430"/>
+  <!-- right head: brown centre + face -->
+  <circle cx="90" cy="40" r="20" fill="#8B5A2B"/>
+  <ellipse cx="84" cy="38" rx="2" ry="3" fill="#2A2A2A"/>
+  <ellipse cx="96" cy="38" rx="2" ry="3" fill="#2A2A2A"/>
+  <polygon points="80,48 86,52 96,50 102,46 100,48 96,54 86,54 82,50" fill="#4A2E1A"/>
+</svg>

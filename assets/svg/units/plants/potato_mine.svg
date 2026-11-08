@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, potato mine.
+
+  Potato body = upper half-circle + lower half-ellipse, sharing one
+  diameter at y = 78. The soil mound is drawn last and its top edge sits
+  exactly on y = 78, so the visible potato is exactly the upper
+  half-circle while the lower half-ellipse stays buried.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- soil mound: top edge exactly at y = 78, covers the lower half-ellipse -->
+  <ellipse cx="64" cy="80" rx="46" ry="10" fill="#8B5A2B"/>
+
+  <!-- potato: upper half-circle + lower half-ellipse, shared diameter at y = 78 -->
+  <path d="M 36,78 A 28,28 0 0 1 92,78 Z" fill="#A67C52"/>
+  <path d="M 36,78 A 28,10 0 0 0 92,78 Z" fill="#A67C52"/>
+
+  <!-- alarm light base -->
+  <rect x="60" y="42" width="8" height="9" fill="#8B5A2B"/>
+  <!-- red alarm light -->
+  <circle cx="64" cy="36" r="9" fill="#E53935"/>
+
+
+</svg>

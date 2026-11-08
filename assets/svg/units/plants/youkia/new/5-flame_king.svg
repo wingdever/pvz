@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="fkBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F08020"/>
+      <stop offset="55%" stop-color="#C85010"/>
+      <stop offset="100%" stop-color="#7A2000"/>
+    </linearGradient>
+    <linearGradient id="fkFlame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FFE060"/>
+      <stop offset="45%" stop-color="#FF9020"/>
+      <stop offset="100%" stop-color="#FF4020"/>
+    </linearGradient>
+    <linearGradient id="fkScythe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5A0000"/>
+      <stop offset="55%" stop-color="#C02020"/>
+      <stop offset="100%" stop-color="#F0E8E0"/>
+    </linearGradient>
+    <linearGradient id="fkWing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A3A6A"/>
+      <stop offset="100%" stop-color="#0A1A3A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 底部火焰（略小） -->
+  <path d="M 130 370
+           Q 120 350 140 335
+           Q 150 315 165 330
+           Q 175 310 190 330
+           Q 205 315 215 335
+           Q 230 320 240 340
+           Q 260 350 250 370
+           Q 220 385 190 385
+           Q 160 385 130 370 Z"
+        fill="url(#fkFlame)" stroke="#7A2000" stroke-width="5"/>
+
+  <!-- 左翼 -->
+  <path d="M 170 200
+           Q 60 170 10 100
+           Q 50 120 30 70
+           Q 80 130 70 90
+           Q 110 160 100 130
+           Q 120 180 130 200
+           Q 110 230 80 240
+           Q 100 260 60 270
+           Q 110 270 145 245
+           Q 170 230 170 200 Z"
+        fill="url(#fkWing)" stroke="#0A1A3A" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 170 200 Q 60 170 10 100 Q 50 120 30 70 Q 80 130 70 90 Q 110 160 100 130 Q 120 180 130 200"
+        fill="none" stroke="#3AA0E0" stroke-width="5"/>
+
+  <!-- 右翼 -->
+  <path d="M 230 200
+           Q 340 170 390 100
+           Q 350 120 370 70
+           Q 320 130 330 90
+           Q 290 160 300 130
+           Q 280 180 270 200
+           Q 290 230 320 240
+           Q 300 260 340 270
+           Q 290 270 255 245
+           Q 230 230 230 200 Z"
+        fill="url(#fkWing)" stroke="#0A1A3A" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 230 200 Q 340 170 390 100 Q 350 120 370 70 Q 320 130 330 90 Q 290 160 300 130 Q 280 180 270 200"
+        fill="none" stroke="#3AA0E0" stroke-width="5"/>
+
+  <!-- 左翼火 -->
+  <path d="M 60 110
+           Q 50 80 70 60
+           Q 75 40 90 55
+           Q 100 35 115 55
+           Q 130 50 130 75
+           Q 145 80 135 105
+           Q 130 125 110 130
+           Q 85 135 70 125
+           Q 55 120 60 110 Z"
+        fill="url(#fkFlame)" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 75 110 Q 80 85 90 80 Q 85 65 100 70 Q 105 55 110 75 Q 120 70 120 90 Q 130 95 125 110 Q 115 125 100 125 Q 85 125 75 110 Z"
+        fill="#FFD040"/>
+
+  <!-- 右翼火 -->
+  <path d="M 340 110
+           Q 350 80 330 60
+           Q 325 40 310 55
+           Q 300 35 285 55
+           Q 270 50 270 75
+           Q 255 80 265 105
+           Q 270 125 290 130
+           Q 315 135 330 125
+           Q 345 120 340 110 Z"
+        fill="url(#fkFlame)" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 325 110 Q 320 85 310 80 Q 315 65 300 70 Q 295 55 290 75 Q 280 70 280 90 Q 270 95 275 110 Q 285 125 300 125 Q 315 125 325 110 Z"
+        fill="#FFD040"/>
+
+  <!-- 卷曲犄角（在叶子之前） -->
+  <path d="M 180 180
+           Q 130 130 100 60
+           Q 140 40 170 80
+           Q 180 120 200 175 Z"
+        fill="#3A1A0A" stroke="#1A0800" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 130 90 Q 110 60 130 45 Q 140 70 145 100 Z" fill="#6A3A1A"/>
+  <path d="M 220 180
+           Q 270 130 300 60
+           Q 260 40 230 80
+           Q 220 120 200 175 Z"
+        fill="#3A1A0A" stroke="#1A0800" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 270 90 Q 290 60 270 45 Q 260 70 255 100 Z" fill="#6A3A1A"/>
+
+  <!-- 叶子 -->
+  <path d="M 195 175 Q 190 145 175 130 Q 200 125 215 130 Q 210 145 210 175 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 190 155 Q 150 140 130 155 Q 150 180 185 170 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 215 155 Q 255 140 275 155 Q 255 180 220 170 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+
+  <!-- 南瓜主体 -->
+  <path d="M 135 200
+           Q 200 170 265 200
+           Q 295 240 290 290
+           Q 280 350 200 365
+           Q 120 350 110 290
+           Q 105 240 135 200 Z"
+        fill="url(#fkBody)" stroke="#3A0800" stroke-width="7"/>
+
+  <!-- 身体缝 -->
+  <path d="M 168 190 Q 168 280 178 355" fill="none" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 232 190 Q 232 280 222 355" fill="none" stroke="#7A2000" stroke-width="5"/>
+
+  <!-- 高光 -->
+  <path d="M 150 230 Q 180 210 210 218 Q 190 245 165 252 Q 150 245 150 230 Z"
+        fill="#FFB080" opacity="0.6"/>
+
+  <!-- 眼睛 -->
+  <path d="M 150 245 L 190 240 L 190 268 L 150 273 Z" fill="#FFD040" stroke="#3A0800" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 250 240 L 210 245 L 210 273 L 250 268 Z" fill="#FFD040" stroke="#3A0800" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 嘴 -->
+  <path d="M 155 305
+           L 175 300 L 185 315 L 200 300 L 215 315 L 225 300 L 245 305
+           L 235 340 L 220 335 L 210 345 L 200 335 L 190 345 L 180 335 L 165 340 Z"
+        fill="#FFD040" stroke="#3A0800" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 绿色拳头 -->
+  <path d="M 95 290 Q 110 270 130 275 Q 145 280 140 300 Q 130 315 110 315 Q 95 310 95 290 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 305 290 Q 290 270 270 275 Q 255 280 260 300 Q 270 315 290 315 Q 305 310 305 290 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+
+  <!-- 巨大镰刀：刀柄从右下到左上 -->
+  <path d="M 400 390 L 20 200 L 28 186 L 408 374 Z" fill="#7A5A2A" stroke="#3A2000" stroke-width="5"/>
+  <path d="M 390 376 L 24 196 L 28 190 L 392 370 Z" fill="#B08A50" opacity="0.6"/>
+
+  <!-- 上刃：占据画布上半 -->
+  <path d="M 30 180
+           Q 80 80 200 40
+           Q 320 20 400 60
+           Q 360 100 300 120
+           Q 200 140 100 170 Z"
+        fill="url(#fkScythe)" stroke="#3A0000" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 60 170 Q 110 90 210 60 Q 310 40 380 70 Q 340 105 280 120 Q 190 140 100 165 Z"
+        fill="#F0E8E0" opacity="0.8"/>
+
+  <!-- 下刃：左下一块 -->
+  <path d="M 20 220
+           Q 60 260 100 300
+           Q 80 320 40 320
+           Q 20 280 20 220 Z"
+        fill="url(#fkScythe)" stroke="#3A0000" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 30 230 Q 60 260 90 290 Q 70 305 45 305 Q 32 275 30 230 Z"
+        fill="#F0E8E0" opacity="0.8"/>
+
+  <!-- 刃口上的一些蓝水晶碎片 -->
+  <path d="M 330 160 L 345 150 L 350 165 L 335 172 Z" fill="#3AA0E0" stroke="#0A3A6A" stroke-width="3"/>
+  <path d="M 350 200 L 365 195 L 368 210 L 352 215 Z" fill="#3AA0E0" stroke="#0A3A6A" stroke-width="3"/>
+</svg>

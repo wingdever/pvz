@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, imp.
+
+  Same silhouette as zombie.svg but scaled down and centred a little
+  higher so it fits inside the same 60x60 cell box without touching the
+  edges. Three tones from Balance.COLOR_ZOMBIE:
+    skin  #9E97BA
+    shirt #706A8B
+    legs  #5B5671
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- legs: short blocks, feet end at y 104 -->
+  <rect x="56" y="80" width="6" height="24" fill="#5B5671"/>
+  <rect x="66" y="80" width="6" height="24" fill="#5B5671"/>
+
+  <!-- arms: reach left, short -->
+  <polygon points="56,64 34,68 33,74 56,72" fill="#9E97BA"/>
+  <polygon points="58,74 36,78 35,84 58,82" fill="#9E97BA"/>
+
+  <!-- torso: narrow shoulders, small hips -->
+  <polygon points="54,56 76,56 78,84 52,84" fill="#706A8B"/>
+
+  <!-- head: small block -->
+  <rect x="54" y="34" width="20" height="22" fill="#9E97BA"/>
+  <!-- tiny eyes -->
+  <ellipse cx="60" cy="44" rx="2" ry="1.5" fill="#2A2A2A"/>
+  <ellipse cx="70" cy="44" rx="2" ry="1.5" fill="#2A2A2A"/>
+  <!-- mouth: tiny slit -->
+  <rect x="60" y="50" width="10" height="1.5" fill="#2A2A2A"/>
+</svg>

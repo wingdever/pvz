@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder icon v2, warehouse crate.
+
+  A simple wooden crate: body + top lid + bottom edge + one middle band.
+  Flat fills only, no strokes, no shading.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- crate body -->
+  <rect x="24" y="36" width="80" height="60" fill="#A67C52"/>
+  <!-- top lid -->
+  <rect x="20" y="28" width="88" height="12" fill="#8B5A2B"/>
+  <!-- bottom edge -->
+  <rect x="20" y="92" width="88" height="8" fill="#8B5A2B"/>
+  <!-- middle band -->
+  <rect x="24" y="60" width="80" height="6" fill="#8B5A2B"/>
+</svg>

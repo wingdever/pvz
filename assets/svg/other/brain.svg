@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" width="96" height="96" xmlns="http://www.w3.org/2000/svg">
+  <!-- 脑干：缩短 -->
+  <rect x="44" y="66" width="12" height="14" rx="4" fill="#D16B8A" />
+  <!-- 大脑主体：缩小 -->
+  <ellipse cx="50" cy="45" rx="30" ry="26" fill="#F080A0" />
+  <!-- 褶皱：三条简单弧线 -->
+  <path d="M 30 38 Q 40 30 50 38 Q 60 30 70 38" 
+        stroke="#D16B8A" stroke-width="3" fill="none" stroke-linecap="round" />
+  <path d="M 35 52 Q 50 60 65 52" 
+        stroke="#D16B8A" stroke-width="3" fill="none" stroke-linecap="round" />
+  <path d="M 50 30 L 50 58" 
+        stroke="#D16B8A" stroke-width="3" fill="none" stroke-linecap="round" />
+</svg>

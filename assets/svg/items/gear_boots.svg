@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ brawl: EQUIPMENT icon, light boots (data/brawl/gear.csv row light_boots).
+  Canvas 128x128, pure fills, no strokes or gradients.
+    shaft #6B4A2B   sole #443019
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- left boot -->
+  <rect x="24" y="22" width="24" height="56" rx="9" fill="#6B4A2B"/>
+  <rect x="24" y="68" width="44" height="22" rx="9" fill="#443019"/>
+  <!-- right boot -->
+  <rect x="80" y="22" width="24" height="56" rx="9" fill="#6B4A2B"/>
+  <rect x="60" y="68" width="44" height="22" rx="9" fill="#443019"/>
+</svg>

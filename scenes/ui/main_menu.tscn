@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://dgib0svkvy5q1"]
+
+[ext_resource type="Script" uid="uid://71740cpbqajn" path="res://scripts/ui/main_menu.gd" id="1_fe2o3"]
+[ext_resource type="Script" uid="uid://dqrj83xx810d7" path="res://scripts/ui/menu/menu_prop.gd" id="2_1g8jr"]
+
+[node name="MainMenu" type="Control" unique_id=781203197]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_fe2o3")
+
+[node name="Background" type="ColorRect" parent="." unique_id=431013394]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Floor" type="ColorRect" parent="." unique_id=7010802]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FloorEdge" type="ColorRect" parent="." unique_id=846214475]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PropLayer" type="Control" parent="." unique_id=1599403831]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Prop0" type="Control" parent="PropLayer" unique_id=2097268403]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_1g8jr")
+metadata/_custom_type_script = "uid://dqrj83xx810d7"
+
+[node name="Prop1" type="Control" parent="PropLayer" unique_id=1520624143]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_1g8jr")
+metadata/_custom_type_script = "uid://dqrj83xx810d7"
+
+[node name="Prop2" type="Control" parent="PropLayer" unique_id=1746165329]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_1g8jr")
+metadata/_custom_type_script = "uid://dqrj83xx810d7"
+
+[node name="Prop3" type="Control" parent="PropLayer" unique_id=1865686050]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_1g8jr")
+metadata/_custom_type_script = "uid://dqrj83xx810d7"
+
+[node name="Prop4" type="Control" parent="PropLayer" unique_id=1865686051]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_1g8jr")
+metadata/_custom_type_script = "uid://dqrj83xx810d7"
+
+[node name="Title" type="Label" parent="." unique_id=1068779764]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Subtitle" type="Label" parent="." unique_id=1150228411]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Hint" type="Label" parent="." unique_id=481377819]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ButtonLayer" type="Control" parent="." unique_id=1691425407]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

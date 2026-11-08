@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/brawl/brawl_formation.gd" id="1_formation"]
+
+[node name="BrawlFormation" type="Control"]
+script = ExtResource("1_formation")
+
+[node name="ButtonLayer" type="Control" parent="."]

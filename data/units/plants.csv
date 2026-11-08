@@ -1,0 +1,58 @@
+name	技能效果	大招	大招效果	费用	卡片冷却	技能效果英文	大招英文	大招效果英文	HP成长	技能成长	天赋加成	一次性	溅射	僵尸相邻	不会被啃食	卡片	脚本	防御成长
+peashooter	发射1颗豌豆，伤害=attack	豌豆风暴	对同行所有僵尸各造成60伤害	100	3	Fires 1 pea - damage = ATTACK	Pea Storm	60 damage to every zombie in its row	10%	10%	50%					1	peashooter
+repeater	发射2颗豌豆，伤害=attack	双重风暴	对同行所有僵尸各造成120伤害	200	4	Fires 2 peas - damage = ATTACK each	Double Storm	120 damage to every zombie in its row	10%	10%						4	repeater
+split_pea	向前发射2颗豌豆，向后发射1颗豌豆	前后夹击	对同行所有僵尸造成80伤害，并对身后一格的僵尸造成80伤害	300	5	Fires 2 peas forward and 1 backward	Pincer Attack	80 damage to its row and 80 to the zombie one cell behind	10%	10%						5	split_pea
+gatling_pea	发射4颗豌豆，伤害=attack	弹幕	对同行所有僵尸各造成240伤害	400	6	Fires 4 peas - damage = ATTACK each	Bullet Storm	240 damage to every zombie in its row	10%	10%						6	gatling_pea
+threepeater	对上中下三行各发射1颗豌豆	三线齐射	对上中下三行所有僵尸各造成60伤害	300	5	Fires 1 pea into each of the three rows	Triple Volley	60 damage to every zombie in those three rows	10%	10%						7	threepeater
+snow_pea	发射冰豌豆，伤害=attack并冻结目标1回合	冰封	对同行所有僵尸造成40伤害，并冻结3回合	175	4	Fires an icy pea - damage = ATTACK and freezes the target for 1 round	Deep Freeze	40 damage to its row and freezes them for 3 rounds	10%	10%						8	snow_pea
+torchwood	穿过它的豌豆变为火豌豆，伤害×2	烈焰风暴	穿过它的豌豆变为火豌豆，伤害×3，并点燃同行所有僵尸（30伤害/回合，持续2回合）	175	5	Peas passing through become fire peas - double damage	Flame Storm	Peas become fire peas with triple damage and ignite its row (30 damage/round for 2 rounds)	10%	10%	50%						
+spikeweed	对走过的僵尸造成伤害=attack（不阻挡僵尸）	尖刺风暴	对本行所有僵尸造成60伤害	100	4	Deals damage = ATTACK to zombies that walk over it - zombies do not stop to eat it	Spike Storm	60 damage to every zombie in its row	10%	10%	50%				是	24	spikeweed
+spikerock	对走过的僵尸造成2倍attack伤害；可免疫一次碾压	尖刺风暴	对本行所有僵尸造成120伤害	125	6	Deals 2x ATTACK damage to zombies that walk over it; survives one stomp	Spike Storm	120 damage to every zombie in its row	10%	10%	50%						
+sunflower	每3回合获得1个阳光，数值=attack	阳光爆发	立刻+75阳光	50	2	Gains 1 sun every 3 rounds - value = ATTACK	Sun Burst	+75 sun right away	10%	10%	50%					2	sunflower
+twin_sunflower	每3回合获得2个阳光，数值=attack	阳光洪流	立刻+150阳光	150	5	Gains 2 sun every 3 rounds - value = ATTACK	Sun Flood	+150 sun right away	10%	10%	50%					9	twin_sunflower
+warm_sunflower	治疗血量百分比最低的友方单位，数值=attack			125	4	Mends the friendly body with the lowest share of its HP - amount = ATTACK			10%	10%	50%					25	warm_sunflower
+marigold	每3回合产1枚银币	金库	立刻产出5枚银币	50	3	Produces 1 silver coin every 3 rounds	Treasury	Produces 5 silver coins right away	10%	10%	50%						
+grave_buster	数回合吞噬一个墓碑	墓碑盗取	从消化墓碑转为盗取墓碑	75	5	Remove the Grave	Grave Steal	Steal the Grave	10%	10%	50%						
+potato_mine	需3回合武装，单体9999伤害	连环雷	对本行所有僵尸造成9999伤害	25	7	Needs 3 rounds to arm - then 9999 damage to one zombie	Mine Chain	9999 damage to every zombie in its row	0	0		是				16	potato_mine
+chomper	吞噬前方1格内1只僵尸，咀嚼3回合	暴食	吞噬前方1格内1只僵尸，咀嚼1回合	150	6	Swallows 1 zombie in the cell in front then chews for 3 rounds	Gluttony	Swallows 1 zombie in the cell in front and chews for 1 round	10%	0						13	chomper
+wallnut		铁壁	立刻回复50%最大HP，本回合内免疫伤害	50	5		Iron Wall	Heals 50% of max HP and takes no damage this round	10%	0	50%					3	wallnut
+tallnut		钢铁壁垒	回复50%最大HP，并获得2回合无敌	125	6		Steel Bulwark	Heals 50% of max HP and becomes immune for 2 rounds	10%	0	50%					12	tallnut
+garlic	被僵尸啃食时，把该僵尸驱赶到相邻行	大蒜风暴	把同行所有僵尸驱赶到相邻行，并造成30伤害	50	4	When bitten, pushes the zombie to an adjacent row	Garlic Storm	Pushes every zombie in its row to an adjacent row and deals 30 damage	10%		50%						
+pumpkin		南瓜壁垒	立刻回复50%最大HP，本回合内免疫伤害	125	5		Pumpkin Shell	Heals 50% of max HP and takes no damage this round	10%		50%						
+cherry_bomb	种下后下回合爆炸，3×3区域9999伤害	核爆	种下后立即爆炸，全屏9999伤害	150	8	Explodes the round after it is planted: 9999 damage in a 3x3 area	Nuke	Explodes at once for 9999 damage to the whole screen	0	0		是				17	cherry_bomb
+jalapeno	一次性，整行9999伤害			125	8	One-shot: 9999 damage to a whole row			0	0		是				15	jalapeno
+squash	一次性，最近1只僵尸9999伤害			50	6	One-shot: 9999 damage to the nearest zombie			0	0		是				14	squash
+mushroom_sun	白天+15阳光，夜晚+25阳光	月光	立刻+50阳光，且本回合自然收入翻倍	25	3	+15 sun in the day and +25 sun at night	Moonlight	+50 sun now and this round's natural income is doubled	10%	10%	50%						
+puff_shroom	对同行前方3格内最近的1只僵尸造成伤害=attack	孢子云	对同行前方3格内所有僵尸造成30伤害	0	2	Deals damage to the nearest zombie within 3 cells in front - damage = ATTACK	Spore Cloud	30 damage to all zombies within 3 cells in front	10%	10%	50%					10	puff_shroom
+fume_shroom	对同行前方3格内所有僵尸造成伤害=attack，无视铁门	毒雾	对同行所有僵尸造成60伤害，无视护甲	75	4	Deals damage to all zombies within 3 cells in front - damage = ATTACK, ignores screen door	Toxic Cloud	60 damage to every zombie in its row, ignores armor	10%	10%	50%					11	fume_shroom
+gloom_shroom	对周围8格内所有僵尸造成伤害=attack	暗影风暴	对周围8格内所有僵尸造成120伤害	150	6	Deals damage to every zombie in the 8 surrounding cells - damage = ATTACK	Shadow Storm	120 damage to all zombies in the 8 surrounding cells	10%	10%	50%					22	gloom_shroom
+scaredy_shroom	发射孢子，伤害=attack；若同行有僵尸相邻（1格内），则停止attack	恐惧孢子	对同行所有僵尸造成60伤害，并击退1格	25	3	Fires a spore - damage = ATTACK. Stops attacking if a zombie is adjacent.	Terror Spore	60 damage to every zombie in its row and pushes them back 1 cell	10%	10%	50%			是		23	scaredy_shroom
+hypno_shroom	一次性，让1只僵尸反向走			100	8	One-shot: turns 1 zombie around so it walks the other way						是					
+ice_shroom	一次性，全屏冻结3回合			175	8	One-shot: freezes the whole screen for 3 rounds			0	0		是				18	ice_shroom
+doom_shroom	一次性，种下后下回合爆炸，3×3区域9999伤害，并留下弹坑（该格3回合内不能种植）			125	10	One-shot: explodes the round after planting for 9999 damage in a 3x3 area, leaves a crater						是					
+magnet_shroom	吸走同行一个僵尸的金属护甲（铁桶、铁门），使其失去护甲	磁力风暴	吸走同行所有僵尸的金属护甲	100	6	Removes the metal armor from one zombie in its row	Magnetic Storm	Removes metal armor from all zombies in its row	10%	10%	50%						
+gold_magnet	自动拾取掉落的钱币，存入仓库	金磁风暴	本回合自动拾取全屏所有钱币，并把它们全部卖出	50	5	Automatically picks up dropped coins into the warehouse	Gold Storm	Picks up every coin on screen this round and sells them all	10%	10%	50%						
+cabbage_pult	越过障碍物，对同行最靠左的僵尸造成伤害=attack	卷心菜雨	对同行所有僵尸造成60伤害，无视障碍物	100	4	Lobs a cabbage over obstacles at the leftmost zombie in its row - damage = ATTACK	Cabbage Rain	60 damage to every zombie in its row, ignores obstacles	10%	10%	50%					21	cabbage_pult
+kernel_pult	抛掷玉米粒，伤害=attack；20%概率抛掷黄油，定住目标1回合	玉米雨	对同行所有僵尸造成60伤害，并有50%概率定住它们1回合	100	4	Lobs a kernel - damage = ATTACK. 20% chance to lob butter, stunning the target for 1 round	Kernel Rain	60 damage to its row and a 50% chance to stun them for 1 round	10%	10%	50%						
+melon_pult	抛掷西瓜，对同行最靠左的僵尸造成伤害=attack，并对其上下左右各造成一半伤害	西瓜雨	对同行所有僵尸造成80伤害，并对相邻行各造成40伤害	300	6	Lobs a melon at the leftmost zombie - damage = ATTACK, half damage to the 4 adjacent cells	Melon Rain	80 damage to its row and 40 damage to adjacent rows	10%	10%	50%		是			19	melon_pult
+winter_melon	抛掷冰西瓜，对同行最靠左的僵尸造成伤害=attack，并冻结1回合，对其上下左右各造成一半伤害	冰冻西瓜雨	对同行所有僵尸造成80伤害并冻结2回合，相邻行各40伤害并冻结1回合	200	8	Lobs an icy melon at the leftmost zombie - damage = ATTACK and freezes the target for 1 round, half damage to the 4 adjacent cells	Frozen Melon Rain	80 damage to its row + freeze 2 rounds, 40 to adjacent rows + freeze 1 round	10%	10%	50%		是			20	winter_melon
+flower_pot				25	1				10%								
+lily_pad				25	1				10%								
+cattail	向全屏任意一行的僵尸发射追踪尖刺，伤害=attack	追踪风暴	向全屏所有僵尸各发射1根追踪尖刺，伤害=attack	225	6	Fires a homing spike at any zombie on screen, any row - damage = ATTACK	Cattail Storm	Fires 1 homing spike at every zombie on screen - damage = ATTACK	10%	10%	50%						
+tangle_kelp	一次性，把同行前方1格内的1只僵尸拖入水下（无视HP）			25	8	One-shot: pulls 1 zombie in the cell in front into the water (ignores HP)						是					
+sea_shroom	对同行前方3格内最近的1只僵尸造成伤害=attack	孢子云	对同行前方3格内所有僵尸造成30伤害	0	2	Deals damage to the nearest zombie within 3 cells in front - damage = ATTACK	Spore Cloud	30 damage to all zombies within 3 cells in front	10%	10%	50%						
+plantern	照亮周围3×3格，使潜行/雾中的僵尸显形	强光	照亮全屏，本回合所有僵尸失去潜行/雾中状态	25	5	Lights up a 3x3 area, revealing hidden or fogged zombies	Floodlight	Lights up the whole screen; all zombies lose stealth/fog for this round	10%	10%	50%						
+cactus	发射1根尖刺，伤害=attack；可attack气球僵尸	尖刺风暴	对同行所有僵尸造成60伤害，并击落所有气球僵尸	125	4	Fires 1 spike - damage = ATTACK. Can hit balloon zombies	Spike Storm	60 damage to its row and knocks down all balloon zombies	10%	10%	50%						
+blover	一次性，吹走全屏所有气球僵尸和雾气			100	8	One-shot: blows away all balloon zombies and fog on screen						是					
+starfruit	向上下左右及斜上斜下共5个方向各发射1颗星星，伤害=attack	星辰风暴	向8个方向各发射3颗星星，伤害=attack	125	5	Fires 1 star in each of 5 directions (up/down/left/right/diagonal) - damage = ATTACK	Star Storm	Fires 3 stars in 8 directions - damage = ATTACK	10%	10%	50%						
+umbrella_leaf	保护周围3×3格内的植物免受投掷物伤害	全覆盖	保护全屏所有植物免受投掷物伤害1回合	100	5	Protects plants in a 3x3 area from thrown projectiles	Full Cover	Protects all plants on screen from thrown projectiles for 1 round	10%	10%	50%						
+cob_cannon	手动瞄准，对目标格及其周围8格造成9999伤害	地毯轰炸	对全屏所有僵尸造成9999伤害	500	10	Manually aimed: 9999 damage to a target cell and its 8 neighbours	Carpet Bomb	9999 damage to every zombie on screen	10%								
+coffee_bean	一次性，唤醒1株相邻的蘑菇（在白天也能生效）			25	5	One-shot: awakens 1 adjacent mushroom so it works in the day						是					
+imitater	变身为你指定的另一张植物卡（费用相同）			0	8	Transforms into another plant card of your choice (same cost)											
+strawberry_mini																	
+pomegranate_doll																	
+blaze_pepper																	
+pepper_king																	
+pepper_king_omega																	
+flame_king																	
+default				100	3				10%	10%	50%						

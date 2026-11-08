@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, silver coin.
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+  Drawn small (about 24-28 px) in lists, so it is a plain disc with one highlight.
+    rim   darkened(0.28) of COLOR_COIN_SILVER   #93979F
+    face  Balance.COLOR_COIN_SILVER (0.80,0.83,0.88)   #CCD4E0
+    mark  darkened(0.12)                        #A9ADB6
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <circle cx="64" cy="64" r="52" fill="#93979F"/>
+  <circle cx="64" cy="64" r="43" fill="#CCD4E0"/>
+  <!-- four point sparkle, so the coin is readable at 24 px -->
+  <polygon points="64,36 71,57 92,64 71,71 64,92 57,71 36,64 57,57" fill="#A9ADB6"/>
+</svg>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="pumpkinBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F07020"/>
+      <stop offset="55%" stop-color="#D04010"/>
+      <stop offset="100%" stop-color="#8A2000"/>
+    </linearGradient>
+    <linearGradient id="backFlame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FFD040"/>
+      <stop offset="50%" stop-color="#FF8020"/>
+      <stop offset="100%" stop-color="#FF4020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背后火焰（较小） -->
+  <path d="M 90 180
+           Q 100 130 130 120
+           Q 120 100 150 90
+           Q 150 70 175 80
+           Q 185 50 210 70
+           Q 230 55 240 80
+           Q 270 80 265 110
+           Q 290 120 280 150
+           Q 300 175 285 200
+           Q 250 220 200 210
+           Q 150 220 120 205
+           Q 95 200 90 180 Z"
+        fill="url(#backFlame)" stroke="#7A2000" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 120 180 Q 135 140 155 130 Q 145 110 170 105 Q 175 85 195 95 Q 210 80 220 100 Q 245 100 240 130 Q 265 140 255 165 Q 270 185 255 200 Q 230 210 195 205 Q 155 215 130 200 Z"
+        fill="#FFB040"/>
+
+  <!-- 南瓜身体 -->
+  <path d="M 140 180
+           Q 200 155 260 180
+           Q 285 210 280 280
+           Q 270 340 200 355
+           Q 130 340 120 280
+           Q 115 210 140 180 Z"
+        fill="url(#pumpkinBody)" stroke="#4A1000" stroke-width="6"/>
+
+  <!-- 身体纵向缝 -->
+  <path d="M 165 175 Q 165 270 175 345" fill="none" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 235 175 Q 235 270 225 345" fill="none" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 200 165 L 200 355" fill="none" stroke="#7A2000" stroke-width="4"/>
+
+  <!-- 高光 -->
+  <path d="M 155 200 Q 190 180 220 190 Q 200 220 170 230 Q 155 220 155 200 Z"
+        fill="#FFB080" opacity="0.6"/>
+
+  <!-- 茎 + 叶 -->
+  <path d="M 195 165 Q 195 130 185 110 Q 200 105 215 110 Q 210 130 210 165 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 195 145 Q 155 130 135 145 Q 150 165 185 160 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 210 145 Q 250 130 270 145 Q 255 165 220 160 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+
+  <!-- 眼睛 -->
+  <path d="M 155 220 L 195 215 L 195 245 L 155 250 Z" fill="#FFD040" stroke="#4A1000" stroke-width="4"/>
+  <path d="M 245 215 L 205 220 L 205 250 L 245 245 Z" fill="#FFD040" stroke="#4A1000" stroke-width="4"/>
+
+  <!-- 嘴 -->
+  <path d="M 160 290
+           L 180 285 L 190 300 L 200 285 L 210 300 L 220 285 L 240 290
+           L 235 320 L 220 315 L 210 325 L 200 315 L 190 325 L 180 315 L 165 320 Z"
+        fill="#FFD040" stroke="#4A1000" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- 左手 + 火 -->
+  <path d="M 95 290 Q 110 270 130 275 Q 145 280 140 300 Q 130 315 110 315 Q 95 310 95 290 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 100 275 Q 110 245 125 245 Q 120 225 135 225 Q 130 205 145 215 Q 155 200 160 225 Q 170 220 165 245 Q 175 250 165 270 Q 150 280 130 280 Q 110 285 100 275 Z"
+        fill="url(#backFlame)" stroke="#7A2000" stroke-width="4"/>
+  <path d="M 115 265 Q 125 240 140 240 Q 140 220 150 230 Q 155 220 160 240 Q 160 260 150 270 Q 135 275 120 270 Z"
+        fill="#FFD040"/>
+
+  <!-- 右手 + 火 -->
+  <path d="M 305 290 Q 290 270 270 275 Q 255 280 260 300 Q 270 315 290 315 Q 305 310 305 290 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 300 275 Q 290 245 275 245 Q 280 225 265 225 Q 270 205 255 215 Q 245 200 240 225 Q 230 220 235 245 Q 225 250 235 270 Q 250 280 270 280 Q 290 285 300 275 Z"
+        fill="url(#backFlame)" stroke="#7A2000" stroke-width="4"/>
+  <path d="M 285 265 Q 275 240 260 240 Q 260 220 250 230 Q 245 220 240 240 Q 240 260 250 270 Q 265 275 280 270 Z"
+        fill="#FFD040"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <!-- 光束发光 -->
+    <filter id="beamGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <!-- 光束渐变（下宽上窄，能量流逝） -->
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="20%" stop-color="#00ffcc" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0066ff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- 塔身（肉质/暗紫质感） -->
+  <polygon points="40,120 88,120 80,50 48,50" fill="#2a1a2a" stroke="#1a0d1a" stroke-width="2"/>
+  <!-- 塔身纹理（肋骨/血管） -->
+  <path d="M 48,60 Q 64,80 80,60" fill="none" stroke="#4a2a4a" stroke-width="2"/>
+  <path d="M 45,80 Q 64,100 83,80" fill="none" stroke="#4a2a4a" stroke-width="2"/>
+  <path d="M 43,100 Q 64,115 85,100" fill="none" stroke="#4a2a4a" stroke-width="2"/>
+  <line x1="64" y1="50" x2="64" y2="120" stroke="#4a2a4a" stroke-width="2" opacity="0.5"/>
+
+  <!-- 连续冲击光束（从眼睛向下射出） -->
+  <!-- 外层光晕 -->
+  <polygon points="64,45 40,128 88,128" fill="#00ffcc" filter="url(#beamGlow)" opacity="0.4"/>
+  <!-- 主光束 -->
+  <polygon points="64,45 48,128 80,128" fill="url(#beamGrad)" filter="url(#beamGlow)"/>
+  <!-- 核心高光 -->
+  <polygon points="64,45 58,128 70,128" fill="#ffffff" filter="url(#beamGlow)"/>
+  
+  <!-- 光束中游离的能量粒子 -->
+  <circle cx="64" cy="80" r="2" fill="#ffffff" filter="url(#beamGlow)"/>
+  <circle cx="55" cy="100" r="3" fill="#00ffcc" filter="url(#beamGlow)"/>
+  <circle cx="75" cy="110" r="2" fill="#00ffcc" filter="url(#beamGlow)"/>
+  <circle cx="64" cy="120" r="4" fill="#ffffff" filter="url(#beamGlow)"/>
+
+  <!-- 塔基周围的暗影触须 -->
+  <path d="M 40,120 Q 20,125 25,115" fill="none" stroke="#2a1a2a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 88,120 Q 108,125 103,115" fill="none" stroke="#2a1a2a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 塔顶的眼睛（巨大的独眼） -->
+  <circle cx="64" cy="45" r="30" fill="#4a0d0d" stroke="#2a0505" stroke-width="3"/>
+  <!-- 巩膜（黄色） -->
+  <circle cx="64" cy="45" r="22" fill="#ccaa00" stroke="#886600" stroke-width="2"/>
+  <!-- 虹膜（亮绿色，类似异星能量） -->
+  <circle cx="64" cy="45" r="12" fill="#00ff00" stroke="#00aa00" stroke-width="2" filter="url(#beamGlow)"/>
+  <!-- 瞳孔（垂直裂缝） -->
+  <ellipse cx="64" cy="45" rx="3" ry="10" fill="#000000"/>
+  <!-- 眼睛高光 -->
+  <circle cx="58" cy="38" r="3" fill="#ffffff" opacity="0.8"/>
+</svg>

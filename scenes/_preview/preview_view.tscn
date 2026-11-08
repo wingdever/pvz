@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dbtbhiypqvnmt"]
+
+[ext_resource type="Script" uid="uid://xu1baxq8h3pu" path="res://scenes/_preview/preview_view.gd" id="1_mnim3"]
+[ext_resource type="PackedScene" uid="uid://dlel7hyt6dh2g" path="res://scenes/units/plants/peashooter_view.tscn" id="2_ubknx"]
+[ext_resource type="PackedScene" uid="uid://bgaedos26l6oy" path="res://scenes/_preview/view_canvas_guide.tscn" id="3_ubknx"]
+
+[node name="PreviewView" type="Node2D" unique_id=1972905647]
+script = ExtResource("1_mnim3")
+view_scene = ExtResource("2_ubknx")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1439679183]
+zoom = Vector2(3, 3)
+
+[node name="ViewCanvasGuide" parent="." unique_id=1372312606 instance=ExtResource("3_ubknx")]

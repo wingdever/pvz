@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, puff-shroom.
+
+  All polygon, no path.
+    cap   : upper half-ellipse (polygon approximation)
+    stem  : rectangle
+    muzzle: on the STEM, right side, as two polygons (rim + hole)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: rectangle -->
+  <rect x="50" y="78" width="28" height="40" fill="#A8B86A"/>
+
+  <!-- muzzle on the stem: outer rim + dark hole -->
+  <polygon points="78,88 86,86 90,92 90,102 86,108 78,106 76,98" fill="#3A5A2A"/>
+  <polygon points="82,92 87,91 89,96 89,100 87,104 82,103 80,98" fill="#1A2A1A"/>
+
+  <!-- cap: upper half-ellipse, 8-point polygon -->
+  <polygon points="30,80 34,66 42,54 52,44 64,40 76,44 86,54 94,66 98,80"
+           fill="#B05AC0"/>
+
+  <!-- dark spots on the cap -->
+  <circle cx="46" cy="66" r="6" fill="#7A3A8A"/>
+  <circle cx="72" cy="58" r="5" fill="#7A3A8A"/>
+  <circle cx="84" cy="72" r="7" fill="#7A3A8A"/>
+  <circle cx="56" cy="74" r="4" fill="#7A3A8A"/>
+</svg>

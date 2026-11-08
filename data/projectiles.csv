@@ -1,0 +1,12 @@
+name	中文名	轨迹	速度	穿透	反弹	穿透伤害	穿甲	溅射	溅射半径	命中状态	状态值	音效	落点音效	外观	贴图	z_height	z_thickness	body_width	body_depth	body_xoff	body_yoff	治疗	尺寸	体型
+pea	豌豆	直线	—	0	0	—	—	—	—	—	0	shoot	impact	pea	pea								32
+snow_pea_shot	寒冰豌豆	直线	—	0	0	—	—	—	—	freeze	1	shoot	impact	pea	pea								32
+spore	孢子	直线	—	0	0	—	—	—	—	—	0	shoot	impact	pea	pea								32
+fume_breath	毒雾	直线	—	0	0	—	是	—	—	—	0	shoot	impact	pea	pea								32
+cabbage	卷心菜	抛射	—	0	0	—	—	—	—	—	0	lob	impact	melon	melon								40
+melon	西瓜	抛射	—	0	0	—	—	0.5	—	—	0	lob	melon_impact	melon	melon								40
+winter_melon_shot	冰西瓜	抛射	—	0	0	—	—	0.5	—	freeze	1	lob	melon_impact	melon	melon								40
+arrow	箭	抛射	620	0	0	—	—	—	—	—	0	bow	arrow_hit	arrow	arrow								64
+musket	火枪弹	追踪	950	0	0	—	—	—	—	—	0	musket	musket_hit	musket	musket								48
+bomb	炮弹	抛射	420	0	0	—	—	0.5	1.6	—	0	musket	smash	bomb	—	1.2							18
+warm_sun	暖阳	追踪	96	0	0	—	—	—	—	—	0	sun	sun	pea	res://assets/svg/items/sun.svg							是	100	大

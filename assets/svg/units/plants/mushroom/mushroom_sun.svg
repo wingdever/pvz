@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, sun-shroom.
+  Yellow dome cap with orange spots, cream stem.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="46" y="72" width="36" height="46" rx="10" fill="#F4E4B0"/>
+  <path d="M 20,74 Q 20,26 64,26 Q 108,26 108,74 Z" fill="#F4C430"/>
+  <circle cx="40" cy="54" r="7" fill="#E8A020"/>
+  <circle cx="64" cy="44" r="5" fill="#E8A020"/>
+  <circle cx="88" cy="56" r="8" fill="#E8A020"/>
+  <circle cx="76" cy="66" r="4" fill="#E8A020"/>
+  <circle cx="48" cy="66" r="5" fill="#E8A020"/>
+</svg>

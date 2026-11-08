@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, garlic.
+
+  Beige garlic bulb with vertical segments, a curled green sprout on top,
+  two mismatched eyes and a small mouth with two teeth. Flat shapes only.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- sprout: three curled green tendrils on top -->
+  <polygon points="58,36 60,16 64,12 62,32" fill="#4CAF50"/>
+  <polygon points="64,32 74,10 80,8 68,28" fill="#4CAF50"/>
+  <polygon points="56,34 40,14 46,12 62,30" fill="#4CAF50"/>
+
+  <!-- garlic body: rounded with vertical lobes -->
+  <polygon points="24,64 32,46 48,38 64,34 80,38 96,46 104,64 104,88
+                   96,104 80,112 64,114 48,112 32,104 24,88"
+           fill="#E8D8B0"/>
+  <!-- body lobes: darker seams -->
+  <polygon points="40,42 44,38 44,112 40,108" fill="#D8C898"/>
+  <polygon points="60,34 64,34 64,114 60,114" fill="#D8C898"/>
+  <polygon points="80,38 84,42 84,108 80,112" fill="#D8C898"/>
+
+  <!-- left eye: pink oval with dark pupil -->
+  <polygon points="46,64 60,60 62,74 54,80 44,76" fill="#F0C8D8"/>
+  <circle cx="54" cy="70" r="4" fill="#2A2A2A"/>
+  <circle cx="55" cy="68" r="1" fill="#FFFFFF"/>
+
+  <!-- right eye: smaller, higher -->
+  <polygon points="82,58 94,56 96,68 86,72 80,66" fill="#F0C8D8"/>
+  <circle cx="88" cy="64" r="3" fill="#2A2A2A"/>
+  <circle cx="89" cy="63" r="0.8" fill="#FFFFFF"/>
+
+  <!-- mouth: small dark line with two teeth -->
+  <polygon points="52,86 84,82 84,88 52,92" fill="#8B7A5A"/>
+  <polygon points="56,86 62,86 62,92 56,92" fill="#F0E8E0"/>
+  <polygon points="70,84 76,84 76,90 70,90" fill="#F0E8E0"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, sunflower.
+
+  Same silhouette rules as peashooter.svg (read that file for the full notes):
+  pure fills, no strokes, one flat colour per part. Only the HEAD differs -
+  a circle instead of a trapezoid - which is exactly the difference between the
+  two plants in this game.
+
+  The stem and leaves are green (a sunflower is a green plant), the head uses
+  Balance.COLOR_SUNFLOWER (0.95, 0.80, 0.20) = #F2CC33.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: same as the peashooter, one notch shorter because the head is round -->
+  <polygon points="58,112 70,112 67,62 61,62" fill="#2D8636"/>
+  <!-- leaves: same two kites -->
+  <polygon points="62,94 22,74 18,88 58,104" fill="#38A843"/>
+  <polygon points="66,94 106,74 110,88 70,104" fill="#38A843"/>
+  <!-- head: circle, r 26, sitting on the stem -->
+  <circle cx="64" cy="46" r="26" fill="#F2CC33"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- 队长 - 史诗 -->
+  <!-- 调色板：金色铠甲，深红裤子，披风，王冠，指挥剑 -->
+  <circle cx="71" cy="31" r="2" fill="#f2c6a0"/>
+  <circle cx="57" cy="36" r="2" fill="#f2c6a0"/>
+  <circle cx="65" cy="36" r="8" fill="#f2c6a0"/>
+  <circle cx="69" cy="33" r="1.5" fill="#2b2b2b"/>
+  <circle cx="64" cy="37" r="1.5" fill="#2b2b2b"/>
+  <polygon points="68,26 67,21 60,28 56,25 56,34 57,37 61,32 66,29 70,30 76,25" fill="#4a2c17"/>
+  <!-- 王冠 -->
+  <polygon points="60,25 65,20 70,25 72,22 74,28" fill="#ffd700" stroke="#b8860b" stroke-width="0.5"/>
+  <rect x="62" y="43" width="5" height="5" fill="#f2c6a0"/>
+  <!-- 披风（位于身体后方） -->
+  <polygon points="55,45 75,45 80,85 50,85" fill="#8b0000"/>
+  <polygon points="59,48 71,48 70,80 58,80" fill="#f2c6a0"/>
+  <polygon points="70,48 72,48 81,57 78,58 70,50" fill="#f2c6a0"/>
+  <polygon points="78,57 81,57 84,64 80,64" fill="#f2c6a0"/>
+  <circle cx="82" cy="65" r="3" fill="#f2c6a0"/>
+  <polygon points="66,80 70,80 75,96 71,96" fill="#f2c6a0"/>
+  <polygon points="71,96 75,96 74,109 70,109" fill="#f2c6a0"/>
+  <polygon points="70,109 74,109 80,112 70,112" fill="#f2c6a0"/>
+  <polygon points="58,80 62,80 62,96 58,96" fill="#f2c6a0"/>
+  <polygon points="58,96 62,96 61,109 57,109" fill="#f2c6a0"/>
+  <polygon points="57,109 61,109 67,112 57,112" fill="#f2c6a0"/>
+  <polygon points="58,80 64,79 63,97 57,97" fill="#8b0000"/>
+  <polygon points="57,70 72,73 72,81 57,83" fill="#8b0000"/>
+  <polygon points="70,96 76,96 74,110 68,110" fill="#8b0000"/>
+  <polygon points="68,108 74,107 81,112 69,112" fill="#2b2b2b"/>
+  <polygon points="65,81 72,81 77,96 70,96" fill="#8b0000"/>
+  <polygon points="57,94 63,94 61,108 55,108" fill="#8b0000"/>
+  <polygon points="57,107 62,107 68,112 56,112" fill="#2b2b2b"/>
+  <polygon points="58,46 72,46 72,75 57,76" fill="#ffd700"/>
+  <circle cx="59.5" cy="49.5" r="1.5" fill="#f2c6a0"/>
+  <polygon points="43,48 59,48 59,51 43,51" fill="#f2c6a0"/>
+  <circle cx="42.5" cy="49.5" r="1.5" fill="#f2c6a0"/>
+  <polygon points="41,50 44,50 43,59 40,59" fill="#f2c6a0"/>
+  <!-- 金色指挥剑 -->
+  <polygon points="73,46 105,34 108,38 74,49" fill="#ffd700" stroke="#b8860b" stroke-width="1"/>
+  <polygon points="105,34 108,38 112,35 109,31" fill="#b8860b"/>
+  <circle cx="42" cy="60" r="3" fill="#f2c6a0"/>
+</svg>
+

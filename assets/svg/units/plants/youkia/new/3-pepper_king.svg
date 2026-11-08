@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="pkBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F08020"/>
+      <stop offset="55%" stop-color="#C85010"/>
+      <stop offset="100%" stop-color="#7A2000"/>
+    </linearGradient>
+    <linearGradient id="pkFlame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#FFE060"/>
+      <stop offset="45%" stop-color="#FF9020"/>
+      <stop offset="100%" stop-color="#FF4020"/>
+    </linearGradient>
+    <linearGradient id="pkWing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A3A6A"/>
+      <stop offset="100%" stop-color="#0A1A3A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 底部火焰（尾巴大小） -->
+  <path d="M 170 360
+           Q 160 340 175 330
+           Q 180 310 195 320
+           Q 200 305 210 320
+           Q 225 310 230 330
+           Q 245 340 235 360
+           Q 210 375 200 375
+           Q 190 375 170 360 Z"
+        fill="url(#pkFlame)" stroke="#7A2000" stroke-width="5"/>
+
+  <!-- 左侧大翅膀 -->
+  <path d="M 180 200
+           Q 80 160 20 100
+           Q 60 120 40 80
+           Q 90 130 80 90
+           Q 120 160 110 140
+           Q 130 180 140 200
+           Q 120 220 100 230
+           Q 110 250 80 260
+           Q 120 260 150 240
+           Q 170 230 180 200 Z"
+        fill="url(#pkWing)" stroke="#0A1A3A" stroke-width="6" stroke-linejoin="round"/>
+  <!-- 翅膀亮蓝边 -->
+  <path d="M 180 200 Q 80 160 20 100 Q 60 120 40 80 Q 90 130 80 90 Q 120 160 110 140 Q 130 180 140 200"
+        fill="none" stroke="#3AA0E0" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 右侧大翅膀 -->
+  <path d="M 220 200
+           Q 320 160 380 100
+           Q 340 120 360 80
+           Q 310 130 320 90
+           Q 280 160 290 140
+           Q 270 180 260 200
+           Q 280 220 300 230
+           Q 290 250 320 260
+           Q 280 260 250 240
+           Q 230 230 220 200 Z"
+        fill="url(#pkWing)" stroke="#0A1A3A" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 220 200 Q 320 160 380 100 Q 340 120 360 80 Q 310 130 320 90 Q 280 160 290 140 Q 270 180 260 200"
+        fill="none" stroke="#3AA0E0" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 左翼上的火 -->
+  <path d="M 60 100
+           Q 50 70 70 50
+           Q 75 30 90 45
+           Q 100 25 115 45
+           Q 130 40 130 65
+           Q 145 70 135 95
+           Q 130 115 110 120
+           Q 85 125 70 115
+           Q 55 110 60 100 Z"
+        fill="url(#pkFlame)" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 75 100 Q 80 75 90 70 Q 85 55 100 60 Q 105 45 110 65 Q 120 60 120 80 Q 130 85 125 100 Q 115 115 100 115 Q 85 115 75 100 Z"
+        fill="#FFD040"/>
+
+  <!-- 右翼上的火 -->
+  <path d="M 340 100
+           Q 350 70 330 50
+           Q 325 30 310 45
+           Q 300 25 285 45
+           Q 270 40 270 65
+           Q 255 70 265 95
+           Q 270 115 290 120
+           Q 315 125 330 115
+           Q 345 110 340 100 Z"
+        fill="url(#pkFlame)" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 325 100 Q 320 75 310 70 Q 315 55 300 60 Q 295 45 290 65 Q 280 60 280 80 Q 270 85 275 100 Q 285 115 300 115 Q 315 115 325 100 Z"
+        fill="#FFD040"/>
+
+  <!-- 南瓜主体 -->
+  <path d="M 130 200
+           Q 200 170 270 200
+           Q 300 240 295 290
+           Q 285 350 200 365
+           Q 115 350 105 290
+           Q 100 240 130 200 Z"
+        fill="url(#pkBody)" stroke="#3A0800" stroke-width="7"/>
+
+  <!-- 身体缝 -->
+  <path d="M 165 190 Q 165 280 175 355" fill="none" stroke="#7A2000" stroke-width="6"/>
+  <path d="M 235 190 Q 235 280 225 355" fill="none" stroke="#7A2000" stroke-width="6"/>
+  <path d="M 200 180 L 200 365" fill="none" stroke="#7A2000" stroke-width="5"/>
+
+  <!-- 高光 -->
+  <path d="M 145 230 Q 180 205 215 215 Q 195 250 165 260 Q 145 250 145 230 Z"
+        fill="#FFB080" opacity="0.65"/>
+
+  <!-- 茎 + 叶 -->
+  <path d="M 195 180 Q 190 145 175 125 Q 200 120 215 125 Q 210 145 210 180 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 190 155 Q 150 140 130 155 Q 150 180 185 170 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 215 155 Q 255 140 275 155 Q 255 180 220 170 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+
+  <!-- 眼睛（三角形怒眼） -->
+  <path d="M 145 240 L 190 235 L 190 265 L 145 270 Z" fill="#FFD040" stroke="#3A0800" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 255 235 L 210 240 L 210 270 L 255 265 Z" fill="#FFD040" stroke="#3A0800" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 嘴（锯齿） -->
+  <path d="M 150 300
+           L 170 295 L 180 310 L 195 295 L 205 310 L 220 295 L 230 310 L 250 300
+           L 240 335 L 225 330 L 215 340 L 200 330 L 185 340 L 175 330 L 160 335 Z"
+        fill="#FFD040" stroke="#3A0800" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- 左手：一团火 -->
+  <path d="M 100 290 Q 115 270 135 275 Q 150 280 145 300 Q 135 315 115 315 Q 100 310 100 290 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 105 270
+           Q 100 240 115 220
+           Q 120 200 135 215
+           Q 145 195 155 215
+           Q 170 210 165 235
+           Q 180 240 170 265
+           Q 160 280 140 280
+           Q 120 285 105 270 Z"
+        fill="url(#pkFlame)" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 120 260 Q 125 235 140 235 Q 140 215 150 225 Q 155 215 160 235 Q 165 255 155 265 Q 140 270 125 265 Z"
+        fill="#FFD040"/>
+
+  <!-- 右手：一团火 -->
+  <path d="M 300 290 Q 285 270 265 275 Q 250 280 255 300 Q 265 315 285 315 Q 300 310 300 290 Z"
+        fill="#3A8A20" stroke="#1A4A10" stroke-width="5"/>
+  <path d="M 295 270
+           Q 300 240 285 220
+           Q 280 200 265 215
+           Q 255 195 245 215
+           Q 230 210 235 235
+           Q 220 240 230 265
+           Q 240 280 260 280
+           Q 280 285 295 270 Z"
+        fill="url(#pkFlame)" stroke="#7A2000" stroke-width="5"/>
+  <path d="M 280 260 Q 275 235 260 235 Q 260 215 250 225 Q 245 215 240 235 Q 235 255 245 265 Q 260 270 275 265 Z"
+        fill="#FFD040"/>
+</svg>

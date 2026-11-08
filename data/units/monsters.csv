@@ -1,0 +1,8 @@
+name	费用	attack距离	移速	attack间隔	射弹	近战特效	远程特效	持续	击退	吞噬	大招持续	大招范围	大招震飞	旋风	大招击退	受击积攒
+default	3	2.5	0.7	1.2
+laser_eye	3	3.2	0.65	1.4			laser
+flame_eye	2	2.0	0.75	1.1			flame
+laser_eye_tower	4	3.8	0.55	4.0			impulse	3.0
+flame_eye_tower	4	2.8	0.60	4.0			flame	3.0
+green_slim	3	0.75	0.65	1.6						2.0
+thundercorn	4	2.8	0.60	1.6			thunder				3.0

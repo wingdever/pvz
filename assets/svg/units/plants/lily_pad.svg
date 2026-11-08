@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, lily-pad.
+
+  Green oval leaf with a wedge cut at the top-centre, radial veins, and
+  a few small yellow droplets. All polygon / circle, no path.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- leaf body: rounded oval -->
+  <polygon points="14,64 18,44 30,28 48,18 64,14 80,18 98,28 110,44 114,64
+                   110,84 98,100 80,110 64,114 48,110 30,100 18,84"
+           fill="#7FD84A"/>
+
+  <!-- wedge cut at the top-centre -->
+  <polygon points="64,14 56,44 72,44" fill="#FFFFFF"/>
+
+  <!-- radial veins: five darker green strips -->
+  <polygon points="64,50 40,32 44,26 64,44" fill="#5AB82E"/>
+  <polygon points="64,50 88,32 84,26 64,44" fill="#5AB82E"/>
+  <polygon points="64,50 22,58 22,64 64,56" fill="#5AB82E"/>
+  <polygon points="64,50 106,58 106,64 64,56" fill="#5AB82E"/>
+  <polygon points="64,50 60,110 68,110 68,50" fill="#5AB82E"/>
+
+  <!-- centre dot -->
+  <circle cx="64" cy="48" r="3" fill="#4A9A20"/>
+
+  <!-- small yellow droplets -->
+  <circle cx="98" cy="94" r="4" fill="#F4D040"/>
+  <circle cx="98" cy="94" r="2" fill="#FFE870"/>
+  <circle cx="78" cy="102" r="5" fill="#F4D040"/>
+  <circle cx="78" cy="102" r="2.5" fill="#FFE870"/>
+</svg>

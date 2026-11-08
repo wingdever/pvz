@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ brawl: EQUIPMENT icon, iron sword (data/brawl/gear.csv row iron_sword).
+  Canvas 128x128, pure fills, no strokes or gradients (PROMPT.md 7.1 / docs/UNIT_ART.md 4).
+    blade #C7D0DA   guard #D9A441   grip #6B4A2B
+  The brawl draws these in the three attachment squares under a piece and on the bag tiles
+  (scripts/ui/brawl/brawl_formation.gd), which is why every shape is chunky enough to read
+  at ~16 px.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- blade -->
+  <polygon points="64,8 73,30 73,82 55,82 55,30" fill="#C7D0DA"/>
+  <!-- cross guard -->
+  <rect x="38" y="82" width="52" height="11" rx="4" fill="#D9A441"/>
+  <!-- grip -->
+  <rect x="58" y="93" width="12" height="21" rx="4" fill="#6B4A2B"/>
+  <!-- pommel -->
+  <circle cx="64" cy="118" r="8" fill="#D9A441"/>
+</svg>

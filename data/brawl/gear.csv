@@ -1,0 +1,16 @@
+name	name_zh	名称	等级	效果	数值	svg
+iron_skin	铁甲	augment	silver	hp_mult	0.15	—
+sharp_blade	利刃	augment	silver	attack_mult	0.15	—
+swift_boots	疾行靴	augment	silver	speed_mult	0.20	—
+quick_hands	快手	augment	gold	haste	0.25	—
+thick_hide	厚皮	augment	gold	taken_mult	-0.15	—
+war_drums	战鼓	augment	prism	attack_mult	0.40	—
+titan_blood	泰坦之血	augment	prism	hp_mult	0.50	—
+iron_sword	铁剑	equipment	silver	attack_flat	8	gear_sword
+leather_armor	皮甲	equipment	silver	taken_mult	-0.10	gear_armor
+light_boots	轻靴	equipment	silver	speed_mult	0.15	gear_boots
+bracer	护腕	equipment	silver	haste	0.15	gear_bracer
+heart_guard	护心镜	equipment	silver	hp_flat	120	gear_mirror
+whetstone	磨刀石	equipment	gold	attack_mult	0.12	gear_whetstone
+giant_belt	巨人腰带	equipment	gold	hp_flat	300	gear_belt
+iron_wall	铁壁	equipment	gold	taken_mult	-0.20	gear_wall

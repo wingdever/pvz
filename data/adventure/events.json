@@ -1,0 +1,46 @@
+[
+  {
+    "id": "e_fallen_seed",
+    "title_zh": "坠落的种子",
+    "title_en": "A Fallen Seed",
+    "text_zh": "一只不知从哪儿飞来的种子滚到你脚边，壳上还带着太阳的温度。随队的园丁说，这种成色的种子要么种下去，要么卖个好价钱。",
+    "text_en": "A seed of unknown origin rolls to your feet, its shell still warm from the sun. The gardening zombie at your side says a seed this fresh is either planted now or sold while it is worth something.",
+    "options": [
+      { "text_zh": "就地种下", "text_en": "Plant it here", "effects": "plant=wallnut" },
+      { "text_zh": "卖给路过的商贩", "text_en": "Sell it to a passing trader", "effects": "money=+30" }
+    ]
+  },
+  {
+    "id": "e_sun_blessing",
+    "title_zh": "日光祈福",
+    "title_en": "Sun Blessing",
+    "text_zh": "一小片云恰好让开了阳光，草坪中央亮得像舞台。老园丁说这样的日子不该浪费：要么诚心祈福，要么趁大家发呆时捡走掉在地上的银币。",
+    "text_en": "A hole in the clouds lights the lawn like a stage. The old gardener says a moment like this should not be wasted: either kneel and ask the sun to favour the whole campaign, or pocket the silver coins others dropped while daydreaming.",
+    "options": [
+      { "text_zh": "诚心祈福（全程阳光产出 +15%）", "text_en": "Pray (sun output +15% for the run)", "effects": "mod=sun_mult:1.15" },
+      { "text_zh": "顺走银币", "text_en": "Pocket the loose coins", "effects": "money=+25" }
+    ]
+  },
+  {
+    "id": "e_wandering_vendor",
+    "title_zh": "游荡小贩",
+    "title_en": "Wandering Vendor",
+    "text_zh": "一个推着破旧手推车的小贩拦住了去路，车上摆着化肥和经验药剂。他说只收现钱，不赊账，也不退换。",
+    "text_en": "A vendor with a rattling cart blocks the path, offering fertiliser and experience potions. Cash only, he says - no credit, no refunds.",
+    "options": [
+      { "text_zh": "买一袋化肥（-40 钱币）", "text_en": "Buy fertiliser (-40 money)", "effects": "money=-40;item=fertilizer" },
+      { "text_zh": "买一瓶经验药剂（-60 钱币）", "text_en": "Buy an experience potion (-60 money)", "effects": "money=-60;item=exp_potion" }
+    ]
+  },
+  {
+    "id": "e_broken_camp",
+    "title_zh": "废弃营地",
+    "title_en": "Abandoned Camp",
+    "text_zh": "前一批冒险者留下了一个塌了一半的营地。篝火还有余温，药箱被翻得乱七八糟，但角落里似乎还藏着什么。",
+    "text_en": "The previous expedition left a half-collapsed camp. The fire still holds warmth, the medicine box has been ransacked, and something seems to be hidden in a corner.",
+    "options": [
+      { "text_zh": "让全队好好休整", "text_en": "Let the whole squad rest", "effects": "heal=all" },
+      { "text_zh": "翻找值钱的东西", "text_en": "Scavenge for valuables", "effects": "money=+45;item=coin_silver" }
+    ]
+  }
+]

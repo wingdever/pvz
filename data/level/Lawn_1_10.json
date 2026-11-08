@@ -1,0 +1,134 @@
+{
+  "initial_sun": 200,
+  "brain_hp": 100,
+  "zombie_hp": 330,
+  "spawn_cols": [
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    0,
+    1,
+    2
+  ],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": {
+    "shovel": {
+      "threshold": 2
+    },
+    "glove": {
+      "threshold": 5
+    },
+    "hammer": {
+      "threshold": 12
+    }
+  },
+  "cards": {
+    "peashooter": {
+      "cooldown": 3
+    },
+    "sunflower": {
+      "cooldown": 2
+    },
+    "wallnut": {
+      "cooldown": 5
+    },
+    "split_pea": {
+      "cooldown": 5
+    },
+    "puff_shroom": {
+      "cooldown": 2
+    }
+  },
+  "summons_per_turn": 1,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    {
+      "id": 1,
+      "start_round": 26,
+      "spawns": [
+        {
+          "round": 26,
+          "type": "zombie",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_round": 30,
+      "spawns": [
+        {
+          "round": 30,
+          "type": "zombie",
+          "count": 3
+        },
+        {
+          "round": 31,
+          "type": "zombie",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_round": 34,
+      "spawns": [
+        {
+          "round": 34,
+          "type": "zombie_cone",
+          "count": 4
+        },
+        {
+          "round": 35,
+          "type": "zombie_cone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_round": 38,
+      "spawns": [
+        {
+          "round": 38,
+          "type": "zombie_cone",
+          "count": 4
+        },
+        {
+          "round": 39,
+          "type": "zombie_cone",
+          "count": 3
+        },
+        {
+          "round": 41,
+          "type": "zombie",
+          "count": 6
+        }
+      ],
+      "banner": true
+    }
+  ],
+  "first_clear_plant": "potato_mine",
+  "first_clear": {
+    "scroll_potato_mine": 1,
+    "scroll_spirit_potato_mine": 1
+  },
+  "rewards": [
+    {
+      "chance": 1,
+      "items": {
+        "coin_gold": 5
+      }
+    },
+    {
+      "chance": 0.25,
+      "items": {
+        "coin_silver": 3
+      }
+    }
+  ]
+}

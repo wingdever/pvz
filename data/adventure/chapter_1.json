@@ -1,0 +1,36 @@
+{
+  "id": "chapter_1",
+  "name": "Front Yard",
+  "name_zh": "前院攻势",
+  "starting_slots": 4,
+  "layers": [
+    [
+      { "id": "n1", "type": "battle", "level": "Lawn_1_1", "next": ["n2", "n3"] }
+    ],
+    [
+      { "id": "n2", "type": "event", "event": "e_fallen_seed", "next": ["n4", "n5"] },
+      { "id": "n3", "type": "shop", "next": ["n5", "n6"] }
+    ],
+    [
+      { "id": "n4", "type": "battle", "level": "Lawn_1_2", "next": ["n7"] },
+      { "id": "n5", "type": "treasure", "next": ["n7", "n8"] },
+      { "id": "n6", "type": "battle", "level": "Lawn_1_3", "next": ["n8"] }
+    ],
+    [
+      { "id": "n7", "type": "battle", "level": "Lawn_1_4", "next": ["n9", "n10"] },
+      { "id": "n8", "type": "rest", "next": ["n10", "n11"] }
+    ],
+    [
+      { "id": "n9", "type": "battle", "level": "Lawn_1_5", "next": ["n12"] },
+      { "id": "n10", "type": "event", "event": "e_broken_camp", "next": ["n12", "n13"] },
+      { "id": "n11", "type": "battle", "level": "Lawn_1_6", "next": ["n13"] }
+    ],
+    [
+      { "id": "n12", "type": "battle", "level": "Lawn_1_7", "next": ["n14"] },
+      { "id": "n13", "type": "shop", "next": ["n14"] }
+    ],
+    [
+      { "id": "n14", "type": "boss", "level": "Lawn_1_8", "next": [] }
+    ]
+  ]
+}

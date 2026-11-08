@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- 图鉴/书签图标 -->
+  <!-- 书皮 -->
+  <polygon points="64,20 20,35 20,105 64,90" fill="#3b7dd8"/>
+  <polygon points="64,20 108,35 108,105 64,90" fill="#2c5aa0"/>
+  <!-- 书页 -->
+  <polygon points="64,25 25,38 25,100 64,85" fill="#f2c6a0"/>
+  <polygon points="64,25 103,38 103,100 64,85" fill="#f2c6a0"/>
+  <!-- 书脊 -->
+  <line x1="64" y1="20" x2="64" y2="90" stroke="#4a2c17" stroke-width="3"/>
+  <!-- 书签 -->
+  <polygon points="90,35 95,35 95,55 92.5,50 90,55" fill="#b22222"/>
+  <!-- 图鉴放大镜标识 -->
+  <circle cx="75" cy="60" r="10" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+  <line x1="82" y1="67" x2="90" y2="75" stroke="#2b2b2b" stroke-width="3" stroke-linecap="round"/>
+  <line x1="70" y1="55" x2="80" y2="65" stroke="#f2c6a0" stroke-width="2" stroke-linecap="round"/>
+</svg>

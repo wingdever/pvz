@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, gatling helmet (fusion item).
+
+  Head outline and barrels use the SAME coordinates as gatling_pea.svg,
+  shifted by (-7, +24) so the whole item is centred on the 128 canvas.
+
+  gatling_pea.svg reference:
+    head    : 38,30 90,40 90,58 38,68
+    barrels : 90..104, y 42..45 / 46..49 / 50..53 / 54..57
+  After shift (-7, +24):
+    head    : 31,54 83,64 83,82 31,92
+    barrels : 83..97, y 66..69 / 70..73 / 74..77 / 78..81
+
+  Helmet is redrawn as a plain parallelogram cap plus a rectangular back
+  plate, so no pointy corner sticks out. It is filled with one flat colour.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- head: outline only, no fill -->
+  <polygon points="32,54 83,64 83,82 32,92"
+           fill="none" stroke="#40BF4D" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- four barrels: filled -->
+  <polygon points="83,66 97,66 97,69 83,69" fill="#2D8636"/>
+  <polygon points="83,70 97,70 97,73 83,73" fill="#2D8636"/>
+  <polygon points="83,74 97,74 97,77 83,77" fill="#2D8636"/>
+  <polygon points="83,78 97,78 97,81 83,81" fill="#2D8636"/>
+
+  <!-- helmet top: parallelogram cap -->
+  <polygon points="30,36 73,60 73,65 30,54" fill="#6E7A6E"/>
+  <!-- helmet back: rectangle, no sharp corner -->
+  <polygon points="30,54 30,95 35,95 50,50" fill="#6E7A6E"/>
+</svg>

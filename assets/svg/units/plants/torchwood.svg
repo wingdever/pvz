@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, torchwood.
+
+  Flat shapes only, no strokes.
+    roots : three brown lumps at the base
+    trunk : wide brown block with darker bark lines
+    flame : layered yellow / orange / bright-yellow flames on top
+    face  : two angry eyes (yellow sclera + red pupils) and a grin
+  Colour follows the reference:
+    trunk light   #8B5A2B
+    trunk mid     #6B4A2E
+    trunk dark    #4A2E1A
+    flame outer   #F4A020
+    flame mid     #FFD040
+    flame inner   #FFF080
+    eye           #F4D040
+    pupil         #E53935
+    teeth         #F0E8E0
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- roots: three brown lumps at the base -->
+  <polygon points="10,116 26,104 40,112 38,122 12,122" fill="#6B4A2E"/>
+  <polygon points="44,116 64,108 84,116 82,122 46,122" fill="#6B4A2E"/>
+  <polygon points="88,116 104,104 118,114 116,122 90,122" fill="#6B4A2E"/>
+
+  <!-- trunk: wide block -->
+  <polygon points="22,64 30,52 98,52 106,64 106,116 22,116" fill="#8B5A2B"/>
+  <!-- bark lines: darker vertical strips -->
+  <polygon points="36,60 40,58 40,112 36,112" fill="#6B4A2E"/>
+  <polygon points="62,58 66,58 66,114 62,114" fill="#6B4A2E"/>
+  <polygon points="88,60 92,58 92,112 88,112" fill="#6B4A2E"/>
+  <!-- trunk top rim: darker strip -->
+  <polygon points="22,64 30,52 98,52 106,64 100,66 28,66" fill="#4A2E1A"/>
+
+  <!-- flame: outer orange layer -->
+  <polygon points="30,54 22,38 34,22 44,40 52,14 64,30 76,10 86,34
+                   96,20 104,42 96,54"
+           fill="#F4A020"/>
+  <!-- flame: middle bright-yellow layer -->
+  <polygon points="36,54 32,40 42,28 50,44 60,22 70,42 80,20 88,42
+                   92,54"
+           fill="#FFD040"/>
+  <!-- flame: inner pale-yellow layer -->
+  <polygon points="46,54 44,44 52,36 58,46 64,34 72,46 80,38 82,54"
+           fill="#FFF080"/>
+
+  <!-- eyes: yellow slanted shapes -->
+  <polygon points="34,74 52,70 54,80 34,82" fill="#F4D040"/>
+  <polygon points="74,70 92,74 92,82 72,80" fill="#F4D040"/>
+  <!-- red pupils -->
+  <polygon points="42,74 52,72 52,80 42,80" fill="#E53935"/>
+  <polygon points="74,72 84,74 84,80 74,80" fill="#E53935"/>
+
+  <!-- mouth: dark grin with a row of teeth -->
+  <polygon points="30,88 98,84 98,96 30,100" fill="#4A2E1A"/>
+  <!-- teeth: white row along the top of the mouth -->
+  <polygon points="32,88 46,87 46,92 32,93" fill="#F0E8E0"/>
+  <polygon points="48,87 62,86 62,91 48,92" fill="#F0E8E0"/>
+  <polygon points="64,86 78,85 78,90 64,91" fill="#F0E8E0"/>
+  <polygon points="80,85 96,84 96,89 80,90" fill="#F0E8E0"/>
+</svg>

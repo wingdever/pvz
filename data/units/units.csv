@@ -1,0 +1,122 @@
+名称	name	race	HP	attack	defence	技能	大招	天赋	技能代码	大招代码	特殊机制	技能英文	大招英文	天赋英文	特殊机制英文	svg	tscn	timed	turned	rarity	face	z_height	z_thickness	body_width	body_depth	body_xoff	body_yoff	range_type	role	regen	rolling
+豌豆射手	peashooter	plants/pea	300.0	20.0		豌豆射击			peashooter_fire	pea_storm		Pea Shot				pea/peashooter	peashooter			common								range	dps		
+双发射手	repeater	plants/pea	300.0	20.0		豌豆双射			repeater_fire	double_storm	融合：豌豆+豌豆	Double Pea			Fusion: Peashooter + Peashooter	pea/repeater				common								range	dps		
+裂荚射手	split_pea	plants/pea	300.0	20.0		豌豆裂射			split_pea_fire	pincer_attack	融合：双发+豌豆	Split Pea			Fusion: Repeater + Peashooter	pea/split_pea				uncommon								range	dps		
+机枪射手	gatling_pea	plants/pea	300.0	20.0		豌豆连射			gatling_fire	bullet_storm	融合：裂荚+豌豆	Gatling Pea			Fusion: Split Pea + Peashooter	pea/gatling_pea				rare								range	dps		
+三线射手	threepeater	plants/pea	300.0	20.0		三行发射			threepeater_fire	triple_volley		Three-Lane Volley				pea/threepeater				uncommon								range	dps		
+寒冰射手	snow_pea	plants/pea	300.0	20.0		冰豌豆			snow_pea_fire	deep_freeze		Frozen Pea				pea/snow_pea				common								range	dps		
+火炬树桩	torchwood	plants	300.0			火豌豆						Fire Pea				torchwood												range	support		
+地刺	spikeweed	plants	300.0	20.0		地刺穿刺			spike_pierce	spike_storm	僵尸踩过时造成伤害，不会被啃食	Spike Pierce			Damages zombies that walk over it, cannot be eaten	spikeweed				common								melee	dps		
+地刺王	spikerock	plants	500.0	20.0		强化穿刺					僵尸踩过时造成伤害，不被啃食；对巨人僵尸不减伤	Reinforced Pierce			Damages zombies that walk over it, cannot be eaten; no damage penalty vs Gargantuar	spikerock	spikerock											melee	dps		
+向日葵	sunflower	plants	300.0	25.0		阳光汲取			sunflower_produce	sun_burst		Sun Siphon				sunflower				common								range	support		
+双生向日葵	twin_sunflower	plants	300.0	25.0		阳光双汲取			twin_sunflower_produce	sun_flood		Twin Siphon				twin_sunflower				uncommon								range	support		
+暖阳葵	warm_sunflower	plants	300.0	25.0		暖阳普照			warm_sun_heal			Warm Sun Light				sunflower2		1.0		uncommon								range	healer		
+金盏花	marigold	plants	300.0			产金币						Coin Bloom				marigold												range	support		
+墓碑吞噬者	grave_buster	plants	300.0			墓碑吞噬					只能对墓碑使用	Grave Remove			Only affects graves	grave_buster												range	support		
+土豆地雷	potato_mine	plants	0.0	9999.0		单体爆炸			potato_blast		需3回合武装，一次性	Single Blast			Needs 3 rounds to arm, one-shot	potato_mine				common								melee	dps		
+大嘴花	chomper	plants	300.0	0.0		吞噬			chomp	big_chomp	无视HP	Devour			Ignores HP	chomper				uncommon								melee	dps		
+坚果墙	wallnut	plants	1000.0	0.0						wall_nut_wall						wallnut		1		uncommon								range	tank	10	1
+高坚果	tallnut	plants	2000.0	0.0				高栏		steel_bulwark						tallnut				uncommon								range	tank		
+大蒜	garlic	plants	500.0			驱赶					被啃食时僵尸换行	Repel			Zombies switch rows when they bite	garlic												range	support		
+南瓜	pumpkin	plants	1500.0								给相邻一格植物附加护甲				Grants armor to one adjacent plant	pumpkin												range	support		
+樱桃炸弹	cherry_bomb	plants	0.0	9999.0		范围爆炸			cherry_blast		一次性	Area Blast			One-shot	cherry_bomb				uncommon								melee	dps		
+火爆辣椒	jalapeno	plants	0.0	9999.0		火燃一线			jalapeno_burn		一次性	Line of Fire			One-shot	jalapeno				uncommon								range	dps		
+窝瓜	squash	plants	0.0	9999.0		单格压杀			squash_stomp		一次性	Squash			One-shot	squash				common								melee	dps		
+阳光菇	mushroom_sun	plants/mushroom	300.0	15.0		月光汲取						Moonlight Siphon				mushroom/mushroom_sun												range	support		
+小喷菇	puff_shroom	plants/mushroom	200.0	10.0		短程孢子			puff_shroom_fire	spore_cloud	射程3格	Short Spore			Range 3	mushroom/puff_shroom				common								range	dps		
+大喷菇	fume_shroom	plants/mushroom	300.0	20.0		孢子喷射			fume_shroom_breath	toxic_cloud	射程3格，穿透铁门	Fume Spray			Range 3, ignores screen door	mushroom/fume_shroom				uncommon								range	dps		
+忧郁菇	gloom_shroom	plants/mushroom	300.0	20.0		环形喷射			gloom_breath	shadow_storm	周围8格	Ring Spray			Surrounding 8 cells	mushroom/gloom_shroom				uncommon								range	dps		
+胆小菇	scaredy_shroom	plants/mushroom	300.0	20.0		远程射击			scaredy_spore	terror_spore	僵尸相邻时停止attack	Spore Shot			Stops attacking when a zombie is adjacent	mushroom/scaredy_shroom				common								range	dps		
+魅惑菇	hypno_shroom	plants/mushroom				亡语魅惑					一次性	Death Charm			One-shot	mushroom/hypno_shroom												range	dps		
+寒冰菇	ice_shroom	plants/mushroom		0.0		全屏冻结					一次性	Screen Freeze			One-shot	mushroom/ice_shroom				rare								range	dps		
+毁灭菇	doom_shroom	plants/mushroom				毁灭爆炸					一次性，留下弹坑	Doom Blast			One-shot, leaves a crater	mushroom/doom_shroom												melee	dps		
+磁力菇	magnet_shroom	plants/mushroom	300.0			磁力吸附					只能对有金属护甲的僵尸使用	Magnetic Pull			Only affects zombies with metal armor	mushroom/magnet_shroom												range	support		
+金磁力菇	gold_magnet	plants/mushroom	300.0			自动吸金					自动拾取	Gilded Pull			Auto-pickup	mushroom/gold_magnet												range	support		
+卷心菜投手	cabbage_pult	plants/pult	300.0	20.0		抛掷卷心菜			cabbage_toss	cabbage_rain	可越过墓碑、屋顶等障碍	Cabbage Toss			Lobs over obstacles	pult/cabbage_pult				common								range	dps		
+玉米投手	kernel_pult	plants/pult	300.0	20.0		抛掷玉米					可越过障碍物	Kernel Toss			Lobs over obstacles	pult/kernel_pult												range	dps		
+西瓜投手	melon_pult	plants/pult	300.0	60.0		抛掷西瓜			melon_toss	melon_rain	溅射伤害	Melon Toss			Splash damage	pult/melon_pult				uncommon								range	dps		
+冰西瓜投手	winter_melon	plants/pult	300.0	60.0		抛掷冰西瓜			icy_melon_toss	frozen_melon_rain	溅射+冻结	Icy Melon Toss			Splash + freeze	pult/winter_melon				rare								range	dps		
+花盆	flower_pot	plants	100.0								提供一格可种植位（屋顶关卡必需）				Provides one plantable cell (required on the roof)	flower_pot												range	support		
+睡莲	lily_pad	plants	100.0								只能种在水面；可承载其它植物				Only on water; can hold one plant on top	lily_pad												range	support		
+猫尾草	cattail	plants	300.0	20.0		追踪刺					可attack任意行、空中单位	Cattail Spike			Any row, air units	cattail												range	dps		
+缠绕水草	tangle_kelp	plants				拖拽					一次性，只能在水面使用	Drag Under			One-shot, water only	tangle_kelp												melee	dps		
+海蘑菇	sea_shroom	plants/mushroom	200.0	10.0		短程孢子					射程3格，只能种在水面	Short Spore			Range 3, water only	mushroom/sea_shroom												range	dps		
+路灯花	plantern	plants	300.0			照明						Illuminate				plantern												range	support		
+仙人掌	cactus	plants	300.0	20.0		尖刺射击					可attack空中单位	Spike Shot			Can hit air units	cactus												range	dps		
+三叶草	blover	plants				吹风					一次性	Blow Away			One-shot	blover												range	support		
+杨桃	starfruit	plants	300.0	20.0		星形射击					同时attack5个方向	Star Shot			Hits 5 directions at once	starfruit												range	dps		
+叶子保护伞	umbrella_leaf	plants	300.0			保护						Umbrella				umbrella_leaf												range	support		
+玉米加农炮	cob_cannon	plants	300.0			加农炮击					手动瞄准，发射后需3回合冷却	Targeted Blast			Manual aim, 3-round cooldown after firing	cob_cannon												range	dps		
+咖啡豆	coffee_bean	plants				唤醒					一次性	Awaken			One-shot	coffee_bean												range	support		
+模仿者	imitater	plants				模仿					变身：从仓库中复制一张卡	Mimic			Transform: copies one card from the warehouse	imitater												range	support		
+草莓小红	strawberry_mini	plants/youkia														youkia/strawberry_mini												range	dps		
+石榴娃娃	pomegranate_doll	plants/youkia														youkia/pomegranate_doll												range	dps		
+烈焰椒	blaze_pepper	plants/youkia														youkia/blaze_pepper	blaze_pepper											range	dps		
+鬼椒王	pepper_king	plants/youkia														youkia/pepper_king	pepperking											range	dps		
+极鬼椒王	pepper_king_omega	plants/youkia														youkia/pepper_king_omega												range	dps		
+炎鬼王	flame_king	plants/youkia														youkia/flame_king												range	dps		
+普通僵尸	zombie	zombies/normal	270.0	100.0		啃食					血量低于1/3（90）时立即死亡	Bite			Dies at once below 1/3 of its HP (90)	zombie		1.0	1.0									melee	dps		
+旗帜僵尸	zombie_flag	zombies/normal	270.0	100.0		啃食					和普通僵尸一样	Bite			Same as a normal zombie	zombie_flag												melee	support		
+愤怒僵尸	zombie_angry	zombies/normal	270.0	100.0		啃食		急行			僵尸的愤怒状态，移速变快	Bite		Run	Loses the bite and enrages: move 1 and bite 150	zombie_angry												melee	dps		
+路障僵尸	zombie_cone	zombies/normal	270.0	100.0		啃食					护甲被打掉后变普通僵尸	Bite			Loses the cone and becomes a normal zombie	zombie_cone												melee	tank		
+铁桶僵尸	zombie_bucket	zombies/normal	270.0	100.0		啃食					护甲被打掉后变普通僵尸	Bite			Loses the bucket and becomes a normal zombie	zombie_bucket												melee	tank		
+撑杆僵尸	zombie_polevault	zombies/normal	270.0	100.0		啃食		跳跃			跳过第一株植物（不咬，直接越过1格），跳过之后变普通僵尸	Bite		Jump	Vaults over the first plant without biting then becomes a normal zombie	zombie_polevault												melee	dps		
+读报僵尸	zombie_newspaper	zombies/normal	270.0	100.0		啃食		发怒			报纸被打掉后暴怒：移动变1，啃食变150	Bite		Rage	Loses the newspaper and enrages: move 1 and bite 150	zombie_newspaper												melee	dps		
+铁门僵尸	zombie_screendoor	zombies/normal	270.0	100.0		啃食					1.铁门只挡正面直线射弹，并格挡射弹的特殊效果；2.背后attack无视护甲	Bite			The door only guards the front against straight shots, and blocks their effects - attacks from behind ignore the armor	zombie_screendoor												melee	tank		
+橄榄球僵尸	zombie_football	zombies/normal	600.0	150.0		啃食					护甲打掉后移动变3	Bite			Loses the armor and its move becomes 3	zombie_football												melee	dps		
+红眼巨人僵尸	zombie_gargantuar_red	zombies/huge	3000.0	9999.0		锤击					锤击有3回合前摇和2回合后摇；免疫冻结；红眼状态	Hammer			The hammer has a 3 round wind-up and a 2 round recovery; immune to freezing; red-eyed state	zombie_gargantuar_red												melee	dps		
+小鬼僵尸	zombie_imp	zombies/mini	100.0	50.0		啃食					被巨人僵尸投掷到第3列	Bite			Thrown into column 3 by a Gargantuar	zombie_imp												melee	dps		
+巨人僵尸	zombie_gargantuar	zombies/huge	1500.0	9999.0		锤击					锤击有3回合前摇和2回合后摇；免疫冻结	Hammer			The hammer has a 3 round wind-up and a 2 round recovery; immune to freezing	zombie_gargantuar												melee	dps		
+舞王僵尸	zombie_dancer	zombies/normal	270.0	100.0		召唤					每7回合召唤1只伴舞僵尸（HP=135，移动4）	Summon			Summons 1 backup dancer every 7 rounds (HP 135 and move 4)	zombie_dancer												melee	support		
+舞者僵尸	zombie_dancer_lead	zombies/normal	270.0	100.0		召唤					舞王僵尸本体，会移动且召唤	Summon			The lead dancer - moves and summons	zombie_dancer_lead												melee	support		
+伴舞僵尸	zombie_backup_dancer	zombies/mini	135.0	100.0		啃食					被舞王僵尸召唤	Bite			Summoned by the dancer zombie	zombie_backup_dancer												melee	dps		
+鸭子救生圈僵尸	zombie_ducky	zombies/normal	270.0	100.0		啃食		漂浮			水面单位，用鸭子救生圈漂浮	Bite		Float	Water unit - floats on a ducky inner tube	water/zombie_ducky												melee	dps		
+潜水僵尸	zombie_snorkel	zombies/normal	270.0	100.0		啃食		潜水			潜行：在attack前不会被豌豆击中，只有近距离才会被attack	Bite		Snorkel	Submerged: cannot be hit by peas until it surfaces to bite	water/zombie_snorkel												melee	dps		
+雪橇车僵尸	zombie_zamboni	zombies/huge	1350.0	9999.0		碾压					碾压路径上的所有植物，留下冰面	Crush			Crushes every plant in its path and leaves an ice trail	zombie_zamboni												melee	dps		
+雪橇僵尸小队	zombie_bobsled	zombies/mini	135.0	100.0		啃食					4只僵尸一起乘坐雪橇，雪橇被打碎后变成普通僵尸	Bite			4 zombies on one bobsled - when the sled breaks they become normal zombies	zombie_bobsled												melee	dps		
+海豚骑士僵尸	zombie_dolphin	zombies/normal	270.0	100.0		啃食		跳跃			骑海豚跳过第一株植物	Bite		Jump	Rides a dolphin and vaults over the first plant	water/zombie_dolphin												melee	dps		
+僵尸海豚	zombie_dolphin_ride	zombies/mini		0.0							海豚骑士的坐骑				The dolphin mount of the dolphin rider	water/zombie_dolphin_ride												melee	support		
+玩偶匣僵尸	zombie_pogo	zombies/normal	300.0	100.0		爆炸					死亡时爆炸，伤害周围植物	Explode			Explodes on death, damaging nearby plants	zombie_pogo												melee	dps		
+气球僵尸	zombie_balloon	zombies/normal	270.0	100.0		啃食		漂浮			飞行，只有三线射手/机枪射手/寒冰射手能打	Bite		Float	Flies - only Threepeater / Gatling Pea / Snow Pea can hit it	zombie_balloon												melee	dps		
+矿工僵尸	zombie_digger	zombies/normal	270.0	100.0		啃食		挖洞			从右侧挖洞到左侧，从背后attack植物	Bite		Dig	Digs from the right to the left, attacking plants from behind	zombie_digger												melee	dps		
+跳跳僵尸	zombie_pogo_hopping	zombies/normal	270.0	100.0		啃食		跳跃			用弹簧单高跷跳过植物	Bite		Hop	Uses a pogo stick to hop over plants	zombie_pogo_hopping												melee	dps		
+雪人僵尸	snow_goblin	zombies/mini	120.0	0.0							每波僵尸超过5只时5%概率替换1只；走到最左转身，走到最右消失；击杀掉钻石				When a wave has over 5 zombies a 5% chance replaces one; walks to the far left and turns around then walks out on the right; drops a diamond	snow_goblin												melee	support		
+蹦极僵尸	zombie_bungee	zombies/normal	270.0	0.0		抓取					从屏幕上方降下，抓走一株植物	Grab			Drops from the top of the screen and grabs one plant	zombie_bungee												melee	dps		
+扶梯僵尸	zombie_ladder	zombies/normal	270.0	100.0		啃食		攀爬			放置梯子到植物上，之后可以攀爬该植物	Bite		Climb	Places a ladder on a plant, after which zombies can climb it	zombie_ladder												melee	support		
+投石车僵尸	zombie_catapult	zombies/normal	400.0	100.0		投掷		投石			从后方投掷篮球，attack远处植物	Throw		Lob	Lobs basketballs from the back to hit distant plants	zombie_catapult												range	dps		
+僵王博士	zomboss	zombies/huge	6000.0	9999.0		多技能					召唤僵尸、投掷冰球、喷火、踩踏	Multi			Summons zombies, throws ice balls, breathes fire, stomps	boss/zomboss												range	dps		
+豌豆射手僵尸	zombie_peashooter	zombies/normal	270.0	20.0		豌豆射击					发射豌豆attack植物	Pea Shot			Fires peas to attack plants	plant/zombie_peashooter												range	dps		
+坚果僵尸	zombie_wallnut	zombies/normal	270.0	100.0							高护甲僵尸				High armor zombie	plant/zombie_wallnut												melee	tank		
+窝瓜僵尸	zombie_squash	zombies/normal	270.0	9999.0		压杀					一次性，压死前方植物	Squash			One-shot: crushes the plant in front	plant/zombie_squash												melee	dps		
+高坚果僵尸	zombie_tallnut	zombies/normal	270.0	100.0							更高护甲僵尸				Even higher armor zombie	plant/zombie_tallnut												melee	tank		
+火爆辣椒僵尸	zombie_jalapeno	zombies/normal	270.0	9999.0		火燃一线					一次性，烧毁整行植物	Line of Fire			One-shot: burns a whole row of plants	plant/zombie_jalapeno												range	dps		
+机枪射手僵尸	zombie_gatling	zombies/normal	270.0	20.0		机枪射击					连续发射4颗豌豆	Gatling			Fires 4 peas in a row	plant/zombie_gatling												range	dps		
+遛狗僵尸	zombie_dog_walker	zombies/normal	270.0	100.0		啃食					牵着一只僵尸狗	Bite			Walks a zombie dog on a leash	zombie_dog_walker												melee	dps		
+僵尸狗	zombie_dog	zombies/mini	150.0	50.0		啃食					单独行动的僵尸狗	Bite			Zombie dog that acts on its own	zombie_dog												melee	dps		
+螺旋桨僵尸	zombie_propeller	zombies/normal	270.0	100.0		飞行					飞行单位，头顶螺旋桨	Bite			Flying unit with a propeller on its head	zombie_propeller												melee	dps		
+标靶僵尸	zombie_target	zombies/normal	500.0	100.0		挡弹					举着标靶挡子弹	Block			Holds a target to block projectiles	zombie_target												melee	support		
+垃圾桶僵尸	zombie_trash	zombies/normal	270.0	100.0		啃食					垃圾桶护甲，被打掉后变普通僵尸	Bite			Trash can armor - loses it and becomes a normal zombie	zombie_trash												melee	tank		
+棒球僵尸	zombie_baseball	zombies/normal	270.0	100.0		击打					用球棒击飞豌豆	Swing			Swings a bat to knock peas away	zombie_baseball												melee	dps		
+渔夫僵尸	zombie_fisherman	zombies/normal	270.0	100.0		钓鱼					用鱼竿勾走植物	Fish			Uses a fishing rod to pull plants away	zombie_fisherman												melee	support		
+默认植物	default	plants	300.0	20.0														0.0	1.0		r										
+默认僵尸	default	zombies	270.0	100.0														0.0	1.0		l										
+民兵	militia	humans	320.0	28.0	16	挥砍						Slash				militia	—			common								melee	dps		
+弓手	archer	humans	240.0	32.0		远程射击						Ranged Shot				archer	—			common								range	dps		
+盾卫	shieldman	humans	800.0	12.0	32	盾击	盾墙冲击				盾墙冲击（大招）：能量蓄满后把身边1.5格内的敌人推开1格，不造成伤害；每次受击积攒25能量	Shield Bash	Shield Wall		Shield Wall (ultimate): at a full bar this body shoves every enemy within 1.5 cells one cell clear, with no damage at all; every blow it takes banks 25 energy	shieldman	—			uncommon								melee	tank		
+骑士	knight	humans	560.0	52.0		冲锋						Charge				knight	—			rare								melee	dps		
+火枪手	gunner	humans	260.0	45.0		火枪射击						Musket Shot				gunner	—			uncommon								range	dps		
+队长	captain	humans	700.0	40.0		号令						Command				captain	—			epic								range	support		
+默认人类	default	humans	300.0	20.0												human	human	1.0	0.0		r										
+激光眼	laser_eye	monsters	260.0	34.0		瞬发光束						Instant Beam				laser_eye	—			rare								range	dps		
+火焰眼	flame_eye	monsters	300.0	26.0		喷射火焰						Flame Spray				flame_eye	—			rare								range	dps		
+激光眼球塔	laser_eye_tower	monsters	460.0	44.0		连续冲击光束						Siege Beam				laser_eye_tower	—			epic								range	dps		
+火焰眼球塔	flame_eye_tower	monsters	440.0	30.0		持续喷射火焰						Continuous Flame				flame_eye_tower	—			epic								range	dps		
+绿史莱姆	green_slim	monsters	420.0	26.0		吞噬					扑吞：跳向当前敌人并将其吞入腹中；消化2秒期间自身不能移动；2秒内消化不掉则吐出目标，自身眩晕1秒	Devour			Pounce-devour: leaps onto its prey and swallows it whole; cannot move during the 2-second hold; if the prey survives it is spat out and the slime is stunned for 1 second	slim/green_slim	—			legendary								melee	tank		
+雷角兽	thundercorn	monsters	340.0	30.0	16	雷角电击	连续电击				普攻积攒能量，蓄满后连续电击 3 秒	Horn Shock	Lightning Channel		Builds energy with every shock; at full it channels a lightning shock for 3 seconds	thundercorn	—			mythic	l							range	dps		
+默认怪兽	default	monsters	280.0	24.0												—	—	1.0	0.0		r										
+抛射炮	lobber	machine	380.0	55.0		落地爆炸					炮弹抛过前排，落地爆炸波及身旁单位	Ground Blast			The shell arcs over the front line and detonates where it lands, clipping nearby bodies	lobber	—			epic								range	dps		
+默认机械	default	machine	280.0	28.0												—	—	1.0	0.0		r										
+卡比兽	snorlax	pokemon	900.0	46.0	40	撞击	蓄力跳砸				蓄力跳砸：能量蓄满后跃入敌阵，落地砸击小范围内的单位并把它们震飞	Bump	Charged Leap		Charges up, then leaps into the enemy line: the landing slams everything nearby and throws it clear	snorlax	—			mythic								melee	tank		
+默认宝可梦	default	pokemon	320.0	30.0												—	—	1.0	0.0		r										
+鸟怪	bird	animals	300.0	40.0		身前召唤旋风					普攻在身前召唤一道旋风，向前行走数格；途经的每个单位按固定频率挨一次接触伤害	Summon a Whirlwind			Its ordinary blow becomes a whirlwind called up in front of the bird, walking several cells; every unit it passes takes contact damage at a fixed rate	bird	—			rare								range	dps		
+默认动物	default	animals	300.0	30.0												—	—	1.0	0.0		r										

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, pumpkin.
+
+  Flat shapes only, no strokes.
+    body  : ribbed pumpkin, drawn as 5 overlapping vertical lobes
+    stem  : trapezoid on top
+    face  : carved eyes (crescents), triangular nose, wavy mouth
+  Colour follows the reference:
+    body light  #F4A020
+    body mid    #E88A10
+    body dark   #C87000
+    stem        #8B5A2B
+    face (carved) #4A2E1A
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: trapezoid on top -->
+  <polygon points="56,14 72,14 74,30 54,30" fill="#8B5A2B"/>
+
+  <!-- body: 5 overlapping lobes, front lobe drawn last so it reads as the front -->
+  <!-- far-left lobe -->
+  <polygon points="10,64 14,44 24,32 36,28 38,104 24,100 14,88"
+           fill="#C87000"/>
+  <!-- left lobe -->
+  <polygon points="26,60 30,40 40,30 52,26 54,108 40,104 30,92"
+           fill="#E88A10"/>
+  <!-- centre lobe -->
+  <polygon points="44,56 48,36 64,30 80,36 84,56 84,102 80,110 64,114 48,110 44,102"
+           fill="#F4A020"/>
+  <!-- right lobe -->
+  <polygon points="76,60 80,40 90,30 102,26 100,108 88,104 78,92"
+           fill="#E88A10"/>
+  <!-- far-right lobe -->
+  <polygon points="94,64 98,44 108,32 120,28 118,88 108,100 94,104"
+           fill="#C87000"/>
+
+  <!-- carved eyes: crescents -->
+  <polygon points="36,58 46,52 54,58 50,64 44,60 38,64" fill="#4A2E1A"/>
+  <polygon points="78,58 88,52 96,58 92,64 86,60 80,64" fill="#4A2E1A"/>
+
+  <!-- carved nose: triangle -->
+  <polygon points="60,66 68,66 64,78" fill="#4A2E1A"/>
+
+  <!-- carved mouth: wavy strip -->
+  <polygon points="34,88 44,86 50,92 58,86 68,86 76,92 82,86 92,88
+                   88,96 78,96 68,94 60,96 50,96 42,94 36,96"
+           fill="#4A2E1A"/>
+</svg>

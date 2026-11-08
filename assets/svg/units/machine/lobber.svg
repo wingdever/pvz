@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- 炮膛 -->
+  <polygon points="16,64 96,16 112,32 48,96" fill="#000000"/>
+  <!-- 底座 -->
+  <path d="M 32 98 L 42 70 L 86 70 L 96 98 Z" fill="url(#baseGrad)"/>
+  <!-- 底座横条 -->
+  <rect x="16" y="64" width="96" height="32" fill="#374151"/>
+  <!-- 轮子 -->
+  <circle cx="32" cy="96" r="16" fill="#1f2937"/>
+  <circle cx="96" cy="96" r="16" fill="#1f2937"/>
+  <circle cx="32" cy="96" r="3" fill="#9ca3af"/>
+  <circle cx="96" cy="96" r="3" fill="#9ca3af"/>
+  <!-- 炮弹眼睛 -->
+  <circle cx="72" cy="74" r="6" fill="#ef4444"/>
+  <circle cx="74" cy="73" r="2" fill="#fca5a5"/>
+  <!-- 火光眉毛 -->
+  <path d="M 66 68 L 76 60 L 68 76 L 76 82 L 62 78 Z" fill="#fbbf24"/>
+</svg>

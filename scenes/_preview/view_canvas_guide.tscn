@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bgaedos26l6oy"]
+
+[node name="ViewCanvasGuide" type="Node2D" unique_id=1372312606]
+
+[node name="Canvas128" type="Line2D" parent="." unique_id=1239931249]
+points = PackedVector2Array(-64, -112, 64, -112, 64, 16, -64, 16, -64, -112)
+width = 2.0
+default_color = Color(0.58383155, 0.95468724, 0.735357, 1)
+antialiased = true
+
+[node name="GroundLine" type="Line2D" parent="." unique_id=1784706776]
+points = PackedVector2Array(-64, 0, 64, 0)
+width = 3.0
+default_color = Color(0.7977378, 0.48452926, 0.9309246, 1)
+
+[node name="CenterLine" type="Line2D" parent="." unique_id=657091188]
+points = PackedVector2Array(0, -112, 0, 16)
+width = 1.0
+default_color = Color(0.58383155, 0.95468724, 0.6262097, 1)
+
+[node name="Origin" type="Marker2D" parent="." unique_id=1329931072]

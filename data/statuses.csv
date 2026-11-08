@@ -1,0 +1,3 @@
+name	中文名	英文名	显示	显示英文	名称	持续	叠加	免疫旗标	影响	数值
+freeze	冻结	Frozen	冻结 x%d	freeze x%d	倒计时	1	取大	freeze_immune	禁行动	—
+push	击退	Knockback	击退	knockback	瞬时	0	替换	—	位移	—

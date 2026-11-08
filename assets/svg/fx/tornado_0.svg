@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="320" viewBox="0 0 256 320">
+  <defs>
+    <linearGradient id="t0-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4fbff" stop-opacity="0.02"/>
+      <stop offset="35%" stop-color="#cfe9ff" stop-opacity="0.28"/>
+      <stop offset="75%" stop-color="#9fc8e8" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#6f9fc4" stop-opacity="0.72"/>
+    </linearGradient>
+
+    <radialGradient id="t0-ground" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8f6ff" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#a9cce6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#a9cce6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="t0-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+
+  <!-- 地面风圈 -->
+  <ellipse cx="128" cy="300" rx="74" ry="18" fill="url(#t0-ground)"/>
+  <ellipse cx="128" cy="300" rx="62" ry="14" fill="none"
+           stroke="#e5f6ff" stroke-opacity="0.5" stroke-width="2"
+           stroke-dasharray="12 9" transform="rotate(-10 128 300)"/>
+
+  <!-- 旋风主体 -->
+  <path d="M128 300
+           C100 292 82 272 72 244
+           C58 206 62 160 82 118
+           C96 88 114 60 128 38
+           C142 60 160 88 174 118
+           C194 160 198 206 184 244
+           C174 272 156 292 128 300 Z"
+        fill="url(#t0-body)" opacity="0.9"/>
+
+  <!-- 螺旋风线：主相位 -->
+  <path d="M128 296
+           C96 282 100 252 132 238
+           C164 224 168 194 136 180
+           C104 166 100 136 132 122
+           C164 108 168 78 136 64"
+        stroke="#ffffff" stroke-opacity="0.52" stroke-width="3.2"
+        fill="none" stroke-linecap="round" filter="url(#t0-soft)"/>
+
+  <!-- 螺旋风线：副相位 -->
+  <path d="M128 296
+           C160 282 156 252 124 238
+           C92 224 88 194 120 180
+           C152 166 156 136 124 122
+           C92 108 88 78 120 64"
+        stroke="#c7e9ff" stroke-opacity="0.32" stroke-width="2"
+        fill="none" stroke-linecap="round"/>
+
+  <!-- 少量风丝 -->
+  <path d="M92 228 C108 218 128 218 146 230"
+        stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5"
+        fill="none" stroke-linecap="round"/>
+  <path d="M110 154 C126 146 146 146 162 156"
+        stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"
+        fill="none" stroke-linecap="round"/>
+</svg>

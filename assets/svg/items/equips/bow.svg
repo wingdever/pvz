@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- 弓臂 -->
+  <path d="M 16,8 Q 48,32 16,56" fill="none" stroke="#6b4f3a" stroke-width="4" stroke-linecap="round"/>
+  <!-- 弓弦 -->
+  <line x1="16" y1="8" x2="16" y2="56" stroke="#d2b48c" stroke-width="1"/>
+  <!-- 箭矢 -->
+  <line x1="32" y1="32" x2="54" y2="32" stroke="#4a2c17" stroke-width="2"/>
+  <polygon points="54,32 48,28 48,36" fill="#c0c0c0"/>
+  <!-- 箭羽 -->
+  <polygon points="32,32 28,28 26,32 28,36" fill="#b22222"/>
+</svg>

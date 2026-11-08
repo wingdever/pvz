@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ brawl: EQUIPMENT icon, bracer (data/brawl/gear.csv row bracer).
+  Canvas 128x128, pure fills, no strokes or gradients.
+    cuff #B8860B   bands #D9A441
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="26" y="30" width="76" height="68" rx="18" fill="#B8860B"/>
+  <rect x="26" y="44" width="76" height="11" fill="#D9A441"/>
+  <rect x="26" y="74" width="76" height="11" fill="#D9A441"/>
+</svg>

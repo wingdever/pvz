@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[addons]
+
+curved_lines_2d/close_pencil_path=false
+curved_lines_2d/add_stroke_enabled=true
+curved_lines_2d/line_begin_cap=0
+curved_lines_2d/line_end_cap=0
+curved_lines_2d/line_joint_mode=0
+
+[application]
+
+config/name="PvZ Turn-Based"
+config/description="Plants vs Zombies, turn-based grid remake."
+run/main_scene="uid://dd1ql08j0rov5"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+Boot="*res://scripts/core/boot.gd"
+Game="*res://scripts/core/game_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/curved_lines_2d/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

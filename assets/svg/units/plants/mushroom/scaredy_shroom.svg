@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, scaredy-shroom.
+
+  Tall, thin pale-green stem, small purple cap with darker spots.
+  Flat fills only, no strokes. The thin stem matches the reference art
+  and reads as "fragile / easily scared" next to the other mushrooms.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: tall and thin -->
+  <rect x="58" y="52" width="12" height="66" rx="5" fill="#B8C87A"/>
+
+  <!-- small purple cap -->
+  <path d="M 34,56 Q 34,26 64,26 Q 94,26 94,56 Z" fill="#9A5ABA"/>
+
+  <!-- darker spots on the cap -->
+  <circle cx="50" cy="44" r="5" fill="#6A3A8A"/>
+  <circle cx="70" cy="40" r="4" fill="#6A3A8A"/>
+  <circle cx="80" cy="48" r="5" fill="#6A3A8A"/>
+  <circle cx="60" cy="50" r="3" fill="#6A3A8A"/>
+
+  <!-- two small nervous eyes on the stem -->
+  <ellipse cx="61" cy="74" rx="2" ry="4" fill="#2A2A2A"/>
+  <ellipse cx="67" cy="74" rx="2" ry="4" fill="#2A2A2A"/>
+</svg>

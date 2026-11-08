@@ -1,0 +1,26 @@
+{
+  "initial_sun": 100,
+  "brain_hp": 100,
+  "zombie_hp": 270,
+  "spawn_cols": [6, 7, 8],
+  "rows": [2],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": { "shovel": { "threshold": 2 }, "glove": { "threshold": 5 }, "hammer": { "threshold": 12 } },
+  "cards": { "peashooter": { "cooldown": 3 }, "sunflower": { "cooldown": 2 }, "wallnut": { "cooldown": 5 } },
+  "summons_per_turn": 1,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    { "id": 1, "start_round": 1, "spawns": [
+      { "round": 1, "type": "zombie", "count": 1 }
+    ]}
+  ],
+  "first_clear_plant": "sunflower",
+  "first_clear": { "scroll_sunflower": 1, "scroll_spirit_sunflower": 1 },
+  "rewards": [
+    { "chance": 1.00, "items": { "coin_gold": 5 } },
+    { "chance": 0.25, "plant": "peashooter" },
+    { "chance": 0.25, "items": { "potion_peashooter": 1 } }
+  ]
+}

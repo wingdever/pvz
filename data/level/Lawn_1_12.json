@@ -1,0 +1,141 @@
+{
+  "initial_sun": 225,
+  "brain_hp": 100,
+  "zombie_hp": 350,
+  "spawn_cols": [
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": {
+    "shovel": {
+      "threshold": 2
+    },
+    "glove": {
+      "threshold": 5
+    },
+    "hammer": {
+      "threshold": 12
+    }
+  },
+  "cards": {
+    "peashooter": {
+      "cooldown": 3
+    },
+    "sunflower": {
+      "cooldown": 2
+    },
+    "wallnut": {
+      "cooldown": 5
+    },
+    "split_pea": {
+      "cooldown": 5
+    },
+    "puff_shroom": {
+      "cooldown": 2
+    }
+  },
+  "summons_per_turn": 1,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    {
+      "id": 1,
+      "start_round": 30,
+      "spawns": [
+        {
+          "round": 30,
+          "type": "zombie_cone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_round": 34,
+      "spawns": [
+        {
+          "round": 34,
+          "type": "zombie_cone",
+          "count": 4
+        },
+        {
+          "round": 35,
+          "type": "zombie_cone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_round": 38,
+      "spawns": [
+        {
+          "round": 38,
+          "type": "zombie",
+          "count": 5
+        },
+        {
+          "round": 39,
+          "type": "zombie",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_round": 42,
+      "spawns": [
+        {
+          "round": 42,
+          "type": "zombie",
+          "count": 5
+        },
+        {
+          "round": 43,
+          "type": "zombie",
+          "count": 4
+        },
+        {
+          "round": 45,
+          "type": "zombie_cone",
+          "count": 7
+        }
+      ],
+      "banner": true
+    }
+  ],
+  "first_clear_plant": "spikeweed",
+  "first_clear": {
+    "scroll_spikeweed": 1,
+    "scroll_spirit_spikeweed": 1
+  },
+  "rewards": [
+    {
+      "chance": 1,
+      "items": {
+        "coin_gold": 9
+      }
+    },
+    {
+      "chance": 0.25,
+      "items": {
+        "coin_silver": 3
+      }
+    },
+    {
+      "chance": 0.2,
+      "items": {
+        "potion_spikeweed": 1
+      }
+    }
+  ]
+}

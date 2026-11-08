@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, repeater.
+
+  Same stem + leaves as peashooter. A single head (same trapezoid as
+  peashooter) with two trapezoid leaves attached to the back edge. The
+  two leaves share their narrow edge at the centre of the head's back
+  edge (38, 49) and widen outward.
+
+  Mouth is still at x = 90, y 40..58. The pea spawn point is unchanged.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem -->
+  <polygon points="58,112 70,112 67,58 61,58" fill="#2D8636"/>
+  <!-- base leaves -->
+  <polygon points="62,92 22,72 18,86 58,102" fill="#38A843"/>
+  <polygon points="66,92 106,72 110,86 70,102" fill="#38A843"/>
+
+  <!-- upper back leaf: narrow edge (38,47)-(38,51) at the head's back centre -->
+  <polygon points="38,47 38,51 20,36 20,24" fill="#38A843"/>
+  <!-- lower back leaf: narrow edge (38,47)-(38,51) shared with the upper leaf -->
+  <polygon points="38,47 38,51 20,60 20,48" fill="#38A843"/>
+
+  <!-- head -->
+  <polygon points="38,30 90,40 90,58 38,68" fill="#40BF4D"/>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, summon scroll.
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+  ONE scroll icon is shared by all three scroll items: the row already names the
+  plant and prints its durability, so a per-plant seal would only add noise.
+    paper  Color(0.91,0.85,0.66)   #E8D9A8
+    shade  darkened(0.22) of it      #B5A984
+    seal   Balance.COLOR_MESSAGE      #FFD959
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="96" height="96">
+  <!-- 展开的羊皮纸画布 -->
+  <rect x="20" y="14" width="60" height="72" fill="#E8D8B0"/>
+
+  <!-- 顶部轴筒 -->
+  <rect x="12" y="8" width="76" height="14" rx="7" fill="#8B5A2B"/>
+  <rect x="18" y="10" width="64" height="3" rx="1.5" fill="#A67C52"/>
+
+  <!-- 底部轴筒 -->
+  <rect x="12" y="78" width="76" height="14" rx="7" fill="#8B5A2B"/>
+  <rect x="18" y="80" width="64" height="3" rx="1.5" fill="#A67C52"/>
+</svg>

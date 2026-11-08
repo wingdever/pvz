@@ -1,0 +1,5 @@
+僵尸	物品	概率	数量	专属
+*	coin_silver	0.15	1	—
+*	fertilizer	0.02	1	—
+*	energy_bean	0.05	1	—
+snow_goblin	coin_diamond	1.00	1	是

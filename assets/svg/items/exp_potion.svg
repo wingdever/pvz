@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: item icon, EXP potion.
+  Canvas 128x128, pure fills, no strokes or gradients (docs/HANDOFF.md 7.19).
+  One bottle silhouette is shared by all four potions; only the LIQUID colour and
+  the cork differ, so they stay recognisable as one family.
+    glass  Color(0.86,0.90,0.95)   #DBE6F2
+    liquid violet (EXP = experience)   #9A6BD8
+    cork   brown                        #6B4A2E
+    spark  light violet                 #C9A9F0
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="54" y="16" width="20" height="14" fill="#6B4A2E"/>
+  <rect x="56" y="28" width="16" height="20" fill="#DBE6F2"/>
+  <polygon points="52,46 76,46 86,112 42,112" fill="#DBE6F2"/>
+  <polygon points="53,74 87,74 93,110 39,110" fill="#9A6BD8"/>
+  <!-- a spark above the cork marks this as the experience bottle -->
+  <polygon points="64,2 68,10 76,14 68,18 64,26 60,18 52,14 60,10" fill="#C9A9F0"/>
+</svg>

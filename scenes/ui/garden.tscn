@@ -1,0 +1,94 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/garden/garden_view.gd" id="1_page"]
+[ext_resource type="Script" path="res://scripts/ui/garden/garden_plot.gd" id="2_plot"]
+[ext_resource type="Script" path="res://scripts/ui/garden/garden_tool.gd" id="3_tool"]
+[ext_resource type="Script" path="res://scripts/ui/garden/cursor_ghost.gd" id="4_ghost"]
+
+[node name="Garden" type="Control"]
+script = ExtResource("1_page")
+
+[node name="Plot0" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot1" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot2" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot3" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot4" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot5" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot6" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot7" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot8" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot9" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot10" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot11" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot12" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot13" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot14" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Plot15" type="Control" parent="."]
+script = ExtResource("2_plot")
+
+[node name="Tool0" type="Control" parent="."]
+script = ExtResource("3_tool")
+
+[node name="Tool1" type="Control" parent="."]
+script = ExtResource("3_tool")
+
+[node name="Tool2" type="Control" parent="."]
+script = ExtResource("3_tool")
+
+[node name="Tool3" type="Control" parent="."]
+script = ExtResource("3_tool")
+
+[node name="PanelTitle" type="Label" parent="."]
+
+[node name="PanelLine0" type="Label" parent="."]
+
+[node name="PanelLine1" type="Label" parent="."]
+
+[node name="PanelLine2" type="Label" parent="."]
+
+[node name="PanelLine3" type="Label" parent="."]
+
+[node name="PanelLine4" type="Label" parent="."]
+
+[node name="StatusLabel" type="Label" parent="."]
+
+[node name="Back" type="Button" parent="."]
+
+[node name="PagePrev" type="Button" parent="."]
+
+[node name="PageNext" type="Button" parent="."]
+
+[node name="PageLabel" type="Label" parent="."]
+
+[node name="ItemInHand" type="Control" parent="."]
+script = ExtResource("4_ghost")

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, pea leaf (fusion item).
+
+  Exact same two trapezoid leaves as the repeater's back leaves, just
+  scaled up to fill the item canvas. No stem, no rotation.
+
+  Repeater back leaves (for reference):
+    upper: 38,47 38,51 20,36 20,24
+    lower: 38,47 38,51 20,60 20,48
+  Narrow edge (38,47)-(38,51), widening to the left.
+
+  Here the whole pair is scaled 2x about its narrow-edge centre (38,49)
+  and re-centred on the canvas, so the narrow edge sits at (64,64).
+    upper: 64,60 64,68 28,38 28,14
+    lower: 64,60 64,68 28,86 28,62
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- upper leaf: narrow edge (64,60)-(64,68), widening to the left -->
+  <polygon points="64,60 64,68 28,38 28,14" fill="#38A843"/>
+  <!-- lower leaf: narrow edge (64,60)-(64,68), shared with the upper leaf -->
+  <polygon points="64,60 64,68 28,86 28,62" fill="#38A843"/>
+</svg>

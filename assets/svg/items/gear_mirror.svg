@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ brawl: EQUIPMENT icon, heart guard mirror (data/brawl/gear.csv row heart_guard).
+  Canvas 128x128, pure fills, no strokes or gradients.
+    rim #D9A441   glass #CFE3F2   glare #FFFFFF
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <circle cx="64" cy="62" r="46" fill="#D9A441"/>
+  <circle cx="64" cy="62" r="35" fill="#CFE3F2"/>
+  <!-- glare: the one white shape, so the disc reads as glass and not as a coin -->
+  <polygon points="44,44 62,34 52,58" fill="#FFFFFF"/>
+</svg>

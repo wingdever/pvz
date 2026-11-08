@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, cattail.
+
+  A pale-grey cat head with a pink hat, two pointed ears, a smiling face
+  and a brown tail with a red tip curling up on the left. Green leaves
+  sit under the head. Flat shapes only.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- tail: brown curve on the left, red tip at the top -->
+  <polygon points="22,30 34,22 38,40 34,60 26,72 18,68 22,50 26,38" fill="#8B5A2B"/>
+  <polygon points="20,24 26,14 34,18 30,28" fill="#C83040"/>
+
+  <!-- leaves: green clumps under the head -->
+  <polygon points="20,108 34,98 48,104 44,118 24,118" fill="#4CAF50"/>
+  <polygon points="46,112 62,102 78,108 74,120 48,120" fill="#4CAF50"/>
+  <polygon points="74,108 90,98 104,104 100,118 80,118" fill="#4CAF50"/>
+
+  <!-- ears: two pointed triangles -->
+  <polygon points="48,52 44,32 62,44" fill="#F0E8E0"/>
+  <polygon points="92,50 100,30 78,42" fill="#F0E8E0"/>
+  <polygon points="52,48 50,38 58,44" fill="#F0A0B0"/>
+  <polygon points="90,46 94,36 84,42" fill="#F0A0B0"/>
+
+  <!-- head: pale grey oval -->
+  <polygon points="36,62 44,48 64,44 84,48 94,62 94,90 84,102 64,106 44,102 36,90"
+           fill="#E8E0E0"/>
+
+  <!-- hat: pink cap on top -->
+  <polygon points="36,62 44,46 64,42 84,46 94,62 84,58 64,54 44,58" fill="#F0A0B0"/>
+  <polygon points="38,58 64,50 90,58 84,54 64,50 44,54" fill="#E88AA0"/>
+
+  <!-- eyes: two dark ovals -->
+  <ellipse cx="52" cy="72" rx="3" ry="4" fill="#2A2A2A"/>
+  <ellipse cx="76" cy="72" rx="3" ry="4" fill="#2A2A2A"/>
+  <circle cx="53" cy="71" r="1" fill="#FFFFFF"/>
+  <circle cx="77" cy="71" r="1" fill="#FFFFFF"/>
+
+  <!-- nose + mouth -->
+  <polygon points="62,82 66,82 64,86" fill="#F0A0B0"/>
+  <polygon points="60,90 64,92 68,90 64,94" fill="#2A2A2A"/>
+</svg>

@@ -1,0 +1,160 @@
+{
+  "initial_sun": 275,
+  "brain_hp": 100,
+  "zombie_hp": 390,
+  "spawn_cols": [
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": {
+    "shovel": {
+      "threshold": 2
+    },
+    "glove": {
+      "threshold": 5
+    },
+    "hammer": {
+      "threshold": 12
+    }
+  },
+  "cards": {
+    "peashooter": {
+      "cooldown": 3
+    },
+    "sunflower": {
+      "cooldown": 2
+    },
+    "wallnut": {
+      "cooldown": 5
+    },
+    "split_pea": {
+      "cooldown": 5
+    },
+    "puff_shroom": {
+      "cooldown": 2
+    },
+    "snow_pea": {
+      "cooldown": 4
+    }
+  },
+  "summons_per_turn": 2,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    {
+      "id": 1,
+      "start_round": 38,
+      "spawns": [
+        {
+          "round": 38,
+          "type": "zombie_bucket",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_round": 42,
+      "spawns": [
+        {
+          "round": 42,
+          "type": "zombie_bucket",
+          "count": 2
+        },
+        {
+          "round": 43,
+          "type": "zombie_bucket",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_round": 46,
+      "spawns": [
+        {
+          "round": 46,
+          "type": "zombie_newspaper",
+          "count": 3
+        },
+        {
+          "round": 47,
+          "type": "zombie_newspaper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_round": 50,
+      "spawns": [
+        {
+          "round": 50,
+          "type": "zombie_newspaper",
+          "count": 3
+        },
+        {
+          "round": 51,
+          "type": "zombie_newspaper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_round": 54,
+      "spawns": [
+        {
+          "round": 54,
+          "type": "zombie_newspaper",
+          "count": 4
+        },
+        {
+          "round": 55,
+          "type": "zombie_newspaper",
+          "count": 3
+        },
+        {
+          "round": 57,
+          "type": "zombie_bucket",
+          "count": 5
+        }
+      ],
+      "banner": true
+    }
+  ],
+  "first_clear_plant": "tallnut",
+  "first_clear": {
+    "scroll_tallnut": 1,
+    "scroll_spirit_tallnut": 1
+  },
+  "rewards": [
+    {
+      "chance": 1,
+      "items": {
+        "coin_gold": 17
+      }
+    },
+    {
+      "chance": 0.25,
+      "items": {
+        "coin_silver": 3
+      }
+    },
+    {
+      "chance": 0.2,
+      "items": {
+        "potion_tallnut": 1
+      }
+    }
+  ]
+}

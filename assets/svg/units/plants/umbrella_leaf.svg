@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, umbrella-leaf.
+
+  A dense rosette of bright-green leaves fanning out from the centre,
+  with a small pale-green stem tucked underneath. Flat shapes only.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem peeking out at the bottom -->
+  <polygon points="56,102 64,96 72,102 74,122 54,122" fill="#C8E8A0"/>
+  <circle cx="60" cy="106" r="2" fill="#2A2A2A"/>
+
+  <!-- back leaves: darker green, fanning out -->
+  <polygon points="64,60 40,40 18,52 34,64 20,78 44,84 34,100 58,86" fill="#2E7D32"/>
+  <polygon points="64,60 88,40 110,52 94,64 108,78 84,84 94,100 70,86" fill="#2E7D32"/>
+  <polygon points="64,60 52,26 64,18 76,26 64,60" fill="#2E7D32"/>
+
+  <!-- mid leaves: main green, overlapping the back layer -->
+  <polygon points="64,60 42,46 30,58 44,66 34,80 52,84 46,98 64,84" fill="#4CAF50"/>
+  <polygon points="64,60 86,46 98,58 84,66 94,80 76,84 82,98 64,84" fill="#4CAF50"/>
+  <polygon points="64,60 50,34 60,26 72,32 76,48 64,60" fill="#4CAF50"/>
+  <polygon points="64,60 78,32 90,38 88,54 70,60" fill="#4CAF50"/>
+
+  <!-- front leaves: brightest, cover the centre -->
+  <polygon points="64,64 42,58 40,72 56,80 64,84" fill="#6BD080"/>
+  <polygon points="64,64 86,58 88,72 72,80 64,84" fill="#6BD080"/>
+  <polygon points="64,64 52,48 64,42 76,48 76,60 64,64" fill="#6BD080"/>
+
+  <!-- leaf veins: darker green thin strips -->
+  <polygon points="64,60 36,54 36,58 64,64" fill="#2E7D32"/>
+  <polygon points="64,60 92,54 92,58 64,64" fill="#2E7D32"/>
+  <polygon points="64,60 60,28 66,28 68,60" fill="#2E7D32"/>
+  <polygon points="64,64 52,92 56,94 64,68" fill="#2E7D32"/>
+  <polygon points="64,64 76,92 72,94 64,68" fill="#2E7D32"/>
+</svg>

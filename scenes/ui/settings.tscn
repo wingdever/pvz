@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cifsj1sir2mrw"]
+
+[ext_resource type="Script" uid="uid://d2eju4vly4hpj" path="res://scripts/ui/menu/setting_menu.gd" id="1_8wfqe"]
+
+[node name="SettingMenu" type="Control" unique_id=1400143282]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_8wfqe")
+
+[node name="Background" type="ColorRect" parent="." unique_id=894263291]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Title" type="Label" parent="." unique_id=1835697074]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Subtitle" type="Label" parent="." unique_id=221485615]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Hint" type="Label" parent="." unique_id=1052148581]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ButtonLayer" type="Control" parent="." unique_id=110208838]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

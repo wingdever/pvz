@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, gloom-shroom.
+
+  Based on fume-shroom. Differences:
+    - cap is a near-circle instead of an ellipse
+    - four extra muzzle tubes (top, left, right, bottom) so it can fire
+      in every direction
+    - two big silly eyes with tiny pupils
+  All polygon / rect, no path.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: trapezoid, wider at the base -->
+  <polygon points="46,86 82,86 92,122 36,122" fill="#A8B86A"/>
+
+  <!-- top muzzle -->
+  <polygon points="56,18 72,18 74,30 54,30" fill="#5A2A7A"/>
+  <polygon points="58,22 70,22 71,28 57,28" fill="#1A2A1A"/>
+
+  <!-- left muzzle -->
+  <polygon points="16,46 28,42 30,62 18,66" fill="#5A2A7A"/>
+  <polygon points="19,50 26,48 27,58 20,60" fill="#1A2A1A"/>
+
+  <!-- right muzzle -->
+  <polygon points="100,42 112,46 110,66 98,62" fill="#5A2A7A"/>
+  <polygon points="102,48 109,50 108,60 101,58" fill="#1A2A1A"/>
+
+  <!-- bottom-left muzzle -->
+  <polygon points="24,80 38,86 32,98 18,92" fill="#5A2A7A"/>
+  <polygon points="27,84 36,87 32,94 23,90" fill="#1A2A1A"/>
+
+  <!-- bottom-right muzzle -->
+  <polygon points="90,86 104,80 110,92 96,98" fill="#5A2A7A"/>
+  <polygon points="92,86 101,83 105,91 96,94" fill="#1A2A1A"/>
+
+  <!-- bottom-centre muzzle -->
+  <polygon points="50,100 78,100 76,116 52,116" fill="#5A2A7A"/>
+  <polygon points="54,104 74,104 73,113 55,113" fill="#1A2A1A"/>
+
+  <!-- cap: near-circle, 14-point polygon -->
+  <polygon points="30,54 34,38 44,26 58,20 70,20 84,26 94,38 98,54
+                   94,70 84,82 70,88 58,88 44,82 34,70"
+           fill="#8A4AAA"/>
+
+  <!-- eyes: big cream ovals -->
+  <polygon points="42,54 56,50 60,62 56,72 44,72 40,62" fill="#F0E8E0"/>
+  <polygon points="68,50 82,54 84,62 80,72 68,72 64,62" fill="#F0E8E0"/>
+
+  <!-- tiny pupils -->
+  <circle cx="50" cy="60" r="2" fill="#2A2A2A"/>
+  <circle cx="76" cy="60" r="2" fill="#2A2A2A"/>
+
+  <!-- dark spots on the cap -->
+  <circle cx="38" cy="44" r="6" fill="#5A2A7A"/>
+  <circle cx="64" cy="34" r="5" fill="#5A2A7A"/>
+  <circle cx="86" cy="48" r="7" fill="#5A2A7A"/>
+  <circle cx="60" cy="80" r="5" fill="#5A2A7A"/>
+  <circle cx="88" cy="72" r="4" fill="#5A2A7A"/>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, pole vaulting zombie.
+
+  Same body as the basic zombie. Adds a red sport headband and a vaulting
+  pole held on the right side. Pole is drawn BEFORE the arms so the right
+  hand overlaps it and reads as gripping the pole.
+
+  Pole colour #A67C52 (nut brown), headband #E53935 (flag red).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- legs -->
+  <rect x="50" y="82" width="10" height="28" fill="#5B5671"/>
+  <rect x="68" y="82" width="10" height="28" fill="#5B5671"/>
+
+  <!-- vaulting pole -->
+  <polygon points="86,8 92,8 92,108 86,108" fill="#A67C52"/>
+
+  <!-- arms -->
+  <polygon points="50,58 16,64 14,72 50,70" fill="#9E97BA"/>
+  <polygon points="52,72 20,78 18,86 52,84" fill="#9E97BA"/>
+  <!-- torso -->
+  <polygon points="46,50 82,50 86,88 42,88" fill="#706A8B"/>
+  <!-- head -->
+  <rect x="48" y="24" width="32" height="30" fill="#9E97BA"/>
+
+  <!-- headband -->
+  <rect x="48" y="34" width="32" height="6" fill="#E53935"/>
+</svg>

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cuuhyhugba8yb"]
+
+[ext_resource type="Script" uid="uid://drt25qq75i10n" path="res://scripts/core/battle/battle.gd" id="1_dn72j"]
+[ext_resource type="Script" uid="uid://cymfnfu5qerie" path="res://scripts/core/grid.gd" id="2_p1qf1"]
+[ext_resource type="Script" uid="uid://chw61uqcgrnvt" path="res://scripts/ui/hud.gd" id="3_a12nh"]
+
+[node name="Battle" type="Node2D" unique_id=595981409]
+script = ExtResource("1_dn72j")
+
+[node name="LawnGrid" type="Node2D" parent="." unique_id=1714824603]
+script = ExtResource("2_p1qf1")
+
+[node name="HudLayer" type="CanvasLayer" parent="." unique_id=1025479861]
+layer = 10
+
+[node name="Hud" type="Control" parent="HudLayer" unique_id=74653453]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("3_a12nh")

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, cabbage-pult.
+  Leaf base + cabbage body + eyes + extended stem + hanging cabbage.
+  All polygon / rect, no path.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- leaf base -->
+  <polygon points="22,114 34,102 64,96 94,102 106,114 94,122 64,124 34,122" fill="#4CAF50"/>
+  <polygon points="38,114 50,104 64,100 64,120 50,120" fill="#2E7D32"/>
+  <polygon points="90,114 78,104 64,100 64,120 78,120" fill="#2E7D32"/>
+
+  <!-- cabbage body -->
+  <polygon points="38,74 44,64 58,56 70,56 84,64 90,74 90,102 84,112 70,116 58,116 44,112 38,102" fill="#A8D878"/>
+  <!-- lighter veins -->
+  <polygon points="54,60 64,56 74,60 74,80 54,80" fill="#C8E898"/>
+  <polygon points="44,86 64,80 84,86 80,98 64,102 48,98" fill="#C8E898"/>
+
+  <!-- eyes -->
+  <circle cx="54" cy="86" r="4" fill="#2A2A2A"/>
+  <circle cx="74" cy="86" r="4" fill="#2A2A2A"/>
+  <circle cx="56" cy="84" r="1.5" fill="#FFFFFF"/>
+  <circle cx="76" cy="84" r="1.5" fill="#FFFFFF"/>
+
+  <!-- stem to the projectile -->
+  <polygon points="58,58 66,58 28,24 18,34" fill="#2E7D32"/>
+
+  <!-- projectile: small cabbage -->
+  <polygon points="4,28 12,16 26,12 36,20 34,34 22,42 10,38" fill="#A8D878"/>
+  <polygon points="12,18 24,14 22,28 14,28" fill="#C8E898"/>
+</svg>

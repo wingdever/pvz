@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect x="36" y="84" width="12" height="28" fill="#6b5e71"/>
+  <rect x="84" y="84" width="12" height="28" fill="#6b5e71"/>
+  <rect x="20" y="72" width="8" height="28" fill="#6b5e71"/>
+  <rect x="64" y="72" width="8" height="28" fill="#6b5e71"/>
+  <polygon points="8,40 16,48 112,48 120,40 120,56 112,64 120,64 104,80 112,80 96,88 106,96 80,88 86,96 80,96 70,90 56,90 48,96 42,96 48,88 24,96 32,88 16,80 24,80 8,64 16,64 8,56" fill="#ece9f0"/>
+  <polygon points="88,16 104,20 88,32 88,36 104,36 100,48 88,52 92,56 92,64 84,56 80,60 76,60 72,68 64,72 56,68 52,60 48,60 44,56 36,64 36,56 40,52 28,48 24,36 40,36 40,32 24,20 40,16 56,20 64,18 72,20" fill="#9c8ea9"/>
+  <ellipse cx="46" cy="44" rx="6" ry="8" fill="#f4ebdd"/>
+  <circle cx="46" cy="44" r="4" fill="#f1e8f1"/>
+  <ellipse cx="46" cy="44" rx="2" ry="4" fill="#776e74"/>
+  <ellipse cx="82" cy="44" rx="6" ry="8" fill="#f4ebdd"/>
+  <circle cx="82" cy="44" r="4" fill="#f1e8f1"/>
+  <ellipse cx="82" cy="44" rx="2" ry="4" fill="#776e74"/>
+  <polygon points="64,28 60,36 54,36 62,40 64,48 66,40 74,36 68,36" fill="#bacbd8"/>
+</svg>

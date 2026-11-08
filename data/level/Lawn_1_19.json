@@ -1,0 +1,180 @@
+{
+  "initial_sun": 325,
+  "brain_hp": 100,
+  "zombie_hp": 420,
+  "spawn_cols": [
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "hammer_damage": 9999,
+  "starting_plants": [],
+  "tools": {
+    "shovel": {
+      "threshold": 2
+    },
+    "glove": {
+      "threshold": 5
+    },
+    "hammer": {
+      "threshold": 12
+    }
+  },
+  "cards": {
+    "peashooter": {
+      "cooldown": 3
+    },
+    "sunflower": {
+      "cooldown": 2
+    },
+    "wallnut": {
+      "cooldown": 5
+    },
+    "split_pea": {
+      "cooldown": 5
+    },
+    "puff_shroom": {
+      "cooldown": 2
+    },
+    "snow_pea": {
+      "cooldown": 4
+    },
+    "repeater": {
+      "cooldown": 4
+    }
+  },
+  "summons_per_turn": 2,
+  "challenge": "normal",
+  "scroll_durability_cost": 0,
+  "waves": [
+    {
+      "id": 1,
+      "start_round": 44,
+      "spawns": [
+        {
+          "round": 44,
+          "type": "zombie_cone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_round": 48,
+      "spawns": [
+        {
+          "round": 48,
+          "type": "zombie_cone",
+          "count": 4
+        },
+        {
+          "round": 49,
+          "type": "zombie_cone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_round": 52,
+      "spawns": [
+        {
+          "round": 52,
+          "type": "zombie_cone",
+          "count": 5
+        },
+        {
+          "round": 53,
+          "type": "zombie_cone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_round": 56,
+      "spawns": [
+        {
+          "round": 56,
+          "type": "zombie_screendoor",
+          "count": 3
+        },
+        {
+          "round": 57,
+          "type": "zombie_screendoor",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_round": 60,
+      "spawns": [
+        {
+          "round": 60,
+          "type": "zombie_screendoor",
+          "count": 4
+        },
+        {
+          "round": 61,
+          "type": "zombie_screendoor",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start_round": 64,
+      "spawns": [
+        {
+          "round": 64,
+          "type": "zombie_screendoor",
+          "count": 4
+        },
+        {
+          "round": 65,
+          "type": "zombie_screendoor",
+          "count": 3
+        },
+        {
+          "round": 67,
+          "type": "zombie_cone",
+          "count": 8
+        }
+      ],
+      "banner": true
+    }
+  ],
+  "first_clear_plant": "melon_pult",
+  "first_clear": {
+    "scroll_melon_pult": 1,
+    "scroll_spirit_melon_pult": 1
+  },
+  "rewards": [
+    {
+      "chance": 1,
+      "items": {
+        "coin_gold": 23
+      }
+    },
+    {
+      "chance": 0.25,
+      "items": {
+        "coin_silver": 3
+      }
+    },
+    {
+      "chance": 0.2,
+      "items": {
+        "potion_melon_pult": 1
+      }
+    }
+  ]
+}

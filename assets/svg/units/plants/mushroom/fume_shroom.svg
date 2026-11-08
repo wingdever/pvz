@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, fume-shroom.
+
+  All polygon, no path.
+    cap   : near-full ellipse (polygon approximation)
+    stem  : trapezoid, wider at the base
+    muzzle: on the CAP, right side, as two polygons (rim + hole)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: trapezoid, wider at the base -->
+  <polygon points="46,72 82,72 92,122 36,122" fill="#A8B86A"/>
+
+  <!-- cap: near-full ellipse, 14-point polygon -->
+  <polygon points="22,68 26,50 36,36 50,30 64,28 78,30 92,36 102,50 106,68
+                   100,80 84,86 64,88 44,86 28,80"
+           fill="#8A4AAA"/>
+
+  <!-- muzzle on the cap: outer rim + dark hole -->
+  <polygon points="102,58 114,52 122,60 122,72 114,80 102,74" fill="#5A2A7A"/>
+  <polygon points="106,62 114,58 118,64 118,70 114,76 106,72" fill="#1A2A1A"/>
+
+  <!-- dark spots on the cap -->
+  <circle cx="42" cy="54" r="8" fill="#5A2A7A"/>
+  <circle cx="72" cy="46" r="6" fill="#5A2A7A"/>
+  <circle cx="86" cy="64" r="9" fill="#5A2A7A"/>
+  <circle cx="56" cy="68" r="5" fill="#5A2A7A"/>
+</svg>

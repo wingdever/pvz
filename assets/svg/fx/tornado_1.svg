@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="320" viewBox="0 0 256 320">
+  <defs>
+    <linearGradient id="t1-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4fbff" stop-opacity="0.02"/>
+      <stop offset="35%" stop-color="#cfe9ff" stop-opacity="0.28"/>
+      <stop offset="75%" stop-color="#9fc8e8" stop-opacity="0.52"/>
+      <stop offset="100%" stop-color="#6f9fc4" stop-opacity="0.72"/>
+    </linearGradient>
+
+    <radialGradient id="t1-ground" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8f6ff" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#a9cce6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#a9cce6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="t1-soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+
+  <!-- 地面风圈：旋转相位不同 -->
+  <ellipse cx="128" cy="300" rx="74" ry="18" fill="url(#t1-ground)"/>
+  <ellipse cx="128" cy="300" rx="62" ry="14" fill="none"
+           stroke="#e5f6ff" stroke-opacity="0.5" stroke-width="2"
+           stroke-dasharray="12 9" stroke-dashoffset="10"
+           transform="rotate(8 128 300)"/>
+
+  <!-- 旋风主体：轮廓轻微错位 -->
+  <path d="M128 300
+           C102 292 84 272 74 244
+           C60 206 64 160 84 118
+           C98 88 116 60 128 38
+           C140 60 158 88 172 118
+           C192 160 196 206 182 244
+           C172 272 154 292 128 300 Z"
+        fill="url(#t1-body)" opacity="0.9"/>
+
+  <!-- 螺旋风线：相位与帧0相反 -->
+  <path d="M128 296
+           C160 282 156 252 124 238
+           C92 224 88 194 120 180
+           C152 166 156 136 124 122
+           C92 108 88 78 120 64"
+        stroke="#ffffff" stroke-opacity="0.52" stroke-width="3.2"
+        fill="none" stroke-linecap="round" filter="url(#t1-soft)"/>
+
+  <path d="M128 296
+           C96 282 100 252 132 238
+           C164 224 168 194 136 180
+           C104 166 100 136 132 122
+           C164 108 168 78 136 64"
+        stroke="#c7e9ff" stroke-opacity="0.32" stroke-width="2"
+        fill="none" stroke-linecap="round"/>
+
+  <!-- 少量风丝：位置错开 -->
+  <path d="M94 226 C110 216 130 216 148 228"
+        stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5"
+        fill="none" stroke-linecap="round"/>
+  <path d="M108 156 C124 148 144 148 160 158"
+        stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"
+        fill="none" stroke-linecap="round"/>
+</svg>

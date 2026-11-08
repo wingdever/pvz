@@ -1,0 +1,45 @@
+name	护甲	移动	啃脑伤害	召唤间隔	召唤数量	召唤单位	锤击前摇	锤击后摇	暴怒移动	暴怒attack	近战特效
+zombie		3	10
+zombie_flag		3	10
+zombie_angry		2	10
+zombie_cone	250	3	10
+zombie_bucket	600	3	10
+zombie_polevault		2	10
+zombie_newspaper	150	3	10						1	150
+zombie_screendoor	500	3	10
+zombie_football	300	2	10
+zombie_gargantuar_red		5	10				3	2
+zombie_imp		1	10
+zombie_gargantuar		5	10				3	2
+zombie_dancer		3	10	7	1	zombie_backup_dancer
+zombie_dancer_lead		3	10
+zombie_backup_dancer		4	10
+zombie_ducky		3	10
+zombie_snorkel		3	10
+zombie_zamboni		3	10
+zombie_bobsled		3	10
+zombie_dolphin		3	10
+zombie_dolphin_ride		3	0
+zombie_pogo		3	10
+zombie_balloon		3	10
+zombie_digger		3	10
+zombie_pogo_hopping		3	10
+snow_goblin		1	10
+zombie_bungee		3	10
+zombie_ladder		3	10
+zombie_catapult		3	10
+zomboss		3	10
+zombie_peashooter		3	10
+zombie_wallnut	500	3	10
+zombie_squash		3	10
+zombie_tallnut	800	3	10
+zombie_jalapeno		3	10
+zombie_gatling		3	10
+zombie_dog_walker		3	10
+zombie_dog		2	10
+zombie_propeller		3	10
+zombie_target		3	10
+zombie_trash	800	3	10
+zombie_baseball		3	10
+zombie_fisherman		3	10
+default	0	3	10								claw

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PvZ turn-based: placeholder art v2, jalapeno.
+
+  A red chili pepper lying on its side: wide near the stem at the top,
+  tapering down and curling up at the bottom tip, matching the reference
+  art. Green curled stem at the top. Flat fills only, no strokes.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- stem: green, curled to the left -->
+  <path d="M 50,40 Q 46,24 52,14 Q 60,4 72,10 L 70,18 Q 64,12 58,18 Q 54,26 58,40 Z"
+        fill="#2D8636"/>
+
+  <!-- pepper body: wide at the top, tapering down and curling up at the tip -->
+  <path d="M 40,40
+           Q 34,58 36,78
+           Q 38,98 54,114
+           Q 66,124 80,116
+           Q 90,108 88,94
+           Q 84,64 78,46
+           Q 74,38 64,38
+           Q 50,38 40,40 Z"
+        fill="#E53935"/>
+</svg>
